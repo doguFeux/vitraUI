@@ -1,0 +1,185 @@
+@import "../../../Base/Global.scss";
+@import "../../../Base/Global.scss";
+
+
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+
+    // Related UI
+    .comp-micro-29 {
+        overflow: hidden;
+
+        .c-column-01 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            > .c-container-01 {
+                border-radius: 8px;
+                overflow: hidden;
+            }
+
+            > .c-container-02 {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 327px;
+
+                .c-item-02 {
+                    margin: 8px 0 20px 0;
+                }
+
+                .c-item-03 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 226px;
+                    height: 48px;
+                    background: linear-gradient(0deg, #A2413D, #A2413D);
+                    border-radius: 6px;
+                    font-family: Open Sans;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+
+    // Related Typography
+    .comp-micro-29 {
+        .c-column-01 {
+            > .c-container-01 {
+            }
+
+            > .c-container-02 {
+
+
+                .c-item-01 {
+                    font-family: Palanquin;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 48px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+
+                .c-item-02 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+
+/* XS1 */
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+}
+
+/* XS2 */
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common SM1 and SM2 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* SM1 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+}
+
+/* SM2 */
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* Common MD and LG */
+@media all and (min-width: #{$mq-md + "px"}) {
+
+    // Related UI
+    .comp-micro-29 {
+
+        .c-column-01 {
+
+            > .c-container-01 {
+                border-radius: 8px;
+
+                img {
+                    width: 841px;
+                    height: auto;
+                }
+            }
+
+            > .c-container-02 {
+                position: absolute;
+                left: 60px;
+                display: flex;
+                flex-direction: column;
+                top: 100px;
+
+                .c-item-02 {
+                    width: 526px;
+                    margin: 8px 0 32px 0;
+                }
+
+                .c-item-03 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 226px;
+                    height: 48px;
+                    background: linear-gradient(0deg, #A2413D, #A2413D);
+                    border-radius: 6px;
+                    font-family: Open Sans;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+
+    // Related Typography
+    .comp-micro-29 {
+        .c-column-01 {
+            > .c-container-01 {
+            }
+
+            > .c-container-02 {
+                .c-item-01 {
+                    font-family: Palanquin;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 48px;
+                    color: #FFFFFF;
+                }
+
+                .c-item-02 {
+                    font-family: Palanquin;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+/* MD */
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+}
+
+/* LG */
+@media all and (min-width: #{$mq-lg + "px"}) {
+}

@@ -1,0 +1,111 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-showcase-03 {
+    max-width: 1440px;
+    height: 536px;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    padding-top: 60px; }
+    .comp-showcase-03 > picture {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+    .comp-showcase-03:before {
+      content: "";
+      position: absolute;
+      top: 400px;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: linear-gradient(180deg, rgba(55, 58, 55, 0) 0%, #373A37 100%);
+      z-index: 2; }
+    .comp-showcase-03:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.1); }
+    .comp-showcase-03 > .c-container-01 {
+      position: absolute;
+      bottom: 64px;
+      left: 24px;
+      z-index: 5; }
+
+  .comp-showcase-03 > .c-container-01 > .c-item-01 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF; }
+  .comp-showcase-03 > .c-container-01 > .c-item-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-showcase-03 {
+    max-width: 1440px;
+    height: 720px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px; }
+    .comp-showcase-03 > picture {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+    .comp-showcase-03:before {
+      content: "";
+      position: absolute;
+      top: 400px;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: linear-gradient(180deg, rgba(55, 58, 55, 0) 0%, #373A37 100%);
+      z-index: 2; }
+    .comp-showcase-03:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.1); }
+
+  .comp-showcase-03 > .c-container-01 > .c-item-01 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF; }
+  .comp-showcase-03 > .c-container-01 > .c-item-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=03.css.map */

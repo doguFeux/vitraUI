@@ -1,0 +1,153 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-category-03 {
+    width: 100%;
+    margin-bottom: 24px; }
+    .comp-category-03 > .c-container-01 {
+      height: 400px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      .comp-category-03 > .c-container-01:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.1); }
+      .comp-category-03 > .c-container-01:before {
+        content: "";
+        position: absolute;
+        top: 220px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: linear-gradient(180deg, rgba(55, 58, 55, 0) 0%, #373A37 100%);
+        z-index: 2; }
+      .comp-category-03 > .c-container-01 > picture {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0; }
+      .comp-category-03 > .c-container-01 > .c-item-01 {
+        display: flex;
+        z-index: 2; }
+        .comp-category-03 > .c-container-01 > .c-item-01 > .c-item-01-A {
+          width: 48px;
+          height: 48px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 8px; }
+          .comp-category-03 > .c-container-01 > .c-item-01 > .c-item-01-A:after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.2);
+            opacity: 0.3;
+            border: 0.5px solid #FFFFFF;
+            border-radius: 50%; }
+      .comp-category-03 > .c-container-01 > .c-item-02 {
+        z-index: 2; }
+
+  .comp-category-03 > .c-container-01 > .c-item-01 > .c-item-01-A {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    color: #FFFFFF; }
+  .comp-category-03 > .c-container-01 > .c-item-02 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-category-03 {
+    margin-bottom: 24px; }
+    .comp-category-03 > .c-container-01 {
+      height: 262px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end; }
+      .comp-category-03 > .c-container-01:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.1); }
+      .comp-category-03 > .c-container-01:before {
+        content: "";
+        position: absolute;
+        top: 144px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: linear-gradient(180deg, rgba(55, 58, 55, 0) 0%, #373A37 100%);
+        z-index: 2; }
+      .comp-category-03 > .c-container-01 > picture {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0; }
+        .comp-category-03 > .c-container-01 > picture img {
+          width: 416px;
+          height: 262px; }
+      .comp-category-03 > .c-container-01 > .c-item-01 {
+        display: flex;
+        z-index: 2; }
+        .comp-category-03 > .c-container-01 > .c-item-01 > .c-item-01-A {
+          width: 48px;
+          height: 48px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 8px; }
+          .comp-category-03 > .c-container-01 > .c-item-01 > .c-item-01-A:after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.2);
+            opacity: 0.3;
+            border: 0.5px solid #FFFFFF;
+            border-radius: 50%; }
+      .comp-category-03 > .c-container-01 > .c-item-02 {
+        z-index: 2; }
+
+  .comp-category-03 > .c-container-01 > .c-item-01 > .c-item-01-A {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    color: #FFFFFF; }
+  .comp-category-03 > .c-container-01 > .c-item-02 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 56px;
+    color: #FFFFFF; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=03.css.map */

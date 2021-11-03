@@ -1,0 +1,27 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-micro-28 #royalSlider-thumb-03.royalSlider {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap; }
+    .comp-micro-28 #royalSlider-thumb-03.royalSlider.rsDefault .rsOverflow .rsContent .c-item-01 .c-item-01-A {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+    .comp-micro-28 #royalSlider-thumb-03.royalSlider.rsDefault .rsFullscreenBtn {
+      display: none; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-micro-28 {
+    position: sticky;
+    top: 68px;
+    bottom: 0; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=28.css.map */

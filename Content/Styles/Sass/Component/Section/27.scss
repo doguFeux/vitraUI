@@ -1,0 +1,505 @@
+﻿@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+
+    .comp-section-27 {
+        max-width: 1440px;
+        margin: 0 auto;
+
+        > .c-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            > .c-container-01 {
+                display: none;
+            }
+
+            > .c-container-02 {
+                width: 100%;
+                background: #FFFFFF;
+
+                > .c-item-01 {
+                    margin-bottom: 30px;
+                    font-family: Palanquin;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #373A37;
+                    border-bottom: 1px solid #E4E6E8;
+                    padding: 16px 0;
+                }
+
+                > .c-item-03 {
+                    font-family: Palanquin;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #373A37;
+                    padding-left: 35px;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 32px;
+
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        top: 7px;
+                        width: 24px;
+                        height: 24px;
+                        background-image: svg-background-image('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M15 18L9 12L15 6" stroke="#373A37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg> ');
+                        background-repeat: no-repeat;
+                    }
+                }
+
+
+                > .c-item-04 {
+                    padding: 0 0 0 24px;
+                }
+
+                > .c-item-06 {
+                    overflow: auto;
+                }
+
+                > .c-item-07 {
+                    width: 100%;
+                    border: 1px solid #373A37;
+                    box-sizing: border-box;
+                    border-radius: 6px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 50px;
+
+                    svg {
+                        position: absolute;
+                        left: 16px;
+                        top: 13px;
+                    }
+                }
+
+
+                > .c-item-08 {
+                }
+
+                > .c-item-09 {
+                    padding: 0 48px;
+                    width: 100%;
+                    border: 1px solid #E4E6E8;
+                    box-sizing: border-box;
+                    border-radius: 6px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 48px;
+                    background: linear-gradient(0deg, #A2413D, #A2413D);
+                }
+
+                > .c-item-10 {
+
+                    > .c-item-10-A {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: #373A37;
+                    }
+
+                    > .c-item-10-B {
+                        > .chk-A {
+                            margin-bottom: 24px;
+                        }
+                    }
+
+                    > .comp-form-01 {
+                        display: flex;
+                        align-items: center;
+
+                        > .c-item-02 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 24px;
+                            color: #373A37;
+                        }
+                    }
+                }
+
+                > .c-item-11 {
+                }
+
+                > .c-item-12 {
+                    background: #F4F7F6;
+                    width: calc(100% + 40px);
+                    margin-left: -20px;
+                    padding: 16px 32px;
+                    border-bottom: 1px solid #E4E6E8;
+                }
+
+                > .c-item-13 {
+                    width: calc(100% + 40px);
+                    margin-left: -20px;
+                }
+            }
+
+            > .c-container-03 {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-left: auto;
+
+                > .c-item-01 {
+                    padding: 0 16px;
+                    border: 1px solid #E4E6E8;
+                    box-sizing: border-box;
+                    border-radius: 6px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 48px;
+
+                    &.on {
+                        background: linear-gradient(0deg, #A2413D, #A2413D);
+                    }
+                }
+            }
+        }
+    }
+    // Related Typography
+    .comp-section-27 {
+
+        > .c-wrapper {
+
+            > .c-container-02 {
+
+                > .c-item-07 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #373A37;
+                }
+
+
+                > .c-item-09 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 40px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+
+                > .c-item-12 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #2A2E38;
+                }
+            }
+
+            > .c-container-03 {
+
+                > .c-item-01 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #373A37;
+
+                    &.on {
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* XS1 */
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+}
+
+/* XS2 */
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common SM1 and SM2 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* SM1 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+}
+
+/* SM2 */
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* Common MD and LG */
+@media all and (min-width: #{$mq-md + "px"}) {
+
+    .comp-section-27 {
+        max-width: 1440px;
+        margin: 0 auto;
+
+        > .c-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            > .c-container-01 {
+            }
+
+            > .c-container-02 {
+                width: 856px;
+                background: #FFFFFF;
+                border: 1px solid #E4E6E8;
+                box-sizing: border-box;
+                border-radius: 8px;
+                padding: 24px 24px 32px;
+
+                > .c-item-01 {
+                    margin-bottom: 30px;
+                    font-family: Palanquin;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #373A37;
+                }
+
+                > .c-item-03 {
+                    font-family: Palanquin;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #373A37;
+                    padding-left: 35px;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 32px;
+
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        top: 7px;
+                        width: 24px;
+                        height: 24px;
+                        background-image: svg-background-image('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M15 18L9 12L15 6" stroke="#373A37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg> ');
+                        background-repeat: no-repeat;
+                    }
+                }
+
+
+                > .c-item-04 {
+                    padding: 0 36px;
+                }
+
+                > .c-item-06 {
+                }
+
+                > .c-item-07 {
+                    width: 343px;
+                    border: 1px solid #373A37;
+                    box-sizing: border-box;
+                    border-radius: 6px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 50px;
+
+                    svg {
+                        position: absolute;
+                        left: 16px;
+                        top: 13px;
+                    }
+                }
+
+
+                > .c-item-08 {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+
+                    > .form-group-01 {
+                        width: calc(50% - 12px);
+                    }
+                }
+
+                > .c-item-09 {
+                    padding: 0 48px;
+                    width: 327px;
+                    border: 1px solid #E4E6E8;
+                    box-sizing: border-box;
+                    border-radius: 6px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 48px;
+                    background: linear-gradient(0deg, #A2413D, #A2413D);
+                }
+
+                > .c-item-10 {
+
+                    > .c-item-10-A {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: #373A37;
+                    }
+
+                    > .c-item-10-B {
+                        > .chk-A {
+                            margin-bottom: 24px;
+                        }
+                    }
+
+                    > .comp-form-01 {
+                        display: flex;
+                        align-items: center;
+
+                        > .c-item-02 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 24px;
+                            color: #373A37;
+                        }
+                    }
+                }
+
+                > .c-item-11 {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+
+                    > .c-item-11-A {
+                        width: 100%;
+
+                        > .form-group-01 {
+                            width: calc(50% - 12px);
+                        }
+                    }
+
+                    > .form-group-01 {
+                        width: calc(50% - 12px);
+                    }
+                }
+
+                > .c-item-12 {
+                }
+
+                > .c-item-13 {
+                    width: calc(100% + 40px);
+                    margin-left: -20px;
+                }
+            }
+
+            > .c-container-03 {
+                width: 856px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-left: auto;
+
+                > .c-item-01 {
+                    padding: 0 48px;
+                    border: 1px solid #E4E6E8;
+                    box-sizing: border-box;
+                    border-radius: 6px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 48px;
+
+                    &.on {
+                        background: linear-gradient(0deg, #A2413D, #A2413D);
+                    }
+                }
+            }
+        }
+    }
+    // Related Typography
+    .comp-section-27 {
+
+        > .c-wrapper {
+
+            > .c-container-02 {
+
+                > .c-item-07 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #373A37;
+                }
+
+
+                > .c-item-09 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 40px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+
+                > .c-item-12 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #2A2E38;
+                }
+            }
+
+            > .c-container-03 {
+
+                > .c-item-01 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #373A37;
+
+                    &.on {
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+}
+/* MD */
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+}
+
+/* LG */
+@media all and (min-width: #{$mq-lg + "px"}) {
+}

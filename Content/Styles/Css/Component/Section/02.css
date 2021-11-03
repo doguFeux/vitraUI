@@ -1,0 +1,14 @@
+/* Common XS1 and XS2 */
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-section-02.on .comp-micro-02 {
+    transform: translateY(0) !important; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=02.css.map */

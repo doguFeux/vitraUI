@@ -1,0 +1,82 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-micro-03 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px; }
+    .comp-micro-03 > .c-item-01 {
+      margin: 24px 0 12px 0; }
+    .comp-micro-03 > .c-item-02 {
+      margin-bottom: 24px; }
+
+  .comp-micro-03 > .c-item-01 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #373A37; }
+  .comp-micro-03 > .c-item-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #7D8285; }
+  .comp-micro-03 > .c-item-03 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #8C382E; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-micro-03 {
+    padding: 40px 0 28px 0;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 60px; }
+    .comp-micro-03 > .c-item-01 {
+      margin: 24px 0 12px 0; }
+    .comp-micro-03 > .c-item-02 {
+      margin-bottom: 24px; }
+
+  .comp-micro-03 > .c-item-01 {
+    font-family: Palanquin;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #373A37; }
+  .comp-micro-03 > .c-item-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #7D8285; }
+  .comp-micro-03 > .c-item-03 {
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #8C382E; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=03.css.map */

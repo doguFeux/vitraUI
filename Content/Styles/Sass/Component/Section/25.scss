@@ -1,0 +1,603 @@
+﻿@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+
+    // Related UI
+    .comp-section-25 {
+
+
+        > .c-wrapper {
+
+            > .c-container-01 {
+                width: 100%;
+                border-radius: 8px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                > .c-column-01 {
+                    width: 100%;
+                    height: 80px;
+                    border-radius: 8px;
+                    border: 1px solid #E4E6E8;
+                    display: flex;
+                    align-items: center;
+
+                    > .c-item-01 {
+                        width: 50%;
+                        height: 100%;
+                        padding: 0 20px;
+                        display: flex;
+                        align-items: center;
+                        transition: all .2s;
+
+                        svg {
+                            margin-right: 14px;
+                        }
+
+                        &.on {
+                            background: #F4F7F6;
+                        }
+                    }
+
+                    > :first-child {
+                        border-right: 1px solid #E4E6E8;
+                    }
+                }
+
+                > .c-column-02 {
+                    width: 100%;
+                }
+
+                > .c-column-03 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 48px 0 56px 0;
+
+                    > .c-container-01 {
+                        display: flex;
+                    }
+
+                    > .c-container-02 {
+                        margin: 22px 0 12px 0;
+                    }
+
+                    > .c-container-03 {
+                        width: 100%;
+                    }
+
+                    > .c-container-04 {
+                        margin: 32px 0 35px 0;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        > .c-item-01 {
+                            margin-bottom: 6px;
+                        }
+
+                        > .c-item-02 {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 176px;
+                            height: 40px;
+                            background: #F4F7F6;
+                            border-radius: 46px;
+                        }
+                    }
+
+                    > .c-container-05 {
+                        width: 100%;
+                        height: 48px;
+                        border: 1px solid #E4E6E8;
+                        border-radius: 6px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    > .c-container-06 {
+                        width: 100%;
+                        height: 48px;
+                        margin-top: 16px;
+                        background: linear-gradient(0deg, #8C382E, #8C382E);
+                        border-radius: 6px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+
+                > .c-column-04 {
+                    width: 100%;
+                    padding: 0 0 0 24px;
+                }
+            }
+
+            > .c-container-02 {
+                width: 100%;
+                background: #FFFFFF;
+                mix-blend-mode: normal;
+                border-top: 1px solid #E4E6E8;
+
+                > .c-item-01 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #E4E6E8;
+                    padding: 16px 0;
+
+                    > .c-item-01-A {
+                    }
+
+                    > .c-item-01-B {
+                    }
+                }
+
+                > .c-item-02 {
+                    margin-top: 26px;
+
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        right: 0;
+                        left: 0;
+                        bottom: 0;
+                        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+                        border-radius: 8px;
+                        height: 120px;
+                    }
+                }
+            }
+        }
+    }
+    // Related Typography
+    .comp-section-25 {
+
+
+        > .c-wrapper {
+
+            > .c-container-01 {
+
+                > .c-column-01 {
+
+                    > .c-item-01 {
+                        width: 50%;
+                        height: 100%;
+                        padding-left: 20px;
+                        transition: all .2s;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 150%;
+                        color: #373A37;
+
+                        &.on {
+                            font-weight: 600;
+                        }
+                    }
+                }
+
+                > .c-column-03 {
+
+                    > .c-container-01 {
+                    }
+
+                    > .c-container-02 {
+                        font-family: Palanquin;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 150%;
+                        text-align: center;
+                        color: #2A2E38;
+                    }
+
+                    > .c-container-03 {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #373A37;
+                    }
+
+                    > .c-container-04 {
+
+                        > .c-item-01 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 24px;
+                            color: #7D8285;
+                        }
+
+                        > .c-item-02 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 24px;
+                            text-align: center;
+                            color: #373A37;
+                        }
+                    }
+
+                    > .c-container-05 {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 32px;
+                        text-align: center;
+                        color: #202020;
+                    }
+
+                    > .c-container-06 {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            > .c-container-02 {
+
+                > .c-item-01 {
+
+                    > .c-item-01-A {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #373A37;
+                    }
+
+                    > .c-item-01-B {
+                    }
+                }
+
+                > .c-item-02 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #373A37;
+                }
+            }
+        }
+    }
+}
+
+/* XS1 */
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+}
+
+/* XS2 */
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common SM1 and SM2 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* SM1 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+}
+
+/* SM2 */
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* Common MD and LG */
+@media all and (min-width: #{$mq-md + "px"}) {
+
+    // Related UI
+    .comp-section-25 {
+
+
+        > .c-wrapper {
+
+            > .c-container-01 {
+                width: 856px;
+                border-radius: 8px;
+                border: 1px solid #E4E6E8;
+                padding: 24px 50px 32px 24px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                > .c-column-01 {
+                    width: 380px;
+                    height: 80px;
+                    border-radius: 8px;
+                    border: 1px solid #E4E6E8;
+                    display: flex;
+                    align-items: center;
+
+                    > .c-item-01 {
+                        width: 50%;
+                        height: 100%;
+                        padding: 0 20px;
+                        display: flex;
+                        align-items: center;
+                        transition: all .2s;
+
+                        svg {
+                            margin-right: 14px;
+                        }
+
+                        &.on {
+                            background: #F4F7F6;
+                        }
+                    }
+
+                    > :first-child {
+                        border-right: 1px solid #E4E6E8;
+                    }
+                }
+
+                > .c-column-02 {
+                    width: 100%;
+                }
+
+                > .c-column-03 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 48px 0 56px 0;
+
+                    > .c-container-01 {
+                        display: flex;
+                    }
+
+                    > .c-container-02 {
+                        margin: 22px 0 12px 0;
+                    }
+
+                    > .c-container-03 {
+                        width: 394px;
+                    }
+
+                    > .c-container-04 {
+                        margin: 32px 0 35px 0;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        > .c-item-01 {
+                            margin-bottom: 6px;
+                        }
+
+                        > .c-item-02 {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 176px;
+                            height: 40px;
+                            background: #F4F7F6;
+                            border-radius: 46px;
+                        }
+                    }
+
+                    > .c-container-05 {
+                        width: 383px;
+                        height: 48px;
+                        border: 1px solid #E4E6E8;
+                        border-radius: 6px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    > .c-container-06 {
+                        width: 383px;
+                        height: 48px;
+                        margin-top: 16px;
+                        background: linear-gradient(0deg, #8C382E, #8C382E);
+                        border-radius: 6px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+
+                > .c-column-04 {
+                    width: 100%;
+                    padding:0 60px;
+                }
+            }
+
+            > .c-container-02 {
+                width: 856px;
+                height: 323px;
+                background: #FFFFFF;
+                mix-blend-mode: normal;
+                border: 1px solid #E4E6E8;
+                border-radius: 8px;
+                padding: 0 24px;
+
+                > .c-item-01 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #E4E6E8;
+                    padding: 16px 0;
+
+                    > .c-item-01-A {
+                    }
+
+                    > .c-item-01-B {
+                    }
+                }
+
+                > .c-item-02 {
+                    margin-top: 26px;
+
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        right: 0;
+                        left: 0;
+                        bottom: 0;
+                        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+                        border-radius: 8px;
+                        height: 120px;
+                    }
+                }
+            }
+        }
+    }
+    // Related Typography
+    .comp-section-25 {
+
+
+        > .c-wrapper {
+
+            > .c-container-01 {
+
+                > .c-column-01 {
+
+                    > .c-item-01 {
+                        width: 50%;
+                        height: 100%;
+                        padding-left: 20px;
+                        transition: all .2s;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 150%;
+                        color: #373A37;
+
+                        &.on {
+                            font-weight: 600;
+                        }
+                    }
+                }
+
+                > .c-column-03 {
+
+                    > .c-container-01 {
+                    }
+
+                    > .c-container-02 {
+                        font-family: Palanquin;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 150%;
+                        text-align: center;
+                        color: #2A2E38;
+                    }
+
+                    > .c-container-03 {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #373A37;
+                    }
+
+                    > .c-container-04 {
+
+                        > .c-item-01 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 24px;
+                            color: #7D8285;
+                        }
+
+                        > .c-item-02 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 24px;
+                            text-align: center;
+                            color: #373A37;
+                        }
+                    }
+
+                    > .c-container-05 {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 32px;
+                        text-align: center;
+                        color: #202020;
+                    }
+
+                    > .c-container-06 {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            > .c-container-02 {
+
+                > .c-item-01 {
+
+                    > .c-item-01-A {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #373A37;
+                    }
+
+                    > .c-item-01-B {
+                    }
+                }
+
+                > .c-item-02 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #373A37;
+                }
+            }
+        }
+    }
+}
+/* MD */
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+}
+
+/* LG */
+@media all and (min-width: #{$mq-lg + "px"}) {
+}

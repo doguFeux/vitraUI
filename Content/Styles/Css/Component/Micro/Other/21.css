@@ -1,0 +1,99 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-micro-21 {
+    background: #F4F7F6;
+    padding: 24px;
+    margin-bottom: 24px; }
+    .comp-micro-21 > .c-column-01 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px; }
+    .comp-micro-21:after {
+      content: "";
+      position: absolute;
+      left: -17px;
+      top: 30px;
+      width: 17px;
+      height: 13px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6.5px 17px 6.5px 0;
+      border-color: transparent #f4f6f6 transparent transparent; }
+
+  .comp-micro-21 > .c-column-01 > .c-container-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #373A37; }
+  .comp-micro-21 > .c-column-01 > .c-container-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7D8285; }
+  .comp-micro-21 > .c-column-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #373A37; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-micro-21 {
+    background: #F4F7F6;
+    padding: 24px;
+    margin-bottom: 24px; }
+    .comp-micro-21 > .c-column-01 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px; }
+    .comp-micro-21:after {
+      content: "";
+      position: absolute;
+      left: -17px;
+      top: 30px;
+      width: 17px;
+      height: 13px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6.5px 17px 6.5px 0;
+      border-color: transparent #f4f6f6 transparent transparent; }
+
+  .comp-micro-21 > .c-column-01 > .c-container-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #373A37; }
+  .comp-micro-21 > .c-column-01 > .c-container-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #373A37; }
+  .comp-micro-21 > .c-column-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #373A37; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=21.css.map */

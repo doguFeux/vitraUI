@@ -1,0 +1,57 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-micro-25 {
+    display: block;
+    width: 416px;
+    margin: 0 24px 48px 0; }
+    .comp-micro-25 > .c-container-01 {
+      height: 300px;
+      display: flex; }
+    .comp-micro-25 > .c-container-02 {
+      margin-top: 24px;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 32px;
+      color: #373A37; }
+    .comp-micro-25 > .c-container-03 {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 32px;
+      color: #373A37; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-micro-25 {
+    display: block;
+    width: 416px;
+    margin: 0 24px 48px 0; }
+    .comp-micro-25 > .c-container-01 {
+      height: 300px;
+      display: flex; }
+    .comp-micro-25 > .c-container-02 {
+      margin-top: 24px;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 32px;
+      color: #373A37; }
+    .comp-micro-25 > .c-container-03 {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 32px;
+      color: #373A37; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=25.css.map */

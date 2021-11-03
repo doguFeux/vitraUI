@@ -1,0 +1,102 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-modal-06 #modal-header {
+    padding: 0 24px !important; }
+    .comp-modal-06 #modal-header > .c-container-01 {
+      display: flex;
+      align-items: center; }
+      .comp-modal-06 #modal-header > .c-container-01 > .c-item-02 {
+        width: 16px;
+        height: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 8px;
+        background: #3D3A36;
+        font-family: Open Sans;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        color: #fff;
+        border-radius: 50%; }
+      .comp-modal-06 #modal-header > .c-container-01 > .c-item-01 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #373A37; }
+  .comp-modal-06 #modal-body {
+    padding: 0 24px !important; }
+    .comp-modal-06 #modal-body > .c-container-01 > .comp-form-02 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .comp-modal-06 #modal-body > .c-container-01 > .comp-form-02 > .c-item-02 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #373A37; }
+  .comp-modal-06 #modal-close {
+    background-color: #fff !important; }
+  .comp-modal-06 #modal-footer > .c-container-01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 48px;
+    background: linear-gradient(0deg, #A2413D, #A2413D);
+    border-radius: 6px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-modal-06 #modal-header {
+    padding: 0 24px !important; }
+    .comp-modal-06 #modal-header > .c-container-01 {
+      display: flex;
+      align-items: center; }
+      .comp-modal-06 #modal-header > .c-container-01 > .c-item-02 {
+        width: 16px;
+        height: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 8px;
+        background: #3D3A36;
+        font-family: Open Sans;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        color: #373A37; }
+      .comp-modal-06 #modal-header > .c-container-01 > .c-item-01 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #373A37; }
+  .comp-modal-06 #modal-body {
+    padding: 0 24px !important; }
+    .comp-modal-06 #modal-body > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+  .comp-modal-06 #modal-footer {
+    display: none !important; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=06.css.map */

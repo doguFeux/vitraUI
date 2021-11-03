@@ -1,0 +1,31 @@
+/* Common XS1 and XS2 */
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-aside-03 {
+    position: sticky;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .comp-aside-03 > .c-container-01 {
+      display: block;
+      width: 4px;
+      height: 4px;
+      margin-bottom: 4px;
+      background: #373A37;
+      border-radius: 50%; }
+    .comp-aside-03 > :first-child {
+      width: 8px;
+      height: 8px; }
+    .comp-aside-03 > :last-child {
+      width: 2px;
+      height: 2px; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=03.css.map */

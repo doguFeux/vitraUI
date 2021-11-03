@@ -1,0 +1,216 @@
+﻿@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+
+    // Related UI
+    .comp-section-20 {
+        max-width: 1440px;
+        margin: 0 auto;
+
+
+
+        .c-wrapper {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 211px;
+            background-image: url(/Content/Visuals/Temp/gooddessection-large.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            align-items: flex-end;
+            padding: 16px 16px 32px 16px;
+
+            &:after {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-image: url(/Content/Visuals/Temp/gooddessection-largeback.png);
+                background-repeat: no-repeat;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                top: 0;
+            }
+
+            > .c-container-01 {
+
+                > .c-item-01 {
+                }
+
+                > .c-item-02 {
+                    margin-top: 8px;
+                }
+            }
+
+            > .c-container-02 {
+                position: absolute;
+                right: 24px;
+                bottom: 24px;
+                width: 48px;
+                height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #fff;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    // Related Typography
+    .comp-section-20 {
+
+        .c-wrapper {
+
+            > .c-container-01 {
+
+                > .c-item-01 {
+                    font-family: Palanquin;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #FFFFFF;
+                }
+
+                > .c-item-02 {
+                    font-family: Palanquin;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #FFFFFF;
+                }
+            }
+
+            > .c-container-02 {
+            }
+        }
+    }
+}
+
+/* XS1 */
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+}
+
+/* XS2 */
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common SM1 and SM2 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* SM1 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+}
+
+/* SM2 */
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* Common MD and LG */
+@media all and (min-width: #{$mq-md + "px"}) {
+
+    // Related UI
+    .comp-section-20 {
+        max-width: 1440px;
+        margin: 0 auto;
+
+
+
+        .c-wrapper {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 211px;
+            background-image: url(/Content/Visuals/Temp/gooddessection-large.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            padding: 40px;
+
+            &:after {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-image: url(/Content/Visuals/Temp/gooddessection-largeback.png);
+                background-repeat: no-repeat;
+                background-position: right;
+            }
+
+            > .c-container-01 {
+
+                > .c-item-01 {
+                }
+
+                > .c-item-02 {
+                    margin-top: 8px;
+                }
+            }
+
+            > .c-container-02 {
+                position: absolute;
+                right: 40px;
+                bottom: 40px;
+                width: 48px;
+                height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #fff;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    // Related Typography
+    .comp-section-20 {
+
+        .c-wrapper {
+
+            > .c-container-01 {
+
+                > .c-item-01 {
+                    font-family: Palanquin;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #FFFFFF;
+                }
+
+                > .c-item-02 {
+                    font-family: Palanquin;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #FFFFFF;
+                }
+            }
+
+            > .c-container-02 {
+            }
+        }
+    }
+
+}
+/* MD */
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+}
+
+/* LG */
+@media all and (min-width: #{$mq-lg + "px"}) {
+}

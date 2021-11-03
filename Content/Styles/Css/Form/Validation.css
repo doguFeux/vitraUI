@@ -1,0 +1,51 @@
+.val-A input[type=text].error, .val-A input[type=password].error {
+  color: #A1413D !important;
+  border: 1px solid #A1413D !important; }
+.val-A .parenterror .gr-pass {
+  display: none; }
+.val-A .parenterror .select2-selection {
+  border: 1px solid #A1413D !important; }
+  .val-A .parenterror .select2-selection .select2-selection__placeholder {
+    color: #A1413D !important; }
+.val-A .parenterror label {
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  color: #A1413D !important; }
+  .val-A .parenterror label.error {
+    display: flex !important;
+    justify-content: flex-end;
+    width: 100%;
+    order: 1;
+    margin-top: 8px;
+    line-height: 15px !important; }
+
+.val-B label.error {
+  display: none !important; }
+
+.val-C input[type=text].error,
+.val-C select.error {
+  color: #A1413D !important;
+  border: 1px solid #A1413D !important; }
+.val-C input[type=radio].error ~ label:before,
+.val-C input[type=checkbox].error ~ label:before {
+  border: 1px solid #A1413D !important; }
+.val-C input[type=radio].error ~ label span,
+.val-C input[type=checkbox].error ~ label span {
+  color: #A1413D !important;
+  font-weight: 500; }
+.val-C .parenterror .select2-selection {
+  border: 2px solid #A1413D !important; }
+  .val-C .parenterror .select2-selection .select2-selection__placeholder {
+    color: #A1413D !important; }
+.val-C .parenterror label {
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  color: #A1413D !important; }
+.val-C label.error {
+  display: none !important; }
+
+.list-validation.listerror .list-validation-header {
+  font-weight: 700 !important;
+  color: #A1413D !important; }
+
+/*# sourceMappingURL=Validation.css.map */

@@ -1,0 +1,35 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-section-33 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 48px 0 116px 0; }
+    .comp-section-33 .c-wrapper > .c-container-01 {
+      display: flex;
+      flex-wrap: wrap; }
+      .comp-section-33 .c-wrapper > .c-container-01 > :nth-last-child(-n+3) {
+        margin-bottom: 0; }
+      .comp-section-33 .c-wrapper > .c-container-01 > :nth-child(3n) {
+        margin-right: 0; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-section-33 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 48px 0 116px 0; }
+    .comp-section-33 .c-wrapper > .c-container-01 {
+      display: flex;
+      flex-wrap: wrap; }
+      .comp-section-33 .c-wrapper > .c-container-01 > :nth-last-child(-n+3) {
+        margin-bottom: 0; }
+      .comp-section-33 .c-wrapper > .c-container-01 > :nth-child(3n) {
+        margin-right: 0; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=33.css.map */

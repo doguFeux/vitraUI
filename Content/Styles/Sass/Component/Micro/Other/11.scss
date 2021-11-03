@@ -1,0 +1,439 @@
+@import "../../../Base/Global.scss";
+@import "../../../Base/Global.scss";
+
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+
+    // Related UI
+    .comp-micro-11 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        > .c-container-01 {
+            order: 2;
+            width: 100%;
+        }
+
+        > .c-container-02 {
+            order: 1;
+            width: 100%;
+            padding: 30px 24px 24px 24px;
+            margin-bottom: 24px;
+            background: #B8B1AD;
+            border-radius: 8px;
+            height: 216px;
+            filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 32px rgba(50, 50, 71, 0.08));
+
+            > .c-item-01 {
+                display: flex;
+                align-items: center;
+                margin: 40px 0;
+
+                > .c-unit-01 {
+                    margin-right: 4px;
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 22px;
+                    line-height: 28px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+
+                > :nth-child(4n) {
+                    margin-right: 20px;
+                }
+
+                > :last-child {
+                    margin-right: 0;
+                }
+            }
+
+            > .c-item-02 {
+                margin-top: auto;
+                display: flex;
+
+                > .c-item-02-A, .c-item-02-B {
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #FFFFFF;
+                    opacity: 0.5;
+                    transition: all .2s;
+
+                    &.on {
+                        opacity: 1;
+                    }
+                }
+
+                > .c-item-02-A {
+                    margin-right: 52px;
+                }
+            }
+        }
+
+        > .c-container-03 {
+            order: 3;
+            width: 100%;
+            padding: 24px;
+            background: rgba(255, 95, 0, 0.1);
+            border-radius: 8px;
+
+            > .c-item-01 {
+            }
+
+            > .c-item-02 {
+
+                .chk-A > label {
+                    align-items: flex-start;
+                }
+            }
+        }
+
+        > .c-container-04 {
+            order: 4;
+            width: 100%;
+            height: 0;
+            overflow: hidden;
+            opacity: 0;
+            -moz-transition: height 0.4s ease-in-out, opacity 0.3s;
+            -o-transition: height 0.4s ease-in-out, opacity 0.3s;
+            -webkit-transition: height 0.4s ease-in-out, opacity 0.3s;
+            transition: height 0.4s ease-in-out, opacity 0.3s;
+
+
+            &.on {
+                opacity: 1;
+                -moz-transition: height 0.4s ease-in-out, opacity 1s;
+                -o-transition: height 0.4s ease-in-out, opacity 1s;
+                -webkit-transition: height 0.4s ease-in-out, opacity 1s;
+                transition: height 0.4s ease-in-out, opacity 1s;
+            }
+
+            > .c-item-01 {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 150%;
+                color: #373A37;
+            }
+
+            #paymentInfoArea {
+
+                > .c-item-02 {
+
+                    > .c-item-02-A {
+                        display: flex;
+                        border-bottom: 1px solid #E4E6E8;
+
+                        > .c-unit-01 {
+                            flex: 1;
+                            height: 58px;
+                            display: flex;
+                            align-items: center;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 24px;
+                            justify-content: flex-start;
+                            color: #7D8285;
+
+                            &.v1 {
+                                justify-content: center;
+                            }
+
+                            &.v2 {
+                                justify-content: flex-end;
+                            }
+                        }
+                    }
+
+                    > .c-item-02-B {
+                        > .c-unit-01 {
+                            display: flex;
+                            border-bottom: 1px solid #E4E6E8;
+
+
+
+                            > .c-unit-01-A {
+                                height: 58px;
+                                display: flex;
+                                justify-content: flex-start;
+                                flex: 1;
+                                text-align: left;
+                                align-items: center;
+                                font-family: Open Sans;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 14px;
+                                line-height: 24px;
+                                color: #373A37;
+
+                                &.v1 {
+                                    justify-content: center;
+                                }
+
+                                &.v2 {
+                                    justify-content: flex-end;
+                                }
+
+                                > :first-child {
+                                    font-weight: normal;
+
+                                    [type=checkbox]:checked ~ label {
+                                        font-weight: 600;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .chk-A > label {
+                        align-items: flex-start;
+                    }
+                }
+            }
+        }
+    }
+    // Related Typography
+    .comp-micro-11 {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* XS1 */
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+}
+
+/* XS2 */
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common SM1 and SM2 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* SM1 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+}
+
+/* SM2 */
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* Common MD and LG */
+@media all and (min-width: #{$mq-md + "px"}) {
+
+
+    // Related UI
+    .comp-micro-11 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        > .c-container-01 {
+            width: 380px;
+        }
+
+        > .c-container-02 {
+            width: 343px;
+            padding: 30px 24px 24px 24px;
+            background: #B8B1AD;
+            border-radius: 8px;
+            height: 216px;
+            filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 32px rgba(50, 50, 71, 0.08));
+
+            > .c-item-01 {
+                display: flex;
+                align-items: center;
+                margin: 40px 0;
+
+                > .c-unit-01 {
+                    margin-right: 4px;
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 28px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+
+                > :nth-child(4n) {
+                    margin-right: 10px;
+                }
+
+                > :last-child {
+                    margin-right: 0;
+                }
+            }
+
+            > .c-item-02 {
+                margin-top: auto;
+                display: flex;
+
+                > .c-item-02-A, .c-item-02-B {
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #FFFFFF;
+                    opacity: 0.5;
+                    transition: all .2s;
+
+                    &.on {
+                        opacity: 1;
+                    }
+                }
+
+                > .c-item-02-A {
+                    margin-right: 52px;
+                }
+            }
+        }
+
+        > .c-container-03 {
+            width: 380px;
+            padding: 24px;
+            background: rgba(255, 95, 0, 0.1);
+            border-radius: 8px;
+            margin-right: calc(100% - 380px);
+
+            > .c-item-01 {
+            }
+
+            > .c-item-02 {
+
+                .chk-A > label {
+                    align-items: flex-start;
+                }
+            }
+        }
+
+        > .c-container-04 {
+            width: 380px;
+            height: 0;
+            overflow: hidden;
+            opacity: 0;
+            -moz-transition: height 0.4s ease-in-out, opacity 0.3s;
+            -o-transition: height 0.4s ease-in-out, opacity 0.3s;
+            -webkit-transition: height 0.4s ease-in-out, opacity 0.3s;
+            transition: height 0.4s ease-in-out, opacity 0.3s;
+
+
+            &.on {
+                opacity: 1;
+                -moz-transition: height 0.4s ease-in-out, opacity 1s;
+                -o-transition: height 0.4s ease-in-out, opacity 1s;
+                -webkit-transition: height 0.4s ease-in-out, opacity 1s;
+                transition: height 0.4s ease-in-out, opacity 1s;
+            }
+
+            > .c-item-01 {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 150%;
+                color: #373A37;
+            }
+
+            #paymentInfoArea {
+                > .c-item-02 {
+
+                    > .c-item-02-A {
+                        display: flex;
+                        border-bottom: 1px solid #E4E6E8;
+
+                        > .c-unit-01 {
+                            flex: 1;
+                            height: 58px;
+                            padding: 0 22px;
+                            display: flex;
+                            align-items: center;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 24px;
+                            justify-content: flex-start;
+                            color: #7D8285;
+
+                            &.v1 {
+                                justify-content: center;
+                            }
+
+                            &.v2 {
+                                justify-content: flex-end;
+                            }
+                        }
+                    }
+
+                    > .c-item-02-B {
+                        > .c-unit-01 {
+                            display: flex;
+                            border-bottom: 1px solid #E4E6E8;
+                            padding: 0 22px;
+
+
+
+                            > .c-unit-01-A {
+                                height: 58px;
+                                display: flex;
+                                justify-content: flex-start;
+                                flex: 1;
+                                text-align: left;
+                                align-items: center;
+                                font-family: Open Sans;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 14px;
+                                line-height: 24px;
+                                color: #373A37;
+
+                                &.v1 {
+                                    justify-content: center;
+                                }
+
+                                &.v2 {
+                                    justify-content: flex-end;
+                                }
+
+                                > :first-child {
+                                    font-weight: normal;
+
+                                    [type=checkbox]:checked ~ label {
+                                        font-weight: 600;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .chk-A > label {
+                        align-items: flex-start;
+                    }
+                }
+            }
+        }
+    }
+        // Related Typography
+        .comp-micro-11 {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+/* MD */
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+}
+
+/* LG */
+@media all and (min-width: #{$mq-lg + "px"}) {
+}

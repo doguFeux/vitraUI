@@ -1,0 +1,28 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-section-36 .c-wrapper {
+    width: 100%; }
+    .comp-section-36 .c-wrapper > .c-column-01 {
+      width: 100%;
+      overflow: auto;
+      display: flex; }
+      .comp-section-36 .c-wrapper > .c-column-01 > :first-child {
+        margin-left: 20px; }
+      .comp-section-36 .c-wrapper > .c-column-01 > .comp-product-03 {
+        flex-shrink: 0; }
+    .comp-section-36 .c-wrapper > .c-column-02 {
+      margin-top: 24px;
+      padding: 0 20px; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-section-36 {
+    display: none; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=36.css.map */

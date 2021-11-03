@@ -1,0 +1,222 @@
+@import "../Base/Colour.scss";
+@import "../Base/Global.scss";
+@import "FormGlobal.scss";
+//
+// Form Group
+.form-group-01 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .tb-card-icon {
+        display: none;
+
+        &.icon-visa {
+            position: absolute;
+            right: 16px;
+            top: 10px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('/Content/Visuals/Temp/visa.png');
+            background-repeat: no-repeat;
+        }
+    }
+
+    .gr-textbox {
+        width: 100%;
+        height: 56px;
+        display: flex;
+        padding: 0 4px 0px 16px;
+        background: transparent;
+        border: 1px solid #CBD5E0;
+        border-radius: 6px;
+        font-family: Open Sans;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7D8285;
+
+
+
+        &.icon-master {
+        }
+
+        &.icon-troy {
+        }
+
+        &.icon-american {
+        }
+
+        &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            font-family: Open Sans;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #7D8285;
+        }
+
+        &::-moz-placeholder { /* Firefox 19+ */
+            font-family: Open Sans;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #7D8285;
+        }
+
+        &:-ms-input-placeholder { /* IE 10+ */
+            font-family: Open Sans;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #7D8285;
+        }
+
+        &:-moz-placeholder { /* Firefox 18- */
+            font-family: Inter;
+            font-family: Open Sans;
+            font-size: 16px;
+            line-height: 24px;
+            color: #7D8285;
+        }
+
+        ~ .tb-placeholder-01 {
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            font-family: Open Sans;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #7D8285;
+        }
+
+        &:focus {
+            padding-top: 20px;
+
+            ~ .tb-placeholder-01 {
+                top: 8px;
+                font-family: Inter;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                color: #7D8285;
+            }
+        }
+
+        &:not([value=""]):not(:focus) {
+            padding-top: 20px;
+
+            ~ .tb-placeholder-01 {
+                top: 8px;
+                font-family: Inter;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                color: #7D8285;
+            }
+        }
+    }
+
+
+    .gr-textarea {
+        width: 100%;
+        height: 180px;
+        padding: 20px;
+        border: 1px solid #CBD5E0;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        color: #E5E8ED;
+    }
+
+
+    .gr-select {
+        width: 100%;
+        height: 56px;
+        padding: 0 20px 0 20px;
+        border: 1px solid #CBD5E0;
+        border-radius: 6px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #6F7787;
+        background-image: svg-background-image('<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 6L8 10L4 6" stroke="#7D8285" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </svg> ');
+        background-repeat: no-repeat;
+        background-position: calc(100% - 20px) 50%;
+    }
+
+    .gr-note {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 24px;
+        color: #7D8285;
+    }
+
+    .gr-label {
+    }
+
+    .gr-pass {
+        position: absolute;
+        top: 22px;
+        right: 24px;
+    }
+
+    .gr-credit {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        font-family: Inter;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7D8285;
+    }
+
+    .gr-icon {
+        position: absolute;
+        top: 16px;
+        right: 24px;
+    }
+}
+
+
+@mixin common_xs1_xs2 {
+}
+
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+    @include common_xs1_xs2();
+}
+
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    @include common_xs1_xs2();
+}
+
+@mixin common_sm1_sm2 {
+}
+
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+    @include common_sm1_sm2();
+}
+
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+    @include common_sm1_sm2();
+}
+
+@mixin common_md_lg {
+}
+
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+    @include common_md_lg();
+}
+
+@media all and (min-width: #{$mq-lg + "px"}) {
+    @include common_md_lg();
+}

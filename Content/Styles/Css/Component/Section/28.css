@@ -1,0 +1,57 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-section-28 {
+    max-width: 1440px;
+    margin: 0 auto; }
+    .comp-section-28 > .c-wrapper > .c-container-01 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      color: #373A37; }
+      .comp-section-28 > .c-wrapper > .c-container-01 svg {
+        display: flex;
+        margin-right: 8px; }
+    .comp-section-28 > .c-wrapper > .c-container-02 {
+      display: flex;
+      flex-wrap: wrap; }
+      .comp-section-28 > .c-wrapper > .c-container-02 > :nth-child(3n) {
+        margin-right: 0; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-section-28 {
+    max-width: 1440px;
+    margin: 0 auto; }
+    .comp-section-28 > .c-wrapper > .c-container-01 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      color: #373A37; }
+      .comp-section-28 > .c-wrapper > .c-container-01 svg {
+        display: flex;
+        margin-right: 8px; }
+    .comp-section-28 > .c-wrapper > .c-container-02 {
+      display: flex;
+      flex-wrap: wrap; }
+      .comp-section-28 > .c-wrapper > .c-container-02 > :nth-child(3n) {
+        margin-right: 0; }
+      .comp-section-28 > .c-wrapper > .c-container-02 > :nth-last-child(-n+3) {
+        margin-bottom: 0; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=28.css.map */

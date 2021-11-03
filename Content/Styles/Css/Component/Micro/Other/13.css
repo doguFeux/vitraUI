@@ -1,0 +1,83 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-micro-13 > .c-column-01 {
+    position: absolute;
+    left: -20px;
+    top: 0;
+    background-image: url("/Content/Visuals/Temp/timeline.svg");
+    width: 12px;
+    height: 100%; }
+  .comp-micro-13 > .c-column-02 > .c-container-01 {
+    padding: 80px 0; }
+    .comp-micro-13 > .c-column-02 > .c-container-01 > .c-item-01 {
+      position: absolute;
+      left: 0;
+      top: -13px; }
+      .comp-micro-13 > .c-column-02 > .c-container-01 > .c-item-01 > .c-item-01-A {
+        margin-bottom: 20px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #373A37; }
+      .comp-micro-13 > .c-column-02 > .c-container-01 > .c-item-01 > .c-item-01-B {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #97A0A9; }
+  .comp-micro-13 > .c-column-03 {
+    position: absolute;
+    right: -20px;
+    top: 0;
+    background-image: url("/Content/Visuals/Temp/timeline-right.svg");
+    width: 12px;
+    height: 100%; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-micro-13 > .c-column-01 {
+    position: absolute;
+    left: -24px;
+    top: 0;
+    background-image: url("/Content/Visuals/Temp/timeline.svg");
+    width: 12px;
+    height: 100%; }
+  .comp-micro-13 > .c-column-02 > .c-container-01 {
+    padding: 80px 0; }
+    .comp-micro-13 > .c-column-02 > .c-container-01 > .c-item-01 {
+      position: absolute;
+      left: 0;
+      top: -13px; }
+      .comp-micro-13 > .c-column-02 > .c-container-01 > .c-item-01 > .c-item-01-A {
+        margin-bottom: 20px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #373A37; }
+      .comp-micro-13 > .c-column-02 > .c-container-01 > .c-item-01 > .c-item-01-B {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #97A0A9; }
+  .comp-micro-13 > .c-column-03 {
+    position: absolute;
+    right: -24px;
+    top: 0;
+    background-image: url("/Content/Visuals/Temp/timeline-right.svg");
+    width: 12px;
+    height: 100%; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=13.css.map */

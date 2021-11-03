@@ -1,0 +1,248 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+@section head{
+
+}
+<main data-body-class="no-footer no-header">
+    <section class="comp-section-07">
+        <a href="#" data-modal="modalDummyId01"
+           onclick='Felece.Modal.Actions.show({
+                ev: event,
+                sender: this,
+    type: "drw",
+                      contentId: "smsModal",
+                size: "lg",
+                dir: ["r2l"],
+                esc: true,
+                overlay: false
+            });'>
+            Drawer:<br />
+            <code>Felece.Modal.Actions.show({ ev: event, sender: this, type: "drw", size: "sm", dir: "l2r", esc: false, overlay: false });</code>
+        </a>
+
+
+
+    </section>
+
+</main>
+
+
+@section afterContentWrapper{
+
+    <section id="smsModal" data-modal-section="content" class="comp-modal-01">
+        <div data-modal-section="header">
+            <div id="stepperLine" class="c-container-01">
+                <a href="#" id="registerLink" class="c-item-01 on">
+                </a>
+                <a href="#" id="smsConfLink" class="c-item-01">
+                </a>
+                <a href="#" id="approvalsLink" class="c-item-01">
+                </a>
+            </div>
+        </div>
+
+        <div data-modal-section="body">
+            <div id="registerContent">
+                <div class="c-container-01">
+                    Üye Olun
+                </div>
+                <div class="c-container-02 mt-xs1-12px mb-xs1-24px">
+                    VitrA üyelerimize özel kampanya ve promosyonlardan yararlanabilmek için üye olun.
+                </div>
+                <div class="c-container-03">
+                    <div class="form-group-01 mb-xs1-16px">
+                        <input id="firstname" type="text" name="firstname" value="" autocomplete="new-password" onkeyup="this.setAttribute('value', this.value);" class="gr-textbox">
+                        <label for="firstname" class="tb-placeholder-01">
+                            Ad
+                        </label>
+                    </div>
+                    <div class="form-group-01  mb-xs1-16px">
+                        <input id="lastname" type="text" name="lastname" value="" autocomplete="new-password" onkeyup="this.setAttribute('value', this.value);" class="gr-textbox">
+                        <label for="lastname" class="tb-placeholder-01">
+                            Soyad
+                        </label>
+                    </div>
+                    <div class="form-group-01 mb-xs1-16px">
+                        <input id="email" type="text" name="email" value="" autocomplete="new-password" onkeyup="this.setAttribute('value', this.value);" class="gr-textbox">
+                        <label for="email" class="tb-placeholder-01">
+                            E-Posta
+                        </label>
+                    </div>
+                    <div class="form-group-01  mb-xs1-16px">
+                        <input id="mobileNumber" type="text" name="mobileNumber" value="" autocomplete="new-password" onkeyup="this.setAttribute('value', this.value);" class="gr-textbox">
+                        <label for="mobileNumber" class="tb-placeholder-01">
+                            Cep Telefonu
+                        </label>
+                    </div>
+                    <div class="form-group-01  mb-xs1-24px">
+                        <input id="pass" type="password" name="pass" value="" autocomplete="new-password" onkeyup="this.setAttribute('value', this.value);" class="gr-textbox pass">
+                        <label for="pass" class="tb-placeholder-01">
+                            Şifre
+                        </label>
+                        <a href="#" class="gr-pass">
+                            <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0)">
+                                    <path d="M8 0C3.582 0 0 5.922 0 5.922C0 5.922 3.582 12 8 12C12.418 12 16 5.922 16 5.922C16 5.922 12.418 0 8 0ZM8 10C5.791 10 4 8.209 4 6C4 3.791 5.791 2 8 2C10.209 2 12 3.791 12 6C12 8.209 10.209 10 8 10ZM6 6C6 4.89544 6.89544 4 8 4C9.10456 4 10 4.89544 10 6C10 7.10456 9.10456 8 8 8C6.89544 8 6 7.10456 6 6Z" fill="#E4E6E8"></path>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0">
+                                        <rect width="16" height="12" fill="white"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <div class="gr-note">Şifreniz rakam, büyük ve küçük harf içermeli ve en az 8 karakter olmalıdır</div>
+                    </div>
+                    <div class="form-group-01">
+                        <input id="confirmPassword" type="password" name="confirmPassword" value="" autocomplete="new-password" onkeyup="this.setAttribute('value', this.value);" class="gr-textbox pass">
+                        <label for="confirmPassword" class="tb-placeholder-01">
+                            Şifre Doğrulama
+                        </label>
+                        <a href="#" class="gr-pass">
+                            <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0)">
+                                    <path d="M8 0C3.582 0 0 5.922 0 5.922C0 5.922 3.582 12 8 12C12.418 12 16 5.922 16 5.922C16 5.922 12.418 0 8 0ZM8 10C5.791 10 4 8.209 4 6C4 3.791 5.791 2 8 2C10.209 2 12 3.791 12 6C12 8.209 10.209 10 8 10ZM6 6C6 4.89544 6.89544 4 8 4C9.10456 4 10 4.89544 10 6C10 7.10456 9.10456 8 8 8C6.89544 8 6 7.10456 6 6Z" fill="#E4E6E8"></path>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0">
+                                        <rect width="16" height="12" fill="white"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="c-container-04 mt-xs1-24px">
+                    <a href="#" onclick="Felece.Identity.Actions.nextConfirmationModal({ ev: event,sender:this })" class="c-item-01 mb-xs1-16px">Devam Et</a>
+                    <a href="#" class="c-item-02">Giriş Yap</a>
+                </div>
+            </div>
+            <div id="smsCofirmContent">
+                <div class="c-container-01">
+                    Onay Kodunuz
+                </div>
+                <div class="c-container-02 mb-xs1-32px mt-xs1-12px">
+                    Lütfen 553 214 55 66 numaralı cep telefonunuza SMS ile gönderdiğimiz onay kodunu aşağıdaki alana girin. Sadece ilk girişinizde sorulacaktır.
+                </div>
+                <div class="c-container-05 mb-md-80px">
+
+                    <div id="confirmCodeTimer" class="c-item-02 mb-xs1-12px" data-time-counter="">
+                        <div class="c-unit-01">Onay Kodu</div>
+                        <div class="c-unit-02"><span data-timer-minute="true">02</span>:<span data-timer-second="true">58</span></div>
+                    </div>
+
+
+                    <div id="confirmCodeInputsContainer" class="c-item-01">
+                        <input id="code_1" type="text" name="code01" onkeydown="Felece.Confirmation.confirmCodeEvents.onkeydown(this,event,'first')" onkeyup="Felece.Confirmation.confirmCodeEvents.inputChange(this,'code_2')" onClick="this.select();" data-maskFormat="numeric" maxlength="1" autocomplete="off" class="c-unit-01 " />
+                        <input id="code_2" type="text" name="code02" onkeydown="Felece.Confirmation.confirmCodeEvents.onkeydown(this,event,'code_1')" onkeyup="Felece.Confirmation.confirmCodeEvents.inputChange(this,'code_3')" onClick="this.select();" data-maskFormat="numeric" maxlength="1" autocomplete="off" class="c-unit-01 " />
+                        <input id="code_3" type="text" name="code03" onkeydown="Felece.Confirmation.confirmCodeEvents.onkeydown(this,event,'code_2')" onkeyup="Felece.Confirmation.confirmCodeEvents.inputChange(this,'code_4')" onClick="this.select();" data-maskFormat="numeric" maxlength="1" autocomplete="off" class="c-unit-01 " />
+                        <input id="code_4" type="text" name="code04" onkeydown="Felece.Confirmation.confirmCodeEvents.onkeydown(this,event,'code_3')" onkeyup="Felece.Confirmation.confirmCodeEvents.inputChange(this,'code_5')" onClick="this.select();" data-maskFormat="numeric" maxlength="1" autocomplete="off" class="c-unit-01 " />
+                        <input id="code_5" type="text" name="code05" onkeydown="Felece.Confirmation.confirmCodeEvents.onkeydown(this,event,'code_4')" onkeyup="Felece.Confirmation.confirmCodeEvents.inputChange(this,'code_6')" onClick="this.select();" data-maskFormat="numeric" maxlength="1" autocomplete="off" class="c-unit-01 " />
+                        <input id="code_6" type="text" name="code06" onkeydown="Felece.Confirmation.confirmCodeEvents.onkeydown(this,event,'code_5')" onkeyup="Felece.Confirmation.confirmCodeEvents.inputChange(this,'submit')" onClick="this.select();" data-maskFormat="numeric" maxlength="1" autocomplete="off" class="c-unit-01 " />
+                    </div>
+
+                    <div id="expiredContainer" class="c-item-08">
+                        <h5 class="c-unit-01">SMS ile gönderilen onay kodunun süresi doldu.</h5>
+                        <a href="#" onclick="Felece.Confirmation.confirmCodeEvents.getNewCode({ ev: event, sender: this })" class="c-unit-02">Yeni kod alın</a>
+                    </div>
+                    <div id="confirmFeedBack" class="c-item-09 ncm-ff-A">
+                        Onay kodu geçerli değil. Lütfen kontrol edip tekrar deneyin.
+                    </div>
+
+                </div>
+                <div class="c-container-04 mt-xs1-64px">
+                    <a href="#" onclick="Felece.Identity.Actions.nextApprovalContent({ ev: event,sender:this })" class="c-item-01 mb-xs1-16px">Doğrula</a>
+                    <a href="#" class="c-item-02">Tekrar Gönder</a>
+                </div>
+            </div>
+            <div id="approvalsContent">
+                <div class="c-container-01">
+                    İzin ve Onaylar
+                </div>
+                <div class="c-container-02 mb-xs1-32px mt-xs1-12px">
+                    Üyeliğimi oluşturarak Aydınlatma Metninde belirtilen kapsam, amaç ve süre dahilinde kişisel verilerimin VitrA tarafından işlenmesini, yurt içi ve yurt dışı gerçek ve tüzel kişilere aktarılmasını kabul ediyorum.
+                </div>
+                <div class="c-container-03">
+                    <div class="comp-form-02">
+                        <div class="c-item-01 c-item-01 mr-xs1-24px">
+                            <label for="emailConsent01" class="chk-B">
+                                <input id="emailConsent01" name="emailConsent01" type="checkbox" value="false">
+                                <span></span>
+                            </label>
+                        </div>
+                        <div class="c-item-02">
+                            VitrA yeniliklerinin bana e-posta yoluyla gönderilmesini kabul ediyorum.
+                        </div>
+                    </div>
+                    <div class="comp-form-02">
+                        <div class="c-item-01 mr-xs1-24px">
+                            <label for="smsConsents03" class="chk-B">
+                                <input id="smsConsents03" name="smsConsents03" type="checkbox" value="false">
+                                <span></span>
+                            </label>
+                        </div>
+                        <div class="c-item-02">
+                            VitrA yeniliklerinin bana SMS yoluyla gönderilmesini kabul ediyorum.
+                        </div>
+                    </div>
+                    <hr class="hr-A" />
+                    <div class="comp-form-03 mb-xs1-24px mt-xs1-32px">
+                        <div class="chk-A chk-large">
+                            <input id="c-form-11-02" type="checkbox">
+                            <label for="c-form-11-02"><a href="#" class="c-unit-01">Üyelik Sözleşmesi</a>’ni okudum, onaylıyorum. </label>
+                        </div>
+                    </div>
+                    <div class="comp-form-03 mb-md-32px">
+                        <div class="chk-A chk-large">
+                            <input id="c-form-11-03" type="checkbox">
+                            <label for="c-form-11-03"><a href="#" class="c-unit-01">Aydınlatma Metni</a>’nde belirtilen kapsam, amaç ve süre dahilinde kişisel verilerimin işlenmesini, yurt içi ve yurt dışı gerçek ve tüzel kişilere aktarılmasını kabul ediyorum.</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-container-04 mt-xs1-64px">
+                    <a href="#" onclick="Felece.Identity.Actions.signUp({ ev: event,sender:this })" class="c-item-01 mb-md-16px">Üye Ol</a>
+                </div>
+            </div>
+            <div id="signUpResult">
+                <div class="c-container-06">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M32.0327 16.996C33.2843 16.7682 34.577 16.6533 35.8764 16.6533C46.4569 16.6533 55.0657 24.3381 55.0657 33.7846C55.0657 37.4375 53.8079 40.9 51.4212 43.8332L52.7092 50.6845C52.783 51.0713 52.6442 51.4696 52.3468 51.7286C52.1414 51.9059 51.8824 52 51.6188 52C51.4992 52 51.3786 51.9808 51.2616 51.9413L44.2616 49.5665C41.9586 50.2976 38.1653 50.9127 35.8754 50.9127C25.2938 50.9127 16.6865 43.23 16.6865 33.7846" stroke="#373A37" stroke-width="1.5" stroke-linecap="round" />
+                        <path d="M23.9217 31.0397L23.9235 31.0406C23.9726 31.0666 24.0287 31.0805 24.0892 31.0805C24.1646 31.0805 24.2386 31.0571 24.2999 31.0125L23.9217 31.0397ZM23.9217 31.0397L18.7152 28.3041L18.3662 28.1207L18.0173 28.3042L12.8144 31.0397C12.6929 31.1036 12.5464 31.0934 12.4338 31.0117L12.433 31.0112C12.3235 30.932 12.2681 30.7962 12.2914 30.662L12.2917 30.6604L13.2854 24.8652L13.352 24.4767L13.0698 24.2015L8.85952 20.0958L8.85927 20.0955C8.76018 19.999 8.72548 19.8563 8.76765 19.7269L8.76819 19.7253C8.81001 19.596 8.92248 19.5005 9.05885 19.4806C9.05887 19.4806 9.05888 19.4806 9.0589 19.4806L14.8753 18.6357L15.2656 18.579L15.4401 18.2253L18.0425 12.9509C18.0425 12.9508 18.0425 12.9508 18.0426 12.9507C18.0426 12.9507 18.0426 12.9507 18.0426 12.9506C18.1034 12.8277 18.2285 12.75 18.3658 12.75C18.5029 12.75 18.6284 12.828 18.6891 12.9509L21.2931 18.225L21.4677 18.5785L21.8578 18.6352L27.6759 19.48C27.6761 19.48 27.6763 19.48 27.6764 19.48C27.812 19.5001 27.9248 19.595 27.9678 19.7257C28.01 19.8572 27.9743 20.0001 27.8765 20.0954L23.665 24.2009L23.3826 24.4762M23.9217 31.0397L23.3826 24.4762M23.3826 24.4762L23.4493 24.8648M23.3826 24.4762L23.4493 24.8648M23.4493 24.8648L24.444 30.6589C24.444 30.659 24.444 30.6591 24.444 30.6593M23.4493 24.8648L24.444 30.6593M24.444 30.6593C24.467 30.7948 24.4118 30.931 24.2999 31.0124L24.444 30.6593Z" fill="#ECDECD" stroke="#373A37" stroke-width="1.5" />
+                        <path d="M29.1846 29.0688H45.7142" stroke="#373A37" stroke-width="1.5" stroke-linecap="round" />
+                        <path d="M41.7998 32.7993H29.3203" stroke="#373A37" stroke-width="1.5" stroke-linecap="round" />
+                        <path d="M36.6 36.4385H29.3203" stroke="#373A37" stroke-width="1.5" stroke-linecap="round" />
+                    </svg>
+                    <h5 class="c-item-01 mb-xs1-12px mt-xs1-24px">VitrA Dünyasına Hoş Geldiniz</h5>
+                    <p class="c-item-02 mb-xs1-80px">Üyelik işleminiz başarıyla tamamlandı. Satın alma işlemine devam edebilmeniz için sizi yönlendiriyoruz.</p>
+
+                </div>
+               
+                <div class="c-container-04">
+                    <a href="#" class="c-item-02">Anasayfaya Dön</a>
+                </div>
+            </div>
+        </div>
+        <div data-modal-section="footer" class="footer-01">
+        </div>
+    </section>
+}
+
+@section beforeScripts{
+
+
+    <script src="~/Content/Plugins/Jquery.Validation/jquery.validate.js"></script>
+    <script src="~/Content/Plugins/Jquery.Mask/jquery.mask.js"></script>
+}
+
+
+@section beforeBodyEnd{
+    <script src="~/Content/Scripts/Form/Felece.Form.Validation.js"></script>
+    <script src="~/Content/Scripts/Form/Felece.Form.Plugin.js"></script>
+    <script src="~/Content/Scripts/Base/Felece.Common.jQuery.js"></script>
+    <script src="~/Content/Scripts/Misc/Felece.Identity.Base.js"></script>
+}

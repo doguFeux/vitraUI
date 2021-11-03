@@ -1,0 +1,81 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-section-13 {
+    max-width: 1440px;
+    margin: 0 auto; }
+    .comp-section-13 .c-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      .comp-section-13 .c-wrapper > .c-container-01 {
+        width: 100%;
+        display: flex;
+        flex-direction: column; }
+        .comp-section-13 .c-wrapper > .c-container-01 > .c-item-01 {
+          width: 100%;
+          margin-bottom: 32px; }
+        .comp-section-13 .c-wrapper > .c-container-01 > .c-item-02 {
+          width: 100%; }
+
+  .comp-section-13 .c-wrapper > .c-container-01 > .c-item-01 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #373A37; }
+  .comp-section-13 .c-wrapper > .c-container-01 > .c-item-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #373A37; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-section-13 {
+    max-width: 1440px;
+    margin: 0 auto; }
+    .comp-section-13 .c-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      .comp-section-13 .c-wrapper > .c-container-01 {
+        width: 1080px;
+        display: flex;
+        justify-content: space-between;
+        min-height: 410px; }
+        .comp-section-13 .c-wrapper > .c-container-01 > .c-item-01 {
+          width: calc(50% - 15px);
+          position: absolute;
+          top: 0;
+          left: 0; }
+        .comp-section-13 .c-wrapper > .c-container-01 > .c-item-02 {
+          width: calc(50% - 15px);
+          position: absolute;
+          bottom: 0;
+          right: 0; }
+
+  .comp-section-13 .c-wrapper > .c-container-01 > .c-item-01 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    color: #373A37; }
+  .comp-section-13 .c-wrapper > .c-container-01 > .c-item-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #373A37; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=13.css.map */

@@ -1,0 +1,84 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-micro-26 {
+    margin: 0 0 32px 0; }
+    .comp-micro-26 > .c-container-01 {
+      display: flex; }
+    .comp-micro-26 > .c-container-02 {
+      margin: 9px 0 16px 0;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 150%;
+      color: #373A37; }
+    .comp-micro-26 > .c-container-03 {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center; }
+      .comp-micro-26 > .c-container-03 > .c-item-01 {
+        height: 32px;
+        margin-right: 8px;
+        padding: 0 8px;
+        display: flex;
+        align-items: center;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #7D8285;
+        border-radius: 2px;
+        border: 1px solid #E4E6E8; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-micro-26 {
+    width: 308px;
+    margin: 0 21px 64px 0; }
+    .comp-micro-26:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: -8px;
+      width: 0.5px;
+      background: #E4E6E8; }
+    .comp-micro-26 > .c-container-01 {
+      display: flex; }
+    .comp-micro-26 > .c-container-02 {
+      margin: 9px 0 16px 0;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 150%;
+      color: #373A37; }
+    .comp-micro-26 > .c-container-03 {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center; }
+      .comp-micro-26 > .c-container-03 > .c-item-01 {
+        height: 32px;
+        margin-right: 8px;
+        padding: 0 8px;
+        display: flex;
+        align-items: center;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #7D8285;
+        border-radius: 2px;
+        border: 1px solid #E4E6E8; }
+      .comp-micro-26 > .c-container-03 > :last-child {
+        margin-right: 0; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=26.css.map */

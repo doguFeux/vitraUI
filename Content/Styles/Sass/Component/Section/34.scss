@@ -1,0 +1,308 @@
+﻿@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .comp-section-34 {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 80px 0 116px 0;
+        border-top: 1px solid #E4E6E8;
+
+
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            height: 264px;
+            background: linear-gradient(180deg, #ECDECD 0%, rgba(236, 222, 205, 0) 100%);
+            opacity: 0.5;
+        }
+
+        .c-wrapper {
+
+            > .c-column-01 {
+                width: 100%;
+                margin-bottom:32px;
+
+                > .c-container-01 {
+                    display: flex;
+                    flex-direction: column;
+                    align-content: flex-start;
+
+                    > .c-item-01 {
+                        font-family: Palanquin;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+
+                    > .c-item-02 {
+                        margin: 24px 0 32px 0;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #373A37;
+                    }
+
+                    > .c-item-03 {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 40px;
+
+                        > .c-item-03-A {
+                            display: flex;
+                            margin-right: 16px;
+                        }
+
+                        > .c-item-03-B {
+
+                            > .c-unit-01 {
+                                margin-bottom: 4px;
+                                font-family: Open Sans;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 18px;
+                                color: #373A37;
+                            }
+
+                            > .c-unit-02 {
+                                font-family: Open Sans;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 12px;
+                                line-height: 16px;
+                                color: #7D8285;
+                            }
+                        }
+                    }
+
+                    > :last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            > .c-column-02 {
+                width: 100%;
+
+                > .c-container-01 {
+                    display: flex;
+                    flex-direction: column;
+                    align-content: flex-start;
+
+                    > .c-item-01 {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+
+                    > .comp-form-01 {
+                        display: flex;
+                        align-items: center;
+
+                        > .c-item-02 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 24px;
+                            color: #373A37;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Related Typography
+}
+
+/* XS1 */
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+}
+
+/* XS2 */
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common SM1 and SM2 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* SM1 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+}
+
+/* SM2 */
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* Common MD and LG */
+@media all and (min-width: #{$mq-md + "px"}) {
+
+    .comp-section-34 {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 80px 0 116px 0;
+        border-top: 1px solid #E4E6E8;
+
+
+
+        &:after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            top: 0;
+            background: #E4E6E8;
+            width: 1px;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 50%;
+            top: 0;
+            height: 264px;
+            background: linear-gradient(180deg, #ECDECD 0%, rgba(236, 222, 205, 0) 100%);
+            opacity: 0.5;
+        }
+
+        .c-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            > .c-column-01 {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+
+                > .c-container-01 {
+                    display: flex;
+                    flex-direction: column;
+                    align-content: flex-start;
+
+                    > .c-item-01 {
+                        font-family: Palanquin;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+
+                    > .c-item-02 {
+                        width: 416px;
+                        margin: 24px 0 32px 0;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #373A37;
+                    }
+
+                    > .c-item-03 {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 40px;
+
+                        > .c-item-03-A {
+                            display: flex;
+                            margin-right: 16px;
+                        }
+
+                        > .c-item-03-B {
+
+                            > .c-unit-01 {
+                                margin-bottom: 4px;
+                                font-family: Open Sans;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 18px;
+                                color: #373A37;
+                            }
+
+                            > .c-unit-02 {
+                                font-family: Open Sans;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 12px;
+                                line-height: 16px;
+                                color: #7D8285;
+                            }
+                        }
+                    }
+
+                    > :last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            > .c-column-02 {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                > .c-container-01 {
+                    display: flex;
+                    flex-direction: column;
+                    align-content: flex-start;
+
+                    > .c-item-01 {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+
+                    > .comp-form-01 {
+                        display: flex;
+                        align-items: center;
+
+                        > .c-item-02 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 24px;
+                            color: #373A37;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Related Typography
+
+}
+/* MD */
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+}
+
+/* LG */
+@media all and (min-width: #{$mq-lg + "px"}) {
+}

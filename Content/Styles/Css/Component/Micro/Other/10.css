@@ -1,0 +1,154 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-micro-10 {
+    border: 1px solid #E4E6E8;
+    border-radius: 6px;
+    background: #fff;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .2s; }
+    .comp-micro-10.on {
+      background: rgba(244, 247, 246, 0.5); }
+    .comp-micro-10 > .c-container-01 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      margin-bottom: auto; }
+      .comp-micro-10 > .c-container-01 svg {
+        margin-right: 16px; }
+    .comp-micro-10 > .c-container-02 {
+      margin-right: auto; }
+      .comp-micro-10 > .c-container-02 > .c-item-02 {
+        width: 100%;
+        margin: 16px 0 16px 0; }
+      .comp-micro-10 > .c-container-02 > .c-item-03 {
+        display: flex;
+        align-items: center; }
+        .comp-micro-10 > .c-container-02 > .c-item-03 > .c-unit-02 {
+          margin-left: 32px; }
+          .comp-micro-10 > .c-container-02 > .c-item-03 > .c-unit-02:before {
+            content: "";
+            position: absolute;
+            left: -16px;
+            width: 1px;
+            height: 32px;
+            background: #E4E6E8; }
+    .comp-micro-10 > .c-container-03 {
+      position: absolute;
+      top: 22px;
+      right: 16px; }
+      .comp-micro-10 > .c-container-03 .rdb-A.rdb-large-02 > label {
+        padding: 0; }
+
+  .comp-micro-10 > .c-container-01 > .c-item-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #2A2E38; }
+  .comp-micro-10 > .c-container-02 > .c-item-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #373A37; }
+  .comp-micro-10 > .c-container-02 > .c-item-03 > .c-unit-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1413D; }
+  .comp-micro-10 > .c-container-02 > .c-item-03 > .c-unit-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7D8285; }
+  .comp-micro-10 > .c-container-03 {
+    margin-left: auto; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-micro-10 {
+    border: 1px solid #E4E6E8;
+    border-radius: 6px;
+    background: #fff;
+    padding: 16px 32px 32px 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .2s; }
+    .comp-micro-10.on {
+      background: rgba(244, 247, 246, 0.5); }
+    .comp-micro-10 > .c-container-01 {
+      width: 100%;
+      display: flex;
+      margin-bottom: auto; }
+      .comp-micro-10 > .c-container-01 svg {
+        margin-right: 16px; }
+    .comp-micro-10 > .c-container-02 {
+      margin-left: 56px; }
+      .comp-micro-10 > .c-container-02 > .c-item-02 {
+        width: 423px;
+        margin: 4px 0 16px 0; }
+      .comp-micro-10 > .c-container-02 > .c-item-03 {
+        display: flex;
+        align-items: center; }
+        .comp-micro-10 > .c-container-02 > .c-item-03 > .c-unit-02 {
+          margin-left: 32px; }
+          .comp-micro-10 > .c-container-02 > .c-item-03 > .c-unit-02:before {
+            content: "";
+            position: absolute;
+            left: -16px;
+            width: 1px;
+            height: 32px;
+            background: #E4E6E8; }
+    .comp-micro-10 > .c-container-03 {
+      margin-left: auto; }
+
+  .comp-micro-10 > .c-container-01 > .c-item-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #2A2E38; }
+  .comp-micro-10 > .c-container-02 > .c-item-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #373A37; }
+  .comp-micro-10 > .c-container-02 > .c-item-03 > .c-unit-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1413D; }
+  .comp-micro-10 > .c-container-02 > .c-item-03 > .c-unit-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7D8285; }
+  .comp-micro-10 > .c-container-03 {
+    margin-left: auto; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=10.css.map */

@@ -1,0 +1,69 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-showcase-02 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 32px 0; }
+    .comp-showcase-02 > .c-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .comp-showcase-02 > .c-wrapper > .c-container-02 {
+        width: 333px; }
+
+  .comp-showcase-02 > .c-wrapper > .c-container-01 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #373A37; }
+  .comp-showcase-02 > .c-wrapper > .c-container-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #373A37; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-showcase-02 {
+    height: 136px;
+    max-width: 1440px;
+    margin: 0 auto; }
+    .comp-showcase-02 > .c-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .comp-showcase-02 > .c-wrapper > .c-container-02 {
+        width: 636px; }
+
+  .comp-showcase-02 > .c-wrapper > .c-container-01 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #373A37; }
+  .comp-showcase-02 > .c-wrapper > .c-container-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #373A37; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=02.css.map */

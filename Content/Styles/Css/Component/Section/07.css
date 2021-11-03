@@ -1,0 +1,19 @@
+/* Common XS1 and XS2 */
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-section-07 {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url("/Content/Visuals/Temp/account-large.png");
+    background-size: cover;
+    background-repeat: no-repeat; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=07.css.map */

@@ -1,0 +1,134 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-micro-09 {
+    background: #FFFFFF;
+    border: 1px solid #E4E6E8;
+    box-shadow: 0px 16px 24px rgba(55, 58, 55, 0.08);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0; }
+    .comp-micro-09 > .c-container-01 {
+      display: flex; }
+    .comp-micro-09 > .c-container-02 {
+      margin: 24px 0 12px 0; }
+    .comp-micro-09 > .c-container-03 {
+      width: 346px;
+      margin-bottom: 32px; }
+    .comp-micro-09 > .c-container-04 {
+      display: flex;
+      align-items: center;
+      width: 220px;
+      height: 50px;
+      padding-left: 74px;
+      background: #FFFFFF;
+      border: 1px solid #373A37;
+      border-radius: 6px; }
+      .comp-micro-09 > .c-container-04:after {
+        content: "";
+        position: absolute;
+        left: 16px;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cpath%20d%3D%22M12%2012.75C13.6569%2012.75%2015%2011.4069%2015%209.75C15%208.09315%2013.6569%206.75%2012%206.75C10.3431%206.75%209%208.09315%209%209.75C9%2011.4069%2010.3431%2012.75%2012%2012.75Z%22%20stroke%3D%22%23373A37%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%20%3Cpath%20d%3D%22M19.5%209.75C19.5%2016.5%2012%2021.75%2012%2021.75C12%2021.75%204.5%2016.5%204.5%209.75C4.5%207.76088%205.29018%205.85322%206.6967%204.4467C8.10322%203.04018%2010.0109%202.25%2012%202.25C13.9891%202.25%2015.8968%203.04018%2017.3033%204.4467C18.7098%205.85322%2019.5%207.76088%2019.5%209.75V9.75Z%22%20stroke%3D%22%23373A37%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%20%3C%2Fsvg%3E%20");
+        background-repeat: no-repeat; }
+
+  .comp-micro-09 > .c-container-02 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #2A2E38; }
+  .comp-micro-09 > .c-container-03 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #373A37; }
+  .comp-micro-09 > .c-container-04 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #373A37; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-micro-09 {
+    background: #FFFFFF;
+    border: 1px solid #E4E6E8;
+    box-shadow: 0px 16px 24px rgba(55, 58, 55, 0.08);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0; }
+    .comp-micro-09 > .c-container-01 {
+      display: flex; }
+    .comp-micro-09 > .c-container-02 {
+      margin: 24px 0 12px 0; }
+    .comp-micro-09 > .c-container-03 {
+      width: 346px;
+      margin-bottom: 32px; }
+    .comp-micro-09 > .c-container-04 {
+      display: flex;
+      align-items: center;
+      width: 220px;
+      height: 50px;
+      padding-left: 74px;
+      background: #FFFFFF;
+      border: 1px solid #373A37;
+      border-radius: 6px; }
+      .comp-micro-09 > .c-container-04:after {
+        content: "";
+        position: absolute;
+        left: 16px;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cpath%20d%3D%22M12%2012.75C13.6569%2012.75%2015%2011.4069%2015%209.75C15%208.09315%2013.6569%206.75%2012%206.75C10.3431%206.75%209%208.09315%209%209.75C9%2011.4069%2010.3431%2012.75%2012%2012.75Z%22%20stroke%3D%22%23373A37%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%20%3Cpath%20d%3D%22M19.5%209.75C19.5%2016.5%2012%2021.75%2012%2021.75C12%2021.75%204.5%2016.5%204.5%209.75C4.5%207.76088%205.29018%205.85322%206.6967%204.4467C8.10322%203.04018%2010.0109%202.25%2012%202.25C13.9891%202.25%2015.8968%203.04018%2017.3033%204.4467C18.7098%205.85322%2019.5%207.76088%2019.5%209.75V9.75Z%22%20stroke%3D%22%23373A37%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%20%3C%2Fsvg%3E%20");
+        background-repeat: no-repeat; }
+
+  .comp-micro-09 > .c-container-02 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #2A2E38; }
+  .comp-micro-09 > .c-container-03 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #373A37; }
+  .comp-micro-09 > .c-container-04 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #373A37; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=09.css.map */

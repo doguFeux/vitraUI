@@ -1,0 +1,578 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+@section head{
+
+}
+
+<main>
+    <section>
+
+        <div class="c-wrapper">
+            <h1>Buttons</h1>
+
+            <button class="primary-btn mb-md-8px">Primary Button</button>
+            <button class="primary-btn hover mb-md-8px">Primary Button</button>
+            <button class="primary-btn mb-md-8px" disabled>Primary Button</button>
+            <button class="primary-btn icon  mb-md-8px">Primary Button</button>
+            <button class="primary-btn sm  mb-md-8px">Primary Button</button>
+
+
+            <button class="secondary-btn  mb-md-8px">Secondary Button</button>
+            <button class="secondary-btn hover  mb-md-8px">Secondary Button</button>
+            <button class="secondary-btn  mb-md-8px" disabled>Secondary Button</button>
+            <button class="secondary-btn icon  mb-md-8px">Secondary Button</button>
+            <button class="secondary-btn sm  mb-md-8px">Secondary Button</button>
+
+
+            <button class="ghost-btn  mb-md-8px">Ghost Button</button>
+            <button class="ghost-btn hover  mb-md-8px">Ghost Button</button>
+            <button class="ghost-btn  mb-md-8px" disabled>Ghost Button</button>
+            <button class="ghost-btn icon  mb-md-8px">Ghost Button</button>
+            <button class="ghost-btn sm  mb-md-8px">Ghost Button</button>
+
+            <a href="" class="lnk-btn-01  mb-md-8px">Link Button</a>
+            <a href="" class="lnk-btn-01 hover  mb-md-8px">Link Button</a>
+            <a href="" class="lnk-btn-01 disabled  mb-md-8px">Link Button</a>
+            <a href="" class="lnk-btn-01 icon  mb-md-8px">Link Button</a>
+            <a href="" class="lnk-btn-01 sm  mb-md-8px">Link Button</a>
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="c-wrapper">
+            <h1>Inputs</h1>
+
+            <div class="form-group-01  mb-md-8px">
+                <input id="optional" type="text" name="optional" value="" autocomplete="new-password" onkeyup="this.setAttribute('value', this.value);" class="gr-textbox">
+                <label for="optional" class="tb-placeholder-01">
+                    Optional
+                </label>
+            </div>
+
+            <div class="form-group-01  mb-md-8px">
+                <input id="pass" type="password" name="pass" value="" autocomplete="new-password" onkeyup="this.setAttribute('value', this.value);" class="gr-textbox pass">
+                <label for="pass" class="tb-placeholder-01">
+                    Password
+                </label>
+                <a href="#" class="gr-pass">
+                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                            <path d="M8 0C3.582 0 0 5.922 0 5.922C0 5.922 3.582 12 8 12C12.418 12 16 5.922 16 5.922C16 5.922 12.418 0 8 0ZM8 10C5.791 10 4 8.209 4 6C4 3.791 5.791 2 8 2C10.209 2 12 3.791 12 6C12 8.209 10.209 10 8 10ZM6 6C6 4.89544 6.89544 4 8 4C9.10456 4 10 4.89544 10 6C10 7.10456 9.10456 8 8 8C6.89544 8 6 7.10456 6 6Z" fill="#E4E6E8" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect width="16" height="12" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="form-group-01  mb-md-8px">
+                <input id="phoneNumber" type="text" name="phoneNumber" value="" autocomplete="new-password" onkeyup="this.setAttribute('value', this.value);" class="gr-textbox">
+                <label for="phoneNumber" class="tb-placeholder-01">
+                    Phone Number
+                </label>
+            </div>
+
+            <div class="form-group-01  mb-md-8px">
+                <input id="uploadFiles" type="text" name="uploadFiles" value="" autocomplete="new-password" onkeyup="this.setAttribute('value', this.value);" class="gr-textbox">
+                <label for="uploadFiles" class="tb-placeholder-01">
+                    Upload Files
+                </label>
+                <a href="#" class="gr-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.0625 7.68481L12 3.74731L15.9375 7.68481" stroke="#7D8285" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M12 14.25V3.75" stroke="#7D8285" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M21 12.75V19.5C21 19.6989 20.921 19.8897 20.7803 20.0303C20.6397 20.171 20.4489 20.25 20.25 20.25H3.75C3.55109 20.25 3.36032 20.171 3.21967 20.0303C3.07902 19.8897 3 19.6989 3 19.5V12.75" stroke="#7D8285" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <br /><br />
+    <section>
+        <h1>Cards</h1>
+        <div class="c-wrapper" style="display:flex;flex-wrap:wrap">
+            <div class="comp-product-01">
+                <div class="c-container-01">
+                    <picture>
+                        <source media="(max-width: 465px)" srcset="/Content/Visuals/Temp/p1-large.png" />
+                        <source media="(min-width: 466)" srcset="/Content/Visuals/Temp/p1-large.png" />
+                        <img src="/Content/Visuals/Temp/p1-large.png" alt="" />
+                    </picture>
+                </div>
+                <div class="c-container-07">
+                    <div class="c-container-02">
+                        <div class="c-item-01">
+
+                        </div>
+                        <div class="c-item-02">
+                            <h5 class="c-item-02-A">
+                                Origin Lavabo Bataryası
+                            </h5>
+                            <a class="c-item-02-B" href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.75 21L11.9993 17.25L5.25 21V3.75C5.25 3.55109 5.32902 3.36032 5.46967 3.21967C5.61032 3.07902 5.80109 3 6 3H18C18.1989 3 18.3897 3.07902 18.5303 3.21967C18.671 3.36032 18.75 3.55109 18.75 3.75V21Z" stroke="#373A37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="c-container-03">
+                        <div class="c-item-01">
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c1.png')"></a>
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c2.png')"></a>
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c3.png')"></a>
+
+                        </div>
+                        <div class="c-item-02">
+                            +2 Renk
+                        </div>
+                    </div>
+                    <div class="c-container-04">
+                        <div class="c-item-01">
+                            4,950 TL
+                        </div>
+                    </div>
+                    <div class="c-container-05">
+                        <a href="#" class="c-item-01">60 cm.</a>
+                        <a href="#" class="c-item-01">VitrA Clean Teknolojisi</a>
+                    </div>
+                    <div class="c-container-06">
+                        <a href="#" class="c-item-01">Ürünü İncele</a>
+                        <a href="#" class="c-item-02">Hızlı Satın Al</a>
+                    </div>
+                </div>
+            </div>
+            <div class="comp-product-01">
+                <div class="c-container-01">
+                    <picture>
+                        <source media="(max-width: 465px)" srcset="/Content/Visuals/Temp/p2-large.png" />
+                        <source media="(min-width: 466)" srcset="/Content/Visuals/Temp/p2-large.png" />
+                        <img src="/Content/Visuals/Temp/p2-large.png" alt="" />
+                    </picture>
+                </div>
+                <div class="c-container-07">
+                    <div class="c-container-02">
+                        <div class="c-item-01">
+
+                        </div>
+                        <div class="c-item-02">
+                            <h5 class="c-item-02-A">
+                                Origin Lavabo Bataryası
+                            </h5>
+                            <a class="c-item-02-B" href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.75 21L11.9993 17.25L5.25 21V3.75C5.25 3.55109 5.32902 3.36032 5.46967 3.21967C5.61032 3.07902 5.80109 3 6 3H18C18.1989 3 18.3897 3.07902 18.5303 3.21967C18.671 3.36032 18.75 3.55109 18.75 3.75V21Z" stroke="#373A37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="c-container-03">
+                        <div class="c-item-01">
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c1.png')"></a>
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c2.png')"></a>
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c3.png')"></a>
+
+                        </div>
+                        <div class="c-item-02">
+                            +2 Renk
+                        </div>
+                    </div>
+                    <div class="c-container-04">
+                        <div class="c-item-02">
+                            <div class="c-item-02-A">%20</div>
+                            <div class="c-item-02-B">
+                                <div class="c-unit-01">5,950 TL</div>
+                                <div class="c-unit-02">4,950 TL</div>
+                            </div>
+                            <div class="c-item-02-C">
+                                <div class="c-unit-01">Sepette %10 İndirim</div>
+                                <div class="c-unit-02">4,290 TL</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-container-05">
+                        <a href="#" class="c-item-01">60 cm.</a>
+                        <a href="#" class="c-item-01">VitrA Clean Teknolojisi</a>
+                    </div>
+                    <div class="c-container-06">
+                        <a href="#" class="c-item-01">Ürünü İncele</a>
+                        <a href="#" class="c-item-02">Hızlı Satın Al</a>
+                    </div>
+                </div>
+            </div>
+            <div class="comp-product-01">
+                <div class="c-container-01">
+                    <picture>
+                        <source media="(max-width: 465px)" srcset="/Content/Visuals/Temp/p3-large.png" />
+                        <source media="(min-width: 466)" srcset="/Content/Visuals/Temp/p3-large.png" />
+                        <img src="/Content/Visuals/Temp/p3-large.png" alt="" />
+                    </picture>
+                </div>
+                <div class="c-container-07">
+                    <div class="c-container-02">
+                        <div class="c-item-01">
+
+                        </div>
+                        <div class="c-item-02">
+                            <h5 class="c-item-02-A">
+                                Origin Lavabo Bataryası
+                            </h5>
+                            <a class="c-item-02-B" href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.75 21L11.9993 17.25L5.25 21V3.75C5.25 3.55109 5.32902 3.36032 5.46967 3.21967C5.61032 3.07902 5.80109 3 6 3H18C18.1989 3 18.3897 3.07902 18.5303 3.21967C18.671 3.36032 18.75 3.55109 18.75 3.75V21Z" stroke="#373A37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="c-container-03">
+                        <div class="c-item-01">
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c1.png')"></a>
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c2.png')"></a>
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c3.png')"></a>
+
+                        </div>
+                        <div class="c-item-02">
+                            +2 Renk
+                        </div>
+                    </div>
+                    <div class="c-container-04">
+                        <div class="c-item-02">
+                            <div class="c-item-02-A">%20</div>
+                            <div class="c-item-02-B">
+                                <div class="c-unit-01">5,950 TL</div>
+                                <div class="c-unit-02">4,950 TL</div>
+                            </div>
+                            <div class="c-item-02-C">
+                                <div class="c-unit-01">Sepette %10 İndirim</div>
+                                <div class="c-unit-02">4,290 TL</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-container-05">
+                        <a href="#" class="c-item-01">60 cm.</a>
+                        <a href="#" class="c-item-01">VitrA Clean Teknolojisi</a>
+                    </div>
+                    <div class="c-container-06">
+                        <a href="#" class="c-item-01">Ürünü İncele</a>
+                        <a href="#" class="c-item-02">Hızlı Satın Al</a>
+                    </div>
+                </div>
+            </div>
+            <div class="comp-product-01">
+                <div class="c-container-01">
+                    <picture>
+                        <source media="(max-width: 465px)" srcset="/Content/Visuals/Temp/p4-large.png" />
+                        <source media="(min-width: 466)" srcset="/Content/Visuals/Temp/p4-large.png" />
+                        <img src="/Content/Visuals/Temp/p4-large.png" alt="" />
+                    </picture>
+                </div>
+                <div class="c-container-07">
+                    <div class="c-container-02">
+                        <div class="c-item-01">
+
+                        </div>
+                        <div class="c-item-02">
+                            <h5 class="c-item-02-A">
+                                Origin Lavabo Bataryası
+                            </h5>
+                            <a class="c-item-02-B" href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.75 21L11.9993 17.25L5.25 21V3.75C5.25 3.55109 5.32902 3.36032 5.46967 3.21967C5.61032 3.07902 5.80109 3 6 3H18C18.1989 3 18.3897 3.07902 18.5303 3.21967C18.671 3.36032 18.75 3.55109 18.75 3.75V21Z" stroke="#373A37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="c-container-03">
+                        <div class="c-item-01">
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c1.png')"></a>
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c2.png')"></a>
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c3.png')"></a>
+
+                        </div>
+                        <div class="c-item-02">
+                            +2 Renk
+                        </div>
+                    </div>
+                    <div class="c-container-04">
+                        <div class="c-item-02">
+                            <div class="c-item-02-A">%20</div>
+                            <div class="c-item-02-B">
+                                <div class="c-unit-01">5,950 TL</div>
+                                <div class="c-unit-02">4,950 TL</div>
+                            </div>
+                            <div class="c-item-02-C">
+                                <div class="c-unit-01">Sepette %10 İndirim</div>
+                                <div class="c-unit-02">4,290 TL</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-container-05">
+                        <a href="#" class="c-item-01">60 cm.</a>
+                        <a href="#" class="c-item-01">VitrA Clean Teknolojisi</a>
+                    </div>
+                    <div class="c-container-06">
+                        <a href="#" class="c-item-01">Ürünü İncele</a>
+                        <a href="#" class="c-item-02">Hızlı Satın Al</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="comp-product-01">
+                <div class="c-container-01">
+                    <picture>
+                        <source media="(max-width: 465px)" srcset="/Content/Visuals/Temp/p5-large.png" />
+                        <source media="(min-width: 466)" srcset="/Content/Visuals/Temp/p5-large.png" />
+                        <img src="/Content/Visuals/Temp/p5-large.png" alt="" />
+                    </picture>
+                </div>
+                <div class="c-container-07">
+                    <div class="c-container-02">
+                        <div class="c-item-01">
+
+                        </div>
+                        <div class="c-item-02">
+                            <h5 class="c-item-02-A">
+                                Origin Lavabo Bataryası
+                            </h5>
+                            <a class="c-item-02-B" href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.75 21L11.9993 17.25L5.25 21V3.75C5.25 3.55109 5.32902 3.36032 5.46967 3.21967C5.61032 3.07902 5.80109 3 6 3H18C18.1989 3 18.3897 3.07902 18.5303 3.21967C18.671 3.36032 18.75 3.55109 18.75 3.75V21Z" stroke="#373A37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="c-container-03">
+                        <div class="c-item-01">
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c1.png')"></a>
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c2.png')"></a>
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c3.png')"></a>
+
+                        </div>
+                        <div class="c-item-02">
+                            +2 Renk
+                        </div>
+                    </div>
+                    <div class="c-container-04">
+                        <div class="c-item-02">
+                            <div class="c-item-02-A">%20</div>
+                            <div class="c-item-02-B">
+                                <div class="c-unit-01">5,950 TL</div>
+                                <div class="c-unit-02">4,950 TL</div>
+                            </div>
+                            <div class="c-item-02-C">
+                                <div class="c-unit-01">Sepette %10 İndirim</div>
+                                <div class="c-unit-02">4,290 TL</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-container-05">
+                        <a href="#" class="c-item-01">60 cm.</a>
+                        <a href="#" class="c-item-01">VitrA Clean Teknolojisi</a>
+                    </div>
+                    <div class="c-container-06">
+                        <a href="#" class="c-item-01">Ürünü İncele</a>
+                        <a href="#" class="c-item-02">Hızlı Satın Al</a>
+                    </div>
+                </div>
+            </div>
+            <div class="comp-product-01">
+                <div class="c-container-01">
+                    <picture>
+                        <source media="(max-width: 465px)" srcset="/Content/Visuals/Temp/p6-large.png" />
+                        <source media="(min-width: 466)" srcset="/Content/Visuals/Temp/p6-large.png" />
+                        <img src="/Content/Visuals/Temp/p6-large.png" alt="" />
+                    </picture>
+                </div>
+                <div class="c-container-07">
+                    <div class="c-container-02">
+                        <div class="c-item-01">
+
+                        </div>
+                        <div class="c-item-02">
+                            <h5 class="c-item-02-A">
+                                Asma Klozetler için Taharetli Açık
+                                Gri Platform
+                            </h5>
+                            <a class="c-item-02-B" href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.75 21L11.9993 17.25L5.25 21V3.75C5.25 3.55109 5.32902 3.36032 5.46967 3.21967C5.61032 3.07902 5.80109 3 6 3H18C18.1989 3 18.3897 3.07902 18.5303 3.21967C18.671 3.36032 18.75 3.55109 18.75 3.75V21Z" stroke="#373A37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="c-container-03">
+                        <div class="c-item-01">
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c1.png')"></a>
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c2.png')"></a>
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c3.png')"></a>
+
+                        </div>
+                        <div class="c-item-02">
+                            +2 Renk
+                        </div>
+                    </div>
+                    <div class="c-container-04">
+                        <div class="c-item-02">
+                            <div class="c-item-02-A">%20</div>
+                            <div class="c-item-02-B">
+                                <div class="c-unit-01">5,950 TL</div>
+                                <div class="c-unit-02">4,950 TL</div>
+                            </div>
+                            <div class="c-item-02-C">
+                                <div class="c-unit-01">Sepette %10 İndirim</div>
+                                <div class="c-unit-02">4,290 TL</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-container-05">
+                        <a href="#" class="c-item-01">60 cm.</a>
+                        <a href="#" class="c-item-01">VitrA Clean Teknolojisi</a>
+                    </div>
+                    <div class="c-container-06">
+                        <a href="#" class="c-item-01">Ürünü İncele</a>
+                        <a href="#" class="c-item-02">Hızlı Satın Al</a>
+                    </div>
+                </div>
+            </div>
+            <div class="comp-product-01">
+                <div class="c-container-01">
+                    <picture>
+                        <source media="(max-width: 465px)" srcset="/Content/Visuals/Temp/p7-large.png" />
+                        <source media="(min-width: 466)" srcset="/Content/Visuals/Temp/p7-large.png" />
+                        <img src="/Content/Visuals/Temp/p7-large.png" alt="" />
+                    </picture>
+                    <div class="c-item-01">20₺ Tasarruf</div>
+                </div>
+                <div class="c-container-07">
+                    <div class="c-container-02">
+                        <div class="c-item-01">
+                            YENİ
+                        </div>
+                        <div class="c-item-02">
+                            <h5 class="c-item-02-A">
+                                Origin Lavabo Bataryası
+                            </h5>
+                            <a class="c-item-02-B" href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.75 21L11.9993 17.25L5.25 21V3.75C5.25 3.55109 5.32902 3.36032 5.46967 3.21967C5.61032 3.07902 5.80109 3 6 3H18C18.1989 3 18.3897 3.07902 18.5303 3.21967C18.671 3.36032 18.75 3.55109 18.75 3.75V21Z" stroke="#373A37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="c-container-03">
+                        <div class="c-item-01">
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c1.png')"></a>
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c2.png')"></a>
+                            <a href="#" class="c-item-01-A" style="background-image:url('/Content/Visuals/Temp/c3.png')"></a>
+
+                        </div>
+                    </div>
+                    <div class="c-container-04">
+                        <div class="c-item-02">
+                            <div class="c-item-02-A">%20</div>
+                            <div class="c-item-02-B">
+                                <div class="c-unit-01">5,950 TL</div>
+                                <div class="c-unit-02">4,950 TL</div>
+                            </div>
+                            <div class="c-item-02-C">
+                                <div class="c-unit-01">Sepette %10 İndirim</div>
+                                <div class="c-unit-02">4,290 TL</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-container-05">
+                        <a href="#" class="c-item-01">60 cm.</a>
+                        <a href="#" class="c-item-01">VitrA Clean Teknolojisi</a>
+                    </div>
+                    <div class="c-container-06">
+                        <a href="#" class="c-item-01">Ürünü İncele</a>
+                        <a href="#" class="c-item-02">Hızlı Satın Al</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br /><br />
+    <section>
+        <h1>Filter</h1>
+        <div class="c-wrapper">
+
+            <div class="comp-micro-01">
+                <div id="listItem01" class="c-container-01">
+                    <a href="#" onclick="Felece.UX.expand({ ev: event, sender: this, contentId: 'content01', senderStyle: 'rotate' });" contentId="content01" class="c-item-01">
+                        <h6 class="c-item-01-A"><span class="c-unit-01">1.</span> Çıkış Ucu Yüksekliği</h6>
+
+                        <div class="c-item-01-B" id="expandIcon-content01">
+                            <div class="c-unit-01">
+                                Seçiniz
+                            </div>
+                            <div class="c-unit-02">
+                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 1L5 5L1 1" stroke="#373A37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </a>
+                    <div data-expand="content01" class="">
+                        <div class="expandingContent">
+                            <div class="c-item-02">
+                                <a href="#" class="c-item-01-A">Kısa (81 mm)</a>
+                                <a href="#" class="c-item-01-A">Orta (101 mm)</a>
+                                <a href="#" class="c-item-01-A">Uzun (121 mm)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="listItem02" class="c-container-01">
+                    <a href="#" onclick="Felece.UX.expand({ ev: event, sender: this, contentId: 'content02', senderStyle: 'rotate' });" contentId="content02" class="c-item-01">
+                        <h6 class="c-item-01-A"><span class="c-unit-01">1.</span> Çıkış Ucu Yüksekliği</h6>
+
+                        <div class="c-item-01-B" id="expandIcon-content02">
+                            <div class="c-unit-01">
+                                Seçiniz
+                            </div>
+                            <div class="c-unit-02">
+                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 1L5 5L1 1" stroke="#373A37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+
+
+                            </div>
+                        </div>
+                    </a>
+                    <div data-expand="content02" class="">
+                        <div class="expandingContent">
+                            <div class="c-item-02">
+                                <a href="#" class="c-item-01-A">Kısa (81 mm)</a>
+                                <a href="#" class="c-item-01-A">Orta (101 mm)</a>
+                                <a href="#" class="c-item-01-A">Uzun (121 mm)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <br /><br />
+</main>
+
+
+@section beforeScripts{
+}
+
+@section beforeBodyEnd{
+
+
+}

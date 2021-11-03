@@ -1,0 +1,28 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-section-17 .c-wrapper > .comp-micro-04 {
+    margin-bottom: 20px;
+    width: 100%; }
+  .comp-section-17 .c-wrapper > :last-child {
+    margin-bottom: 0; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-section-17 .c-wrapper {
+    display: flex;
+    flex-wrap: wrap; }
+    .comp-section-17 .c-wrapper > .comp-micro-04 {
+      margin-right: 24px;
+      margin-bottom: 24px; }
+    .comp-section-17 .c-wrapper > :nth-child(3n) {
+      margin-right: 0; }
+    .comp-section-17 .c-wrapper > :nth-last-child(-n+3) {
+      margin-bottom: 0; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=17.css.map */

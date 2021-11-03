@@ -1,0 +1,84 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-filter-01 {
+    width: 100%; }
+    .comp-filter-01 > .c-container-01 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px; }
+    .comp-filter-01 > .c-container-02 > .comp-form-02 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .comp-filter-01 > .c-container-02 > .comp-form-02 > .c-item-02 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #373A37; }
+
+  .comp-filter-01 > .c-container-01 > .c-item-01 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000; }
+  .comp-filter-01 > .c-container-01 > .c-item-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: #97A0A9; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-filter-01 {
+    width: 306px;
+    position: sticky;
+    top: 68px;
+    bottom: 0; }
+    .comp-filter-01 > .c-container-01 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px; }
+    .comp-filter-01 > .c-container-02 > .comp-form-02 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .comp-filter-01 > .c-container-02 > .comp-form-02 > .c-item-02 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #373A37; }
+
+  .comp-filter-01 > .c-container-01 > .c-item-01 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000; }
+  .comp-filter-01 > .c-container-01 > .c-item-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: #97A0A9; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=01.css.map */

@@ -1,0 +1,813 @@
+@import "../../../Base/Global.scss";
+@import "../../../Base/Global.scss";
+
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+
+    // Related with UI
+    .comp-product-02 {
+
+        > .c-container-01 {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            height: 306px;
+
+            > .c-item-01 {
+                position: absolute;
+                top: 0;
+                right: 0;
+                display: flex;
+                align-items: center;
+                padding: 0 15px 0 26px;
+                height: 32px;
+                background: #97A0A9;
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 16px 0 16px 13px;
+                    border-color: transparent transparent transparent #ffffff;
+                }
+            }
+
+            > .c-item-02 {
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                label {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #7D8285;
+                }
+
+                .chk-A.chk-slim [type=checkbox]:checked ~ label {
+                    color: #373A37;
+                }
+            }
+        }
+
+        > .c-container-07 {
+            padding: 0 8px;
+
+            > .c-container-02 {
+
+                > .c-item-01 {
+                    position: absolute;
+                    top: -19px;
+                }
+
+                > .c-item-02 {
+                    height: 40px;
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 17px 0 15px 0;
+
+                    > .c-item-02-B {
+                        display: none;
+                    }
+                }
+            }
+
+            > .c-container-03 {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+
+                > .c-item-01 {
+                    display: flex;
+
+                    > .c-item-01-A {
+                        width: 18px;
+                        height: 18px;
+                        margin-right: 4px;
+                        border-radius: 50%;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+
+                    > :last-child {
+                        margin-right: 0;
+                    }
+                }
+
+                > .c-item-02 {
+                    margin-left: 8px;
+                }
+            }
+
+
+            > .c-container-04 {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                height: 56px;
+                margin: 16px 0;
+                border-top: 1px solid #E4E6E8;
+                border-bottom: 1px solid #E4E6E8;
+
+                > .c-item-01 {
+                }
+
+                > .c-item-02 {
+                    display: flex;
+                    align-items: center;
+
+                    > .c-item-02-A {
+                        width: 40px;
+                        height: 40px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 16px;
+                        background: rgba(140, 56, 46, 0.1);
+                        border-radius: 2px;
+                        border: 1px solid #8C382E;
+                    }
+
+                    > .c-item-02-B {
+
+                        > .c-unit-01 {
+                            margin-bottom: 2px;
+                        }
+
+                        > .c-unit-02 {
+                        }
+                    }
+
+                    > .c-item-02-C {
+                        margin-left: 15px;
+                        padding-left: 15px;
+                        border-left: 1px solid #E4E6E8;
+
+                        .c-unit-01 {
+                            margin-bottom: 2px;
+                        }
+                    }
+                }
+            }
+
+            > .c-container-05 {
+                display: flex;
+                flex-wrap: wrap;
+
+                > .c-item-01 {
+                    display: flex;
+                    align-items: center;
+                    padding: 0 8px;
+                    margin-right: 8px;
+                    border: 1px solid #E4E6E8;
+                    border-radius: 2px;
+                }
+
+                > :last-child {
+                    margin-right: 0;
+                }
+            }
+
+            > .c-container-06 {
+                margin-top: 16px;
+                width: 100%;
+
+
+                > .c-item-01 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 48px;
+                    margin-bottom: 8px;
+                    background: linear-gradient(0deg, #A2413D, #A2413D);
+                    border-radius: 6px;
+                }
+
+                > .c-item-02 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 48px;
+                    background: #B8B1AD;
+                    border-radius: 6px;
+
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        top: 10;
+                        right: 13px;
+                        width: 24px;
+                        height: 24px;
+                        background-image: background-svg-iamge('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M3.75 6H20.1014C20.2113 6 20.3198 6.02413 20.4193 6.07068C20.5188 6.11724 20.6068 6.18508 20.6772 6.26941C20.7476 6.35374 20.7986 6.45251 20.8266 6.55872C20.8546 6.66494 20.859 6.77601 20.8393 6.88409L19.2039 15.8841C19.1725 16.0569 19.0814 16.2132 18.9466 16.3258C18.8117 16.4383 18.6417 16.5 18.466 16.5H6.29237C6.11679 16.5 5.94678 16.4384 5.81195 16.3259C5.67713 16.2135 5.58603 16.0573 5.55453 15.8845L3.18041 2.86545C3.14892 2.69273 3.05782 2.53652 2.92299 2.42406C2.78817 2.3116 2.61816 2.25 2.44258 2.25H0.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> <path d="M7.75 22.5625C8.47487 22.5625 9.0625 21.9749 9.0625 21.25C9.0625 20.5251 8.47487 19.9375 7.75 19.9375C7.02513 19.9375 6.4375 20.5251 6.4375 21.25C6.4375 21.9749 7.02513 22.5625 7.75 22.5625Z" fill="white"/> <path d="M16 22.5625C16.7249 22.5625 17.3125 21.9749 17.3125 21.25C17.3125 20.5251 16.7249 19.9375 16 19.9375C15.2751 19.9375 14.6875 20.5251 14.6875 21.25C14.6875 21.9749 15.2751 22.5625 16 22.5625Z" fill="white"/> </svg> ');
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+
+
+            > .c-container-08 {
+                margin-top: 18px;
+                height: 48px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #F4ECEB;
+                border-radius: 6px;
+            }
+        }
+
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: -12px;
+            bottom: 0;
+            width: 1px;
+            background: #E4E6E8;
+        }
+    }
+    // Related with Typography
+    .comp-product-02 {
+
+        > .c-container-01 {
+
+            > .c-item-01 {
+                font-family: Open Sans;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 18px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+
+        > .c-container-07 {
+            > .c-container-02 {
+
+                > .c-item-01 {
+                    font-family: Open Sans;
+                    font-weight: 800;
+                    font-size: 12px;
+                    line-height: 24px;
+                    letter-spacing: 0.2em;
+                    color: #DBC1A2;
+                }
+
+                > .c-item-02 {
+
+                    > .c-item-02-A {
+                        font-family: Open Sans;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 150%;
+                        color: #373A37;
+                    }
+                }
+            }
+
+            > .c-container-03 {
+
+
+                > .c-item-02 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 13px;
+                    color: #97A0A9;
+                }
+            }
+
+
+            > .c-container-04 {
+
+                > .c-item-01 {
+                    font-family: Open Sans;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 16px;
+                    color: #373A37;
+                }
+
+                > .c-item-02 {
+
+                    > .c-item-02-A {
+                        font-family: Open Sans;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 18px;
+                        text-align: center;
+                    }
+
+                    > .c-item-02-B {
+
+                        > .c-unit-01 {
+                            font-family: Open Sans;
+                            font-weight: 600;
+                            font-size: 12px;
+                            line-height: 12px;
+                            color: #373A37;
+                            text-decoration: line-through;
+                        }
+
+                        > .c-unit-02 {
+                            font-family: Open Sans;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 16px;
+                            color: #373A37;
+                        }
+                    }
+
+                    > .c-item-02-C {
+
+                        .c-unit-01 {
+                            font-family: Open Sans;
+                            font-weight: 600;
+                            font-size: 12px;
+                            line-height: 12px;
+                            color: #A1413D;
+                        }
+
+                        .c-unit-02 {
+                            font-family: Open Sans;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 16px;
+                            color: #A1413D;
+                        }
+                    }
+                }
+            }
+
+            > .c-container-05 {
+
+                > .c-item-01 {
+                    font-family: Open Sans;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #7D8285;
+                }
+            }
+
+            > .c-container-06 {
+
+                > .c-item-01 {
+                    font-family: Open Sans;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                }
+
+                > .c-item-02 {
+                    font-family: Open Sans;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                }
+            }
+
+            > .c-container-08 {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: #A1413D;
+            }
+        }
+    }
+}
+
+/* XS1 */
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+}
+
+/* XS2 */
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common SM1 and SM2 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* SM1 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+}
+
+/* SM2 */
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* Common MD and LG */
+@media all and (min-width: #{$mq-md + "px"}) {
+
+
+    // Related with UI
+    .comp-product-02 {
+        width: 306px;
+
+        > .c-container-01 {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            width: 306px;
+            height: 306px;
+
+            > .c-item-01 {
+                position: absolute;
+                top: 0;
+                right: 0;
+                display: flex;
+                align-items: center;
+                padding: 0 15px 0 26px;
+                height: 32px;
+                background: #97A0A9;
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 16px 0 16px 13px;
+                    border-color: transparent transparent transparent #ffffff;
+                }
+            }
+
+            > .c-item-02 {
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                label {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #7D8285;
+                }
+
+                .chk-A.chk-slim [type=checkbox]:checked ~ label {
+                    color: #373A37;
+                }
+            }
+        }
+
+        > .c-container-07 {
+            padding: 0 8px;
+
+            > .c-container-02 {
+
+                > .c-item-01 {
+                    position: absolute;
+                    top: -19px;
+                }
+
+                > .c-item-02 {
+                    height: 40px;
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 17px 0 15px 0;
+
+                    > .c-item-02-B {
+                        display: none;
+                    }
+                }
+            }
+
+            > .c-container-03 {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+
+                > .c-item-01 {
+                    display: flex;
+
+                    > .c-item-01-A {
+                        width: 18px;
+                        height: 18px;
+                        margin-right: 4px;
+                        border-radius: 50%;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+
+                    > :last-child {
+                        margin-right: 0;
+                    }
+                }
+
+                > .c-item-02 {
+                    margin-left: 8px;
+                }
+            }
+
+
+            > .c-container-04 {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                height: 56px;
+                margin: 16px 0;
+                border-top: 1px solid #E4E6E8;
+                border-bottom: 1px solid #E4E6E8;
+
+                > .c-item-01 {
+                }
+
+                > .c-item-02 {
+                    display: flex;
+                    align-items: center;
+
+                    > .c-item-02-A {
+                        width: 40px;
+                        height: 40px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 16px;
+                        background: rgba(140, 56, 46, 0.1);
+                        border-radius: 2px;
+                        border: 1px solid #8C382E;
+                    }
+
+                    > .c-item-02-B {
+
+                        > .c-unit-01 {
+                            margin-bottom: 2px;
+                        }
+
+                        > .c-unit-02 {
+                        }
+                    }
+
+                    > .c-item-02-C {
+                        margin-left: 15px;
+                        padding-left: 15px;
+                        border-left: 1px solid #E4E6E8;
+
+                        .c-unit-01 {
+                            margin-bottom: 2px;
+                        }
+                    }
+                }
+            }
+
+            > .c-container-05 {
+                display: flex;
+                flex-wrap: wrap;
+
+                > .c-item-01 {
+                    display: flex;
+                    align-items: center;
+                    padding: 0 8px;
+                    margin-right: 8px;
+                    border: 1px solid #E4E6E8;
+                    border-radius: 2px;
+                }
+
+                > :last-child {
+                    margin-right: 0;
+                }
+            }
+
+            > .c-container-06 {
+                display: none;
+                position: absolute;
+                bottom: -33px;
+                width: 100%;
+
+
+                > .c-item-01 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 48px;
+                    margin-bottom: 8px;
+                    background: linear-gradient(0deg, #A2413D, #A2413D);
+                    border-radius: 6px;
+                }
+
+                > .c-item-02 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 48px;
+                    background: #B8B1AD;
+                    border-radius: 6px;
+
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        top: 10;
+                        right: 13px;
+                        width: 24px;
+                        height: 24px;
+                        background-image: background-svg-iamge('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M3.75 6H20.1014C20.2113 6 20.3198 6.02413 20.4193 6.07068C20.5188 6.11724 20.6068 6.18508 20.6772 6.26941C20.7476 6.35374 20.7986 6.45251 20.8266 6.55872C20.8546 6.66494 20.859 6.77601 20.8393 6.88409L19.2039 15.8841C19.1725 16.0569 19.0814 16.2132 18.9466 16.3258C18.8117 16.4383 18.6417 16.5 18.466 16.5H6.29237C6.11679 16.5 5.94678 16.4384 5.81195 16.3259C5.67713 16.2135 5.58603 16.0573 5.55453 15.8845L3.18041 2.86545C3.14892 2.69273 3.05782 2.53652 2.92299 2.42406C2.78817 2.3116 2.61816 2.25 2.44258 2.25H0.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> <path d="M7.75 22.5625C8.47487 22.5625 9.0625 21.9749 9.0625 21.25C9.0625 20.5251 8.47487 19.9375 7.75 19.9375C7.02513 19.9375 6.4375 20.5251 6.4375 21.25C6.4375 21.9749 7.02513 22.5625 7.75 22.5625Z" fill="white"/> <path d="M16 22.5625C16.7249 22.5625 17.3125 21.9749 17.3125 21.25C17.3125 20.5251 16.7249 19.9375 16 19.9375C15.2751 19.9375 14.6875 20.5251 14.6875 21.25C14.6875 21.9749 15.2751 22.5625 16 22.5625Z" fill="white"/> </svg> ');
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+
+
+            > .c-container-08 {
+                margin-top:18px;
+                height:48px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #F4ECEB;
+                border-radius: 6px;
+            }
+        }
+
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: -12px;
+            bottom: 0;
+            width: 1px;
+            background: #E4E6E8;
+        }
+    }
+    // Related with Typography
+    .comp-product-02 {
+
+        > .c-container-01 {
+
+            > .c-item-01 {
+                font-family: Open Sans;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 18px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+
+        > .c-container-07 {
+            > .c-container-02 {
+
+                > .c-item-01 {
+                    font-family: Open Sans;
+                    font-weight: 800;
+                    font-size: 12px;
+                    line-height: 24px;
+                    letter-spacing: 0.2em;
+                    color: #DBC1A2;
+                }
+
+                > .c-item-02 {
+
+                    > .c-item-02-A {
+                        font-family: Open Sans;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 150%;
+                        color: #373A37;
+                    }
+                }
+            }
+
+            > .c-container-03 {
+
+
+                > .c-item-02 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 13px;
+                    color: #97A0A9;
+                }
+            }
+
+
+            > .c-container-04 {
+
+                > .c-item-01 {
+                    font-family: Open Sans;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 16px;
+                    color: #373A37;
+                }
+
+                > .c-item-02 {
+
+                    > .c-item-02-A {
+                        font-family: Open Sans;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 18px;
+                        text-align: center;
+                    }
+
+                    > .c-item-02-B {
+
+                        > .c-unit-01 {
+                            font-family: Open Sans;
+                            font-weight: 600;
+                            font-size: 12px;
+                            line-height: 12px;
+                            color: #373A37;
+                            text-decoration: line-through;
+                        }
+
+                        > .c-unit-02 {
+                            font-family: Open Sans;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 16px;
+                            color: #373A37;
+                        }
+                    }
+
+                    > .c-item-02-C {
+
+                        .c-unit-01 {
+                            font-family: Open Sans;
+                            font-weight: 600;
+                            font-size: 12px;
+                            line-height: 12px;
+                            color: #A1413D;
+                        }
+
+                        .c-unit-02 {
+                            font-family: Open Sans;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 16px;
+                            color: #A1413D;
+                        }
+                    }
+                }
+            }
+
+            > .c-container-05 {
+
+                > .c-item-01 {
+                    font-family: Open Sans;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #7D8285;
+                }
+            }
+
+            > .c-container-06 {
+
+                > .c-item-01 {
+                    font-family: Open Sans;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                }
+
+                > .c-item-02 {
+                    font-family: Open Sans;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                }
+            }
+
+            > .c-container-08 {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: #A1413D;
+            }
+        }
+    }
+}
+
+/* MD */
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+}
+
+/* LG */
+@media all and (min-width: #{$mq-lg + "px"}) {
+}

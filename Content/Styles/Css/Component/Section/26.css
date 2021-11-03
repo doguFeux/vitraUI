@@ -1,0 +1,51 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-section-26 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 300px 0; }
+    .comp-section-26 > .c-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .comp-section-26 > .c-wrapper > .c-container-01 {
+        margin-top: 32px; }
+
+  .comp-section-26 > .c-wrapper > .c-container-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2A2E38; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-section-26 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 300px 0; }
+    .comp-section-26 > .c-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .comp-section-26 > .c-wrapper > .c-container-01 {
+        margin-top: 32px; }
+
+  .comp-section-26 > .c-wrapper > .c-container-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2A2E38; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=26.css.map */

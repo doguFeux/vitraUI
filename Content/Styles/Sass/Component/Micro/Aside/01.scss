@@ -1,0 +1,829 @@
+@import "../../../Base/Global.scss";
+@import "../../../Base/Global.scss";
+
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+
+
+    // Related UI
+    .comp-aside-01 {
+        width: 375px;
+
+        &:not(.on) {
+            position: sticky;
+            top: 0;
+        }
+
+        &.on {
+            position: fixed;
+            bottom: 64px;
+            z-index: 200;
+
+            > .c-column-01 {
+                border-radius: 0;
+            }
+        }
+
+        > .c-column-01 {
+            background: linear-gradient(360deg, #FFFFFF 27.45%, rgba(255, 255, 255, 0) 100%), #FAFAFA;
+            border: 1px solid #E4E6E8;
+            border-radius: 8px;
+
+            &:after {
+                content: "";
+                height: 32px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-image: svg-background-image('<svg width="377" height="32" viewBox="0 0 377 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M13.5918 0L-6 19.5918V32H385.837V19.5918L366.245 0L346.653 19.5918L327.061 0L307.469 19.5918L287.878 0L268.286 19.5918L248.694 0L229.102 19.5918L209.51 0L189.918 19.5918L170.327 0L150.735 19.5918L131.143 0L111.551 19.5918L91.9592 0L72.3673 19.5918L52.7755 0L33.1837 19.5918L13.5918 0Z" fill="#F4F6F6"/> </svg> ');
+                background-repeat: no-repeat;
+            }
+
+            > .c-container-01 {
+                padding: 16px 0 0 24px;
+            }
+
+            > .c-container-06 {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 50px;
+                margin: 0 24px 0px 24px;
+
+                > .c-item-01 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #373A37;
+                }
+
+
+                > .c-item-02 {
+                    #cupounMinus {
+                        display: none;
+                    }
+                }
+
+                &.on {
+
+                    ~ .c-container-02 {
+                        height: 48px;
+                        opacity: 1;
+                        -moz-transition: height 0.4s ease-in-out, opacity 1s;
+                        -o-transition: height 0.4s ease-in-out, opacity 1s;
+                        -webkit-transition: height 0.4s ease-in-out, opacity 1s;
+                        transition: height 0.4s ease-in-out, opacity 1s;
+                    }
+
+
+                    > .c-item-01 {
+                        font-weight: 600;
+                    }
+
+
+                    > .c-item-02 {
+                        #cupounMinus {
+                            display: flex;
+                        }
+
+                        #cupounPlus {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            > .c-container-02 {
+                height: 0;
+                overflow: hidden;
+                opacity: 0;
+                -moz-transition: height 0.4s ease-in-out, opacity 0.3s;
+                -o-transition: height 0.4s ease-in-out, opacity 0.3s;
+                -webkit-transition: height 0.4s ease-in-out, opacity 0.3s;
+                transition: height 0.4s ease-in-out, opacity 0.3s;
+                margin: 0 16px;
+                width: calc(100% - 32px);
+
+                .svgDesktop {
+                    display: none;
+                }
+
+                .svgMobile {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 44px;
+                    height: 48px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #000;
+                }
+
+                > .c-item-01 {
+                    background: #FFFFFF;
+                    border: 1px solid #E4E6E8;
+                    border-radius: 6px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 48px;
+                    width: 100%;
+                    padding-left: 16px;
+
+                }
+            }
+
+            > .c-container-03 {
+                padding: 0 24px 40px 24px;
+                margin-top: 16px;
+
+                > .c-item-01 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    > .c-item-01-A {
+                    }
+
+                    > .c-item-01-B {
+                    }
+                }
+
+                > .c-item-02 {
+                    margin-top: 12px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    > .c-item-02-A {
+                    }
+
+                    > .c-item-02-B {
+                    }
+                }
+
+                > .c-item-03 {
+                    margin-top: 12px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    > .c-item-03-A {
+                    }
+
+                    > .c-item-03-B {
+                        width: 102px;
+                        height: 24px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background: #63A87B;
+                        border-radius: 31px;
+                    }
+                }
+
+                > .c-item-04 {
+                    margin-top: 12px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    > .c-item-04-A {
+                    }
+
+                    > .c-item-04-B {
+                    }
+                }
+
+                > .c-item-05 {
+                    margin-top: 12px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    > .c-item-05-A {
+                    }
+
+                    > .c-item-05-B {
+                    }
+                }
+            }
+
+            > .c-container-04 {
+                display: none;
+            }
+
+            > .c-container-05 {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 24px;
+                background: #F4F6F6;
+                mix-blend-mode: normal;
+                border-radius: 8px;
+            }
+        }
+
+        > .c-column-02 {
+            background: linear-gradient(360deg, #FFFFFF 27.45%, rgba(255, 255, 255, 0) 100%), #FAFAFA;
+            padding: 24px;
+
+            > .c-item-02 {
+
+                label {
+                    display: block;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #373A37;
+
+                    a {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: #373A37;
+                        text-decoration-line: underline;
+                    }
+                }
+            }
+        }
+
+        &.v2 {
+
+            > .c-column-01 {
+                &:after {
+                    bottom: 20px;
+                }
+
+                > .c-container-03 {
+                    margin-bottom: 76px;
+                }
+            }
+        }
+    }
+    // Related Typography
+    .comp-aside-01 {
+
+        > .c-column-01 {
+            > .c-container-01 {
+                font-family: Palanquin;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 32px;
+                color: #373A37;
+            }
+
+            > .c-container-02 {
+
+                > .c-item-01 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #6F7787;
+                }
+            }
+
+            > .c-container-03 {
+
+                > .c-item-01 {
+
+                    > .c-item-01-A {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+
+                    > .c-item-01-B {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+                }
+
+                > .c-item-02 {
+                    > .c-item-02-A {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+
+                    > .c-item-02-B {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+                }
+
+                > .c-item-03 {
+
+                    > .c-item-03-A {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+
+                    > .c-item-03-B {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 12px;
+                        line-height: 150%;
+                        color: #FFFFFF;
+                    }
+                }
+
+                > .c-item-04 {
+
+                    > .c-item-04-A {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 32px;
+                        color: #A1413D;
+                    }
+
+                    > .c-item-04-B {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 32px;
+                        color: #A1413D;
+                    }
+                }
+
+                > .c-item-05 {
+
+
+                    > .c-item-05-A {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+
+                    > .c-item-05-B {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 32px;
+                        text-align: right;
+                        color: #373A37;
+                    }
+                }
+            }
+
+            > .c-container-04 {
+
+                > .c-item-01 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+
+/* XS1 */
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+}
+
+/* XS2 */
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common SM1 and SM2 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* SM1 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+}
+
+/* SM2 */
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* Common MD and LG */
+@media all and (min-width: #{$mq-md + "px"}) {
+
+
+    // Related UI
+    .comp-aside-01 {
+        position: sticky;
+        top: 0;
+        width: 375px;
+
+        > .c-column-01 {
+            background: linear-gradient(360deg, #FFFFFF 27.45%, rgba(255, 255, 255, 0) 100%), #FAFAFA;
+            border: 1px solid #E4E6E8;
+            border-radius: 8px;
+
+            &:after {
+                content: "";
+                height: 32px;
+                position: absolute;
+                bottom: 63px;
+                left: 0;
+                right: 0;
+                background-image: svg-background-image('<svg width="377" height="32" viewBox="0 0 377 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M13.5918 0L-6 19.5918V32H385.837V19.5918L366.245 0L346.653 19.5918L327.061 0L307.469 19.5918L287.878 0L268.286 19.5918L248.694 0L229.102 19.5918L209.51 0L189.918 19.5918L170.327 0L150.735 19.5918L131.143 0L111.551 19.5918L91.9592 0L72.3673 19.5918L52.7755 0L33.1837 19.5918L13.5918 0Z" fill="#F4F6F6"/> </svg> ');
+                background-repeat: no-repeat;
+            }
+
+            > .c-container-01 {
+                padding: 16px 0 0 24px;
+            }
+
+            > .c-container-02 {
+                margin-top: 16px;
+                padding: 0 16px;
+
+                .svgDesktop {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    right: 25px;
+                    top: 8px;
+                    z-index: 5;
+                }
+
+                .svgMobile {
+                    display: none;
+                }
+
+                > .c-item-01 {
+                    background: #FFFFFF;
+                    border: 1px solid #E4E6E8;
+                    border-radius: 6px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 48px;
+                    width: 100%;
+
+                    ::-webkit-input-placeholder {
+                        text-align: center;
+                    }
+
+                    :-moz-placeholder { /* Firefox 18- */
+                        text-align: center;
+                    }
+
+                    ::-moz-placeholder { /* Firefox 19+ */
+                        text-align: center;
+                    }
+
+                    :-ms-input-placeholder {
+                        text-align: center;
+                    }
+                }
+            }
+
+            > .c-container-03 {
+                padding: 0 24px;
+                margin-top: 16px;
+
+                > .c-item-01 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    > .c-item-01-A {
+                    }
+
+                    > .c-item-01-B {
+                    }
+                }
+
+                > .c-item-02 {
+                    margin-top: 12px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    > .c-item-02-A {
+                    }
+
+                    > .c-item-02-B {
+                    }
+                }
+
+                > .c-item-03 {
+                    margin-top: 12px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    > .c-item-03-A {
+                    }
+
+                    > .c-item-03-B {
+                        width: 102px;
+                        height: 24px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background: #63A87B;
+                        border-radius: 31px;
+                    }
+                }
+
+                > .c-item-04 {
+                    margin-top: 12px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    > .c-item-04-A {
+                    }
+
+                    > .c-item-04-B {
+                    }
+                }
+
+                > .c-item-05 {
+                    margin-top: 12px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    > .c-item-05-A {
+                    }
+
+                    > .c-item-05-B {
+                    }
+                }
+            }
+
+            > .c-container-04 {
+                margin-top: 60px;
+                padding: 0 16px 16px 24px;
+                background: #F4F6F6;
+                mix-blend-mode: normal;
+                border-radius: 8px;
+                z-index: 2;
+
+                > .c-item-01 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 48px;
+                    background: linear-gradient(0deg, #8C382E, #8C382E);
+                    border-radius: 6px;
+
+                    &.disabled {
+                        background: rgba(151, 160, 169, .5);
+                    }
+                }
+            }
+
+            > .c-container-05 {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 24px;
+                background: #F4F6F6;
+                mix-blend-mode: normal;
+                border-radius: 8px;
+            }
+
+            > .c-container-06 {
+                display: none;
+            }
+        }
+
+        > .c-column-02 {
+            padding: 0 57px 0 24px;
+
+            > .c-item-02 {
+
+                label {
+                    display: block;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #373A37;
+
+                    a {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: #373A37;
+                        text-decoration-line: underline;
+                    }
+                }
+            }
+        }
+
+        &.v2 {
+
+            > .c-column-01 {
+                &:after {
+                    bottom: 20px;
+                }
+
+                > .c-container-03 {
+                    margin-bottom: 76px;
+                }
+            }
+        }
+    }
+    // Related Typography
+    .comp-aside-01 {
+
+        > .c-column-01 {
+            > .c-container-01 {
+                font-family: Palanquin;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 32px;
+                color: #373A37;
+            }
+
+            > .c-container-02 {
+
+                > .c-item-01 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #6F7787;
+                }
+            }
+
+            > .c-container-03 {
+
+                > .c-item-01 {
+
+                    > .c-item-01-A {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+
+                    > .c-item-01-B {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+                }
+
+                > .c-item-02 {
+                    > .c-item-02-A {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+
+                    > .c-item-02-B {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+                }
+
+                > .c-item-03 {
+
+                    > .c-item-03-A {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+
+                    > .c-item-03-B {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 12px;
+                        line-height: 150%;
+                        color: #FFFFFF;
+                    }
+                }
+
+                > .c-item-04 {
+
+                    > .c-item-04-A {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 32px;
+                        color: #A1413D;
+                    }
+
+                    > .c-item-04-B {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 32px;
+                        color: #A1413D;
+                    }
+                }
+
+                > .c-item-05 {
+
+
+                    > .c-item-05-A {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+
+                    > .c-item-05-B {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 32px;
+                        text-align: right;
+                        color: #373A37;
+                    }
+                }
+            }
+
+            > .c-container-04 {
+
+                > .c-item-01 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+/* MD */
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+}
+
+/* LG */
+@media all and (min-width: #{$mq-lg + "px"}) {
+}

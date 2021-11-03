@@ -1,0 +1,80 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-micro-20 {
+    background: #F4F7F6;
+    padding: 24px 32px; }
+    .comp-micro-20 > .c-column-01 {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px; }
+      .comp-micro-20 > .c-column-01 > .c-container-01, .comp-micro-20 > .c-column-01 .c-container-02 {
+        width: calc(50% - 6px); }
+        .comp-micro-20 > .c-column-01 > .c-container-01 > .c-item-01, .comp-micro-20 > .c-column-01 .c-container-02 > .c-item-01 {
+          margin-bottom: 14px; }
+        .comp-micro-20 > .c-column-01 > .c-container-01 > :last-child, .comp-micro-20 > .c-column-01 .c-container-02 > :last-child {
+          margin-bottom: 0; }
+      .comp-micro-20 > .c-column-01 > .c-container-02 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end; }
+
+  .comp-micro-20 > .c-column-01 > .c-container-01 > .c-item-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7D8285; }
+  .comp-micro-20 > .c-column-01 > .c-container-02 > .c-item-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #373A37; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-micro-20 {
+    background: #F4F7F6;
+    padding: 24px 32px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; }
+    .comp-micro-20 > .c-column-01 {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      width: calc(50% - 12px); }
+      .comp-micro-20 > .c-column-01 > .c-container-01, .comp-micro-20 > .c-column-01 .c-container-02 {
+        width: calc(50% - 6px); }
+        .comp-micro-20 > .c-column-01 > .c-container-01 > .c-item-01, .comp-micro-20 > .c-column-01 .c-container-02 > .c-item-01 {
+          margin-bottom: 14px; }
+        .comp-micro-20 > .c-column-01 > .c-container-01 > :last-child, .comp-micro-20 > .c-column-01 .c-container-02 > :last-child {
+          margin-bottom: 0; }
+
+  .comp-micro-20 > .c-column-01 > .c-container-01 > .c-item-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7D8285; }
+  .comp-micro-20 > .c-column-01 > .c-container-02 > .c-item-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #373A37; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=20.css.map */

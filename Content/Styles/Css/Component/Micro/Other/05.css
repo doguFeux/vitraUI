@@ -1,0 +1,194 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-micro-05 > .accordion-item > .accordion-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 58px;
+    padding: 0 16px;
+    border-bottom: 1px solid #373A37; }
+    .comp-micro-05 > .accordion-item > .accordion-button:after {
+      content: "";
+      width: 15px;
+      height: 16px;
+      position: absolute;
+      right: 16px;
+      transition: transform .2s ease-in-out;
+      background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cpath%20d%3D%22M12%206L8%2010L4%206%22%20stroke%3D%22%23373A37%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%20%3C%2Fsvg%3E%20"); }
+    .comp-micro-05 > .accordion-item > .accordion-button:not(.collapsed):after {
+      transform: rotate(-90deg);
+      transition: transform .2s ease-in-out; }
+    .comp-micro-05 > .accordion-item > .accordion-button > .c-item-01-A {
+      display: flex;
+      align-items: center;
+      height: 100%; }
+      .comp-micro-05 > .accordion-item > .accordion-button > .c-item-01-A > .c-unit-02 {
+        margin-right: 12px; }
+    .comp-micro-05 > .accordion-item > .accordion-button > .c-unit-01 {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      color: #7D8285; }
+    .comp-micro-05 > .accordion-item > .accordion-button.on {
+      border-bottom: none; }
+      .comp-micro-05 > .accordion-item > .accordion-button.on .c-item-01-A {
+        color: #A1413D;
+        font-weight: 600; }
+  .comp-micro-05 > .accordion-item .accordion-collapse {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    -moz-transition: height 0.4s ease-in-out, opacity 0.3s;
+    -o-transition: height 0.4s ease-in-out, opacity 0.3s;
+    -webkit-transition: height 0.4s ease-in-out, opacity 0.3s;
+    transition: height 0.4s ease-in-out, opacity 0.3s; }
+    .comp-micro-05 > .accordion-item .accordion-collapse.on {
+      opacity: 1;
+      -moz-transition: height 0.4s ease-in-out, opacity 1s;
+      -o-transition: height 0.4s ease-in-out, opacity 1s;
+      -webkit-transition: height 0.4s ease-in-out, opacity 1s;
+      transition: height 0.4s ease-in-out, opacity 1s; }
+    .comp-micro-05 > .accordion-item .accordion-collapse .c-item-02 > .c-item-02-A {
+      display: flex;
+      align-items: center; }
+      .comp-micro-05 > .accordion-item .accordion-collapse .c-item-02 > .c-item-02-A span {
+        width: 16px;
+        height: 16px;
+        background-repeat: no-repeat;
+        margin-right: 20px;
+        border-radius: 50%; }
+    .comp-micro-05 > .accordion-item .accordion-collapse .c-item-02 > :last-child {
+      margin-bottom: 0; }
+  .comp-micro-05 > .comp-form-01 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .comp-micro-05 > .comp-form-01 > .c-item-02 {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      color: #373A37; }
+
+  .comp-micro-05 > .accordion-item > .accordion-button > .c-item-01-A {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #373A37; }
+  .comp-micro-05 > .accordion-item > .accordion-button > .c-unit-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7D8285; }
+  .comp-micro-05 > .accordion-item > .accordion-collapse .c-item-02 > .c-item-02-A {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    color: #3D3A36; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-micro-05 > .accordion-item > .accordion-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    padding: 0 37px 0 0;
+    border-bottom: 1px solid #373A37; }
+    .comp-micro-05 > .accordion-item > .accordion-button:after {
+      content: "";
+      width: 15px;
+      height: 16px;
+      position: absolute;
+      right: 16px;
+      transition: transform .2s ease-in-out;
+      background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cpath%20d%3D%22M12%206L8%2010L4%206%22%20stroke%3D%22%23373A37%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%20%3C%2Fsvg%3E%20"); }
+    .comp-micro-05 > .accordion-item > .accordion-button:not(.collapsed):after {
+      transform: rotate(-90deg);
+      transition: transform .2s ease-in-out; }
+    .comp-micro-05 > .accordion-item > .accordion-button > .c-item-01-A {
+      display: flex;
+      align-items: center;
+      height: 100%; }
+      .comp-micro-05 > .accordion-item > .accordion-button > .c-item-01-A > .c-unit-02 {
+        margin-right: 12px; }
+    .comp-micro-05 > .accordion-item > .accordion-button.on {
+      border-bottom: none; }
+      .comp-micro-05 > .accordion-item > .accordion-button.on .c-item-01-A {
+        color: #A1413D;
+        font-weight: 600; }
+  .comp-micro-05 > .accordion-item > .accordion-collapse {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    -moz-transition: height 0.4s ease-in-out, opacity 0.3s;
+    -o-transition: height 0.4s ease-in-out, opacity 0.3s;
+    -webkit-transition: height 0.4s ease-in-out, opacity 0.3s;
+    transition: height 0.4s ease-in-out, opacity 0.3s; }
+    .comp-micro-05 > .accordion-item > .accordion-collapse.on {
+      opacity: 1;
+      -moz-transition: height 0.4s ease-in-out, opacity 1s;
+      -o-transition: height 0.4s ease-in-out, opacity 1s;
+      -webkit-transition: height 0.4s ease-in-out, opacity 1s;
+      transition: height 0.4s ease-in-out, opacity 1s; }
+    .comp-micro-05 > .accordion-item > .accordion-collapse .c-item-02 > .c-item-02-A {
+      display: flex;
+      align-items: center; }
+      .comp-micro-05 > .accordion-item > .accordion-collapse .c-item-02 > .c-item-02-A span {
+        width: 16px;
+        height: 16px;
+        background-repeat: no-repeat;
+        margin-right: 20px;
+        border-radius: 50%; }
+    .comp-micro-05 > .accordion-item > .accordion-collapse .c-item-02 > :last-child {
+      margin-bottom: 0; }
+  .comp-micro-05 > .comp-form-01 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .comp-micro-05 > .comp-form-01 > .c-item-02 {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      color: #373A37; }
+
+  .comp-micro-05 > .accordion-item > .accordion-button > .c-item-01-A {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #373A37; }
+  .comp-micro-05 > .accordion-item > .accordion-button > .c-unit-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7D8285; }
+  .comp-micro-05 > .accordion-item > .accordion-collapse .c-item-02 > .c-item-02-A {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    color: #3D3A36; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=05.css.map */

@@ -1,0 +1,105 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-breadcrumb-01 .c-wrapper {
+    height: 40px;
+    display: flex;
+    align-items: center; }
+    .comp-breadcrumb-01 .c-wrapper > :not(:last-child) {
+      margin-right: 26px; }
+      .comp-breadcrumb-01 .c-wrapper > :not(:last-child):after {
+        content: "";
+        position: absolute;
+        right: -18px;
+        top: calc(50% - 8px);
+        width: 12px;
+        height: 16px;
+        background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2212%22%20height%3D%2216%22%20viewBox%3D%220%200%2012%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cg%20opacity%3D%220.9%22%3E%20%3Cpath%20d%3D%22M3.84009%203.76465L8.16009%207.99994L3.84009%2012.2352%22%20stroke%3D%22%23373A37%22%2F%3E%20%3C%2Fg%3E%20%3C%2Fsvg%3E%20");
+        background-repeat: no-repeat; }
+    .comp-breadcrumb-01 .c-wrapper > :nth-last-child(2):after {
+      background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2212%22%20height%3D%2216%22%20viewBox%3D%220%200%2012%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cg%20opacity%3D%220.9%22%3E%20%3Cpath%20d%3D%22M3.84009%203.76465L8.16009%207.99994L3.84009%2012.2352%22%20stroke%3D%22%237D8285%22%2F%3E%20%3C%2Fg%3E%20%3C%2Fsvg%3E%20"); }
+  .comp-breadcrumb-01.theme-02 {
+    background: #97A0A9; }
+    .comp-breadcrumb-01.theme-02 .c-wrapper > :not(:last-child):after {
+      content: "";
+      position: absolute;
+      right: -18px;
+      top: calc(50% - 8px);
+      width: 12px;
+      height: 16px;
+      background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2212%22%20height%3D%2216%22%20viewBox%3D%220%200%2012%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cg%20opacity%3D%220.9%22%3E%20%3Cpath%20d%3D%22M3.83997%203.76465L8.15997%207.99994L3.83997%2012.2352%22%20stroke%3D%22white%22%2F%3E%20%3C%2Fg%3E%20%3C%2Fsvg%3E%20");
+      background-repeat: no-repeat; }
+    .comp-breadcrumb-01.theme-02 .c-wrapper > :nth-last-child(2):after {
+      background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2212%22%20height%3D%2216%22%20viewBox%3D%220%200%2012%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cg%20opacity%3D%220.9%22%3E%20%3Cpath%20d%3D%22M3.83997%203.76465L8.15997%207.99994L3.83997%2012.2352%22%20stroke%3D%22white%22%2F%3E%20%3C%2Fg%3E%20%3C%2Fsvg%3E%20");
+      background-repeat: no-repeat; }
+
+  .comp-breadcrumb-01 .c-wrapper > :not(:last-child) {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.006em;
+    color: #272D38; }
+  .comp-breadcrumb-01 .c-wrapper > :last-child {
+    color: #7D8285; }
+  .comp-breadcrumb-01.theme-02 .c-wrapper > :not(:last-child) {
+    color: #FFFFFF; }
+  .comp-breadcrumb-01.theme-02 .c-wrapper > :last-child {
+    color: #FFFFFF; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-breadcrumb-01 .c-wrapper {
+    height: 40px;
+    display: flex;
+    align-items: center; }
+    .comp-breadcrumb-01 .c-wrapper > :not(:last-child) {
+      margin-right: 26px; }
+      .comp-breadcrumb-01 .c-wrapper > :not(:last-child):after {
+        content: "";
+        position: absolute;
+        right: -18px;
+        top: calc(50% - 8px);
+        width: 12px;
+        height: 16px;
+        background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2212%22%20height%3D%2216%22%20viewBox%3D%220%200%2012%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cg%20opacity%3D%220.9%22%3E%20%3Cpath%20d%3D%22M3.84009%203.76465L8.16009%207.99994L3.84009%2012.2352%22%20stroke%3D%22%23373A37%22%2F%3E%20%3C%2Fg%3E%20%3C%2Fsvg%3E%20");
+        background-repeat: no-repeat; }
+    .comp-breadcrumb-01 .c-wrapper > :nth-last-child(2):after {
+      background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2212%22%20height%3D%2216%22%20viewBox%3D%220%200%2012%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cg%20opacity%3D%220.9%22%3E%20%3Cpath%20d%3D%22M3.84009%203.76465L8.16009%207.99994L3.84009%2012.2352%22%20stroke%3D%22%237D8285%22%2F%3E%20%3C%2Fg%3E%20%3C%2Fsvg%3E%20"); }
+  .comp-breadcrumb-01.theme-02 {
+    background: #97A0A9; }
+    .comp-breadcrumb-01.theme-02 .c-wrapper > :not(:last-child):after {
+      content: "";
+      position: absolute;
+      right: -18px;
+      top: calc(50% - 8px);
+      width: 12px;
+      height: 16px;
+      background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2212%22%20height%3D%2216%22%20viewBox%3D%220%200%2012%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cg%20opacity%3D%220.9%22%3E%20%3Cpath%20d%3D%22M3.83997%203.76465L8.15997%207.99994L3.83997%2012.2352%22%20stroke%3D%22white%22%2F%3E%20%3C%2Fg%3E%20%3C%2Fsvg%3E%20");
+      background-repeat: no-repeat; }
+    .comp-breadcrumb-01.theme-02 .c-wrapper > :nth-last-child(2):after {
+      background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2212%22%20height%3D%2216%22%20viewBox%3D%220%200%2012%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cg%20opacity%3D%220.9%22%3E%20%3Cpath%20d%3D%22M3.83997%203.76465L8.15997%207.99994L3.83997%2012.2352%22%20stroke%3D%22white%22%2F%3E%20%3C%2Fg%3E%20%3C%2Fsvg%3E%20");
+      background-repeat: no-repeat; }
+
+  .comp-breadcrumb-01 .c-wrapper > :not(:last-child) {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.006em;
+    color: #272D38; }
+  .comp-breadcrumb-01 .c-wrapper > :last-child {
+    color: #7D8285; }
+  .comp-breadcrumb-01.theme-02 .c-wrapper > :not(:last-child) {
+    color: #FFFFFF; }
+  .comp-breadcrumb-01.theme-02 .c-wrapper > :last-child {
+    color: #FFFFFF; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=BreadCrumb.css.map */

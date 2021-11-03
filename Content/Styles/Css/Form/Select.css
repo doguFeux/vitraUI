@@ -1,0 +1,62 @@
+.select-01 {
+  width: 100%;
+  height: 56px;
+  padding-left: 16px;
+  border: 1px solid #D7D5E1;
+  font-family: Post Grotesk;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #76758F;
+  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cpath%20d%3D%22M16.0001%2017.5857L21.293%2012.2928L22.7072%2013.7071L16.0001%2020.4142L9.29297%2013.7071L10.7072%2012.2928L16.0001%2017.5857Z%22%20fill%3D%22%234E4C69%22%2F%3E%20%3C%2Fsvg%3E%20");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 12px) 50%; }
+
+.select-02 {
+  width: 232px;
+  height: 56px;
+  padding-left: 16px;
+  border: 1px solid #D7D5E1;
+  font-family: Post Grotesk;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #76758F;
+  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cpath%20d%3D%22M16.0001%2017.5857L21.293%2012.2928L22.7072%2013.7071L16.0001%2020.4142L9.29297%2013.7071L10.7072%2012.2928L16.0001%2017.5857Z%22%20fill%3D%22%234E4C69%22%2F%3E%20%3C%2Fsvg%3E%20");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 12px) 50%; }
+
+@media all and (max-width: 419px) {
+  .select-02 {
+    width: 100%;
+    height: 48px;
+    padding-left: 16px;
+    border: 1px solid #D7D5E1;
+    font-family: Post Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F7F7FC;
+    background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cpath%20d%3D%22M16.0001%2017.5859L21.293%2012.293L22.7072%2013.7072L16.0001%2020.4143L9.29297%2013.7072L10.7072%2012.293L16.0001%2017.5859Z%22%20fill%3D%22%23F7F7FC%22%2F%3E%20%3C%2Fsvg%3E%20");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 12px) 50%;
+    background-color: transparent; } }
+@media all and (min-width: 420px) and (max-width: 767px) {
+  .select-02 {
+    width: 100%;
+    height: 48px;
+    padding-left: 16px;
+    border: 1px solid #D7D5E1;
+    font-family: Post Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F7F7FC;
+    background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cpath%20d%3D%22M16.0001%2017.5859L21.293%2012.293L22.7072%2013.7072L16.0001%2020.4143L9.29297%2013.7072L10.7072%2012.293L16.0001%2017.5859Z%22%20fill%3D%22%23F7F7FC%22%2F%3E%20%3C%2Fsvg%3E%20");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 12px) 50%;
+    background-color: transparent; } }
+
+/*# sourceMappingURL=Select.css.map */

@@ -1,0 +1,120 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-section-20 {
+    max-width: 1440px;
+    margin: 0 auto; }
+    .comp-section-20 .c-wrapper {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 211px;
+      background-image: url(/Content/Visuals/Temp/gooddessection-large.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      align-items: flex-end;
+      padding: 16px 16px 32px 16px; }
+      .comp-section-20 .c-wrapper:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: url(/Content/Visuals/Temp/gooddessection-largeback.png);
+        background-repeat: no-repeat;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0; }
+      .comp-section-20 .c-wrapper > .c-container-01 > .c-item-02 {
+        margin-top: 8px; }
+      .comp-section-20 .c-wrapper > .c-container-02 {
+        position: absolute;
+        right: 24px;
+        bottom: 24px;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 50%; }
+
+  .comp-section-20 .c-wrapper > .c-container-01 > .c-item-01 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF; }
+  .comp-section-20 .c-wrapper > .c-container-01 > .c-item-02 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-section-20 {
+    max-width: 1440px;
+    margin: 0 auto; }
+    .comp-section-20 .c-wrapper {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 211px;
+      background-image: url(/Content/Visuals/Temp/gooddessection-large.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      padding: 40px; }
+      .comp-section-20 .c-wrapper:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: url(/Content/Visuals/Temp/gooddessection-largeback.png);
+        background-repeat: no-repeat;
+        background-position: right; }
+      .comp-section-20 .c-wrapper > .c-container-01 > .c-item-02 {
+        margin-top: 8px; }
+      .comp-section-20 .c-wrapper > .c-container-02 {
+        position: absolute;
+        right: 40px;
+        bottom: 40px;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 50%; }
+
+  .comp-section-20 .c-wrapper > .c-container-01 > .c-item-01 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF; }
+  .comp-section-20 .c-wrapper > .c-container-01 > .c-item-02 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=20.css.map */

@@ -1,0 +1,63 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-micro-17 > .c-container-01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #E4E6E8;
+    border-radius: 4px;
+    width: 100%;
+    height: 50px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #7D8285;
+    margin-bottom: 16px; }
+    .comp-micro-17 > .c-container-01.on {
+      font-weight: 600;
+      color: #373A37; }
+  .comp-micro-17 > :last-child {
+    margin-bottom: 0; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-micro-17 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .comp-micro-17 > .c-container-01 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #FFFFFF;
+      border: 1px solid #E4E6E8;
+      border-radius: 4px;
+      width: 240px;
+      height: 50px;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #7D8285;
+      margin-right: 16px; }
+      .comp-micro-17 > .c-container-01.on {
+        font-weight: 600;
+        color: #373A37; }
+    .comp-micro-17 > :last-child {
+      margin-right: 0; }
+    .comp-micro-17 > :nth-child(3n) {
+      margin-right: 0; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=17.css.map */

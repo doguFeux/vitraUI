@@ -1,0 +1,63 @@
+/* Common XS1 and XS2 */
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-aside-02 {
+    width: 333px; }
+    .comp-aside-02 > .c-column-01 {
+      padding-left: 16px;
+      display: flex;
+      align-items: center; }
+      .comp-aside-02 > .c-column-01 > .c-container-01 {
+        font-family: Palanquin;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #373A37; }
+    .comp-aside-02 > .c-column-02 > .c-container-01 > li {
+      height: 64px;
+      background: #fff;
+      transition: all .2s; }
+      .comp-aside-02 > .c-column-02 > .c-container-01 > li > a {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding-left: 16px;
+        font-family: Palanquin;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #373A37;
+        border-radius: 8px;
+        transition: all .2s; }
+        .comp-aside-02 > .c-column-02 > .c-container-01 > li > a.on {
+          background: #F4F7F6;
+          font-weight: 600; }
+        .comp-aside-02 > .c-column-02 > .c-container-01 > li > a svg, .comp-aside-02 > .c-column-02 > .c-container-01 > li > a img {
+          margin-right: 12px; }
+        .comp-aside-02 > .c-column-02 > .c-container-01 > li > a > .c-item-01 {
+          position: absolute;
+          right: 5px;
+          top: 16px;
+          font-family: Palanquin;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          color: #97A0A9; }
+      .comp-aside-02 > .c-column-02 > .c-container-01 > li:hover {
+        background: #F4F7F6; }
+        .comp-aside-02 > .c-column-02 > .c-container-01 > li:hover a {
+          font-weight: 600; }
+    .comp-aside-02 > .c-column-02 > .c-container-01 > :last-child > a {
+      color: #A1413D; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=02.css.map */

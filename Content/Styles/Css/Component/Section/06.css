@@ -1,0 +1,136 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-section-06 {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .comp-section-06:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.1); }
+    .comp-section-06:before {
+      content: "";
+      position: absolute;
+      top: 400px;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: linear-gradient(180deg, rgba(55, 58, 55, 0) 0%, #373A37 100%);
+      z-index: 2; }
+    .comp-section-06 .c-wrapper > .c-container-02 {
+      position: absolute;
+      bottom: 60px;
+      z-index: 3; }
+      .comp-section-06 .c-wrapper > .c-container-02 > .c-item-01 {
+        margin: 8px 0 17px 0; }
+      .comp-section-06 .c-wrapper > .c-container-02 > .c-item-02 {
+        margin-bottom: 34px; }
+      .comp-section-06 .c-wrapper > .c-container-02 > .c-item-03 {
+        display: flex; }
+        .comp-section-06 .c-wrapper > .c-container-02 > .c-item-03 > .c-item-03-A {
+          width: 48px;
+          height: 48px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 8px; }
+          .comp-section-06 .c-wrapper > .c-container-02 > .c-item-03 > .c-item-03-A:after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.2);
+            opacity: 0.3;
+            border: 0.5px solid #FFFFFF;
+            border-radius: 50%; }
+        .comp-section-06 .c-wrapper > .c-container-02 > .c-item-03 > :last-child {
+          margin-right: 0; }
+
+  .comp-section-06 .c-wrapper > .c-container-02 > .c-item-01 {
+    font-family: Palanquin;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 56px;
+    color: #FFFFFF; }
+  .comp-section-06 .c-wrapper > .c-container-02 > .c-item-02 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF; }
+  .comp-section-06 .c-wrapper > .c-container-02 > .c-item-03 > .c-item-03-A {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    color: #FFFFFF; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-section-06 > .c-container-02 {
+    position: absolute;
+    bottom: 60px;
+    width: 635px;
+    z-index: 3; }
+    .comp-section-06 > .c-container-02 > .c-item-01 {
+      margin: 8px 0 17px 0; }
+    .comp-section-06 > .c-container-02 > .c-item-02 {
+      margin-bottom: 34px;
+      width: 433px; }
+    .comp-section-06 > .c-container-02 > .c-item-03 {
+      display: flex; }
+      .comp-section-06 > .c-container-02 > .c-item-03 > .c-item-03-A {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 8px; }
+        .comp-section-06 > .c-container-02 > .c-item-03 > .c-item-03-A:after {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.2);
+          opacity: 0.3;
+          border: 0.5px solid #FFFFFF;
+          border-radius: 50%; }
+      .comp-section-06 > .c-container-02 > .c-item-03 > :last-child {
+        margin-right: 0; }
+
+  .comp-section-06 > .c-container-02 > .c-item-01 {
+    font-family: Palanquin;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 56px;
+    color: #FFFFFF; }
+  .comp-section-06 > .c-container-02 > .c-item-02 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF; }
+  .comp-section-06 > .c-container-02 > .c-item-03 > .c-item-03-A {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    color: #FFFFFF; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=06.css.map */

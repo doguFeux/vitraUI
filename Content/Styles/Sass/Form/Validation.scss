@@ -1,0 +1,105 @@
+@import "../Base/Colour.scss";
+
+
+.val-A {
+    input[type=text].error, input[type=password].error {
+        color: #A1413D !important;
+        border: 1px solid #A1413D !important;
+    }
+
+
+
+    .parenterror {
+        .gr-pass {
+            display: none;
+        }
+
+        .select2-selection {
+            border: 1px solid #A1413D !important;
+
+            .select2-selection__placeholder {
+                color: #A1413D !important;
+            }
+        }
+
+       .select2-container--default .select2-selection--single .select2-selection__arrow b {
+        }
+    }
+
+    .parenterror label {
+        font-weight: 500 !important;
+        font-size: 12px !important;
+        color: #A1413D !important;
+
+        &.error {
+            display: flex !important;
+            justify-content: flex-end;
+            width: 100%;
+            order: 1;
+            margin-top: 8px;
+            line-height: 15px !important;
+        }
+    }
+}
+
+
+    .val-B {
+        label.error {
+            display: none !important;
+        }
+    }
+
+
+    .val-C {
+        input[type=text].error,
+        select.error {
+            color: #A1413D !important;
+            border: 1px solid #A1413D !important;
+        }
+
+        input[type=radio].error,
+        input[type=checkbox].error {
+            & ~ label {
+                &:before {
+                    border: 1px solid #A1413D !important;
+                }
+
+                span {
+                    color: #A1413D !important;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .parenterror {
+            .select2-selection {
+                border: 2px solid #A1413D !important;
+
+                .select2-selection__placeholder {
+                    color: #A1413D !important;
+                }
+            }
+
+            label {
+                font-weight: 500 !important;
+                font-size: 12px !important;
+                color: #A1413D !important;
+            }
+        }
+
+        label {
+            &.error {
+                display: none !important;
+            }
+        }
+    }
+
+
+    .list-validation {
+        &.listerror {
+            .list-validation-header {
+                font-weight: 700 !important;
+                color: #A1413D !important;
+            }
+        }
+    }

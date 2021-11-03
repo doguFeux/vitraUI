@@ -1,0 +1,105 @@
+﻿@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+
+    // Related UI
+    .comp-section-08 {
+        max-width: 1440px;
+        margin: 0 auto;
+
+        .c-wrapper {
+
+            > .c-container-02 {
+
+                .comp-product-01 {
+                    margin-bottom: 64px;
+                  
+                }
+
+                > :last-child {
+                    margin-bottom:0;
+                }
+
+            }
+        }
+    }
+    // Related Typography
+    .comp-section-08 {
+    }
+}
+
+/* XS1 */
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+}
+
+/* XS2 */
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common SM1 and SM2 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* SM1 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+}
+
+/* SM2 */
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* Common MD and LG */
+@media all and (min-width: #{$mq-md + "px"}) {
+
+    // Related UI
+    .comp-section-08 {
+        max-width: 1440px;
+        margin: 0 auto;
+
+        .c-wrapper {
+
+            > .c-container-02 {
+                display: flex;
+                flex-wrap: wrap;
+
+                .comp-product-01 {
+                    margin-right: 24px;
+                    margin-bottom: 72px;
+                }
+
+                > :nth-child(4n) {
+                    margin-right: 0;
+
+                    &:after {
+                        display: none;
+                    }
+                }
+
+                > :last-child {
+                    margin-right: 0;
+
+                    &:after {
+                        display: none;
+                    }
+                }
+
+                > :nth-last-child(-n+4) {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    // Related Typography
+    .comp-section-08 {
+    }
+}
+/* MD */
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+}
+
+/* LG */
+@media all and (min-width: #{$mq-lg + "px"}) {
+}

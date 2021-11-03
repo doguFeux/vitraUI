@@ -1,0 +1,21 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-section-05 .c-wrapper {
+    display: flex;
+    flex-wrap: wrap; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-section-05 .c-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 0.5px solid #E4E6E8;
+    border-bottom: 0.5px solid #E4E6E8; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=05.css.map */

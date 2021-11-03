@@ -1,0 +1,105 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+@section head{
+
+}
+<main data-body-class="no-footer no-header">
+    <section class="comp-section-07">
+        <a href="#" data-modal="modalDummyId01"
+           onclick='Felece.Modal.Actions.show({
+                ev: event,
+                sender: this,
+    type: "drw",
+                      contentId: "loginModal",
+                size: "lg",
+                dir: ["r2l"],
+                esc: true,
+                overlay: false
+            });'>
+            Drawer:<br />
+            <code>Feux.Modal.Actions.show({ ev: event, sender: this, type: "drw", size: "sm", dir: "l2r", esc: false, overlay: false });</code>
+        </a>
+
+
+
+    </section>
+
+</main>
+
+
+@section afterContentWrapper{
+
+    <section id="loginModal" data-modal-section="content" class="comp-modal-01">
+        <div data-modal-section="header">
+        </div>
+        <div data-modal-section="visual">
+        </div>
+        <div data-modal-section="body">
+            <div class="c-container-01">
+                Giriş Yap
+            </div>
+            <div class="c-container-02  mt-xs1-12px mb-xs1-16px">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit sun. Lorem ipsum dolor sit amet.
+            </div>
+            <div class="c-container-03">
+                <div class="form-group-01  mb-md-16px  mb-xs1-16px">
+                    <input id="email" type="text" name="email" value="" autocomplete="new-password" onkeyup="this.setAttribute('value', this.value);" class="gr-textbox">
+                    <label for="email" class="tb-placeholder-01">
+                        E-Posta
+                    </label>
+                </div>
+
+                <div class="form-group-01  mb-xs1-16px">
+                    <input id="pass" type="password" name="pass" value="" autocomplete="new-password" onkeyup="this.setAttribute('value', this.value);" class="gr-textbox pass">
+                    <label for="pass" class="tb-placeholder-01">
+                        Şifren
+                    </label>
+                    <a href="#" class="gr-pass">
+                        <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                                <path d="M8 0C3.582 0 0 5.922 0 5.922C0 5.922 3.582 12 8 12C12.418 12 16 5.922 16 5.922C16 5.922 12.418 0 8 0ZM8 10C5.791 10 4 8.209 4 6C4 3.791 5.791 2 8 2C10.209 2 12 3.791 12 6C12 8.209 10.209 10 8 10ZM6 6C6 4.89544 6.89544 4 8 4C9.10456 4 10 4.89544 10 6C10 7.10456 9.10456 8 8 8C6.89544 8 6 7.10456 6 6Z" fill="#E4E6E8"></path>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0">
+                                    <rect width="16" height="12" fill="white"></rect>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+                <div class="comp-form-01 mb-md-64px mt-md-24px  mb-xs1-64px">
+                    <div class="chk-A chk-large">
+                        <input id="c-form-11-02" type="checkbox">
+                        <label for="c-form-11-02">Beni Hatırla</label>
+                    </div>
+                    <a href="#" class="c-item-02">Şifremi Unuttum</a>
+                </div>
+            </div>
+            <div class="c-container-04">
+                <a href="#" class="c-item-01 mb-md-16px  mb-xs1-16px">Giriş Yap</a>
+                <a href="#" class="c-item-02">Üye Ol</a>
+            </div>
+        </div>
+        <div data-modal-section="footer" class="footer-01">
+        </div>
+    </section>
+}
+
+@section beforeScripts{
+
+
+    <script src="~/Content/Plugins/Jquery.Validation/jquery.validate.js"></script>
+    <script src="~/Content/Plugins/Jquery.Mask/jquery.mask.js"></script>
+}
+
+
+@section beforeBodyEnd{
+    <script src="~/Content/Scripts/Form/Felece.Form.Validation.js"></script>
+    <script src="~/Content/Scripts/Form/Felece.Form.Plugin.js"></script>
+    <script src="~/Content/Scripts/Base/Felece.Common.jQuery.js"></script>
+}

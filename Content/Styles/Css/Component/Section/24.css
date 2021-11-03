@@ -1,0 +1,147 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-section-24 {
+    max-width: 1440px;
+    margin: 0 auto; }
+    .comp-section-24 .c-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 72px 0; }
+      .comp-section-24 .c-wrapper > .c-container-01 {
+        display: flex; }
+        .comp-section-24 .c-wrapper > .c-container-01 > .c-item-01 {
+          position: absolute;
+          width: 24px;
+          height: 24px;
+          display: flex;
+          background: #373A37;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          left: 0;
+          bottom: 0; }
+      .comp-section-24 .c-wrapper > .c-container-02 {
+        margin: 24px 0 8px 0; }
+      .comp-section-24 .c-wrapper > .c-container-03 {
+        width: 100%;
+        margin-bottom: 40px; }
+      .comp-section-24 .c-wrapper > .c-container-04 {
+        width: 238px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(0deg, #A2413D, #A2413D);
+        border-radius: 6px; }
+
+  .comp-section-24 .c-wrapper > .c-container-01 > .c-item-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF; }
+  .comp-section-24 .c-wrapper > .c-container-02 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #2A2E38; }
+  .comp-section-24 .c-wrapper > .c-container-03 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #373A37; }
+  .comp-section-24 .c-wrapper > .c-container-04 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-section-24 {
+    max-width: 1440px;
+    margin: 0 auto; }
+    .comp-section-24 .c-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 72px 0; }
+      .comp-section-24 .c-wrapper > .c-container-01 {
+        display: flex; }
+        .comp-section-24 .c-wrapper > .c-container-01 > .c-item-01 {
+          position: absolute;
+          width: 24px;
+          height: 24px;
+          display: flex;
+          background: #373A37;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          left: 0;
+          bottom: 0; }
+      .comp-section-24 .c-wrapper > .c-container-02 {
+        margin: 24px 0 8px 0; }
+      .comp-section-24 .c-wrapper > .c-container-03 {
+        width: 416px;
+        margin-bottom: 40px; }
+      .comp-section-24 .c-wrapper > .c-container-04 {
+        width: 238px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(0deg, #A2413D, #A2413D);
+        border-radius: 6px; }
+
+  .comp-section-24 .c-wrapper > .c-container-01 > .c-item-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF; }
+  .comp-section-24 .c-wrapper > .c-container-02 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #2A2E38; }
+  .comp-section-24 .c-wrapper > .c-container-03 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #373A37; }
+  .comp-section-24 .c-wrapper > .c-container-04 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=24.css.map */

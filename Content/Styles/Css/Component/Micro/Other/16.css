@@ -1,0 +1,169 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-micro-16 {
+    background: #F4F6F6; }
+    .comp-micro-16 > .c-container-01 {
+      display: none; }
+    .comp-micro-16 > .c-container-02 {
+      width: 100%; }
+      .comp-micro-16 > .c-container-02 > .c-item-01 > .c-item-01-A {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #2A2E38; }
+      .comp-micro-16 > .c-container-02 > .c-item-01 > .c-item-02-B {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #7D8285; }
+      .comp-micro-16 > .c-container-02 > .c-item-02 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #2A2E38;
+        padding-left: 20px; }
+        .comp-micro-16 > .c-container-02 > .c-item-02:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 9px;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%; }
+        .comp-micro-16 > .c-container-02 > .c-item-02.pending:before {
+          background: #FFA524; }
+        .comp-micro-16 > .c-container-02 > .c-item-02.cancel {
+          color: #A1413D; }
+          .comp-micro-16 > .c-container-02 > .c-item-02.cancel:before {
+            background: #A1413D; }
+        .comp-micro-16 > .c-container-02 > .c-item-02.completed:before {
+          background: #63A87B; }
+    .comp-micro-16 > .c-container-03 {
+      margin-left: auto; }
+      .comp-micro-16 > .c-container-03 > .c-item-01 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 32px;
+        color: #373A37; }
+      .comp-micro-16 > .c-container-03 > .c-item-02 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: right;
+        color: #7D8285; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-micro-16 {
+    display: flex;
+    align-items: center; }
+    .comp-micro-16 > .c-container-01 {
+      width: 156px;
+      margin-right: 19px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .comp-micro-16 > .c-container-01 > .c-item-01, .comp-micro-16 > .c-container-01 .c-item-02, .comp-micro-16 > .c-container-01 .c-item-03 {
+        background: #F4F7F6;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 107px;
+        overflow: hidden; }
+      .comp-micro-16 > .c-container-01 > .c-item-01 {
+        z-index: 5; }
+      .comp-micro-16 > .c-container-01 > .c-item-02 {
+        position: absolute;
+        left: 72px;
+        top: 7px;
+        width: 72px;
+        height: 72px;
+        display: flex;
+        align-items: center;
+        z-index: 4; }
+      .comp-micro-16 > .c-container-01 > .c-item-03 {
+        position: absolute;
+        left: 17px;
+        top: 7px;
+        width: 72px;
+        height: 72px;
+        display: flex;
+        align-items: center;
+        z-index: 4; }
+    .comp-micro-16 > .c-container-02 {
+      width: 467px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .comp-micro-16 > .c-container-02 > .c-item-01 > .c-item-01-A {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #2A2E38; }
+      .comp-micro-16 > .c-container-02 > .c-item-01 > .c-item-02-B {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #7D8285; }
+      .comp-micro-16 > .c-container-02 > .c-item-02 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #2A2E38;
+        padding-left: 20px; }
+        .comp-micro-16 > .c-container-02 > .c-item-02:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 9px;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%; }
+        .comp-micro-16 > .c-container-02 > .c-item-02.pending:before {
+          background: #FFA524; }
+        .comp-micro-16 > .c-container-02 > .c-item-02.cancel {
+          color: #A1413D; }
+          .comp-micro-16 > .c-container-02 > .c-item-02.cancel:before {
+            background: #A1413D; }
+        .comp-micro-16 > .c-container-02 > .c-item-02.completed:before {
+          background: #63A87B; }
+    .comp-micro-16 > .c-container-03 {
+      margin-left: auto; }
+      .comp-micro-16 > .c-container-03 > .c-item-01 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 32px;
+        color: #373A37; }
+      .comp-micro-16 > .c-container-03 > .c-item-02 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: right;
+        color: #7D8285; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=16.css.map */

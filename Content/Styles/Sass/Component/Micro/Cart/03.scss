@@ -1,0 +1,516 @@
+@import "../../../Base/Global.scss";
+@import "../../../Base/Global.scss";
+
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    // Related UI
+    .comp-checkout-03 {
+        display: flex;
+        width: 358px;
+        background: #FFFFFF;
+
+        > .c-container-01 {
+            padding-top: 4px;
+            margin-right: 5px;
+        }
+
+        > .c-container-02 {
+
+            > .c-item-01-A {
+
+                > .c-unit-01 {
+                }
+
+                > .c-unit-02 {
+                    margin-top: 2px;
+                }
+            }
+
+
+            > .c-item-01-B {
+                display: flex;
+                align-items: center;
+
+                > .c-unit-01 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 19px;
+                    width: 46px;
+                    height: 48px;
+                    background-color: rgba(140, 56, 46, 0.1);
+                    border-radius: 2px;
+                    border: 1px solid #A1413D;
+                }
+
+                > .c-unit-02 {
+                    > .c-unit-02-A {
+                        margin-bottom: 2px;
+                    }
+
+                    > .c-unit-02-B {
+                    }
+                }
+            }
+
+            > .c-item-01-C {
+                width: 124px;
+                height: 44px;
+                padding: 6px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background: #FFFFFF;
+                border: 1px solid #E4E6E8;
+                box-sizing: border-box;
+                border-radius: 4px;
+                margin-top: 16px;
+
+                > .c-unit-01 {
+                    width: 32px;
+                    height: 32px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-image: svg-background-image('<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M8 16H24" stroke="#373A37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </svg> ');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+
+                > .c-unit-02 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 32px;
+                    height: 32px;
+                }
+
+                > .c-unit-03 {
+                    width: 32px;
+                    height: 32px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-image: svg-background-image('<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M16 8V24" stroke="#373A37" stroke-width="1.5" stroke-linecap="round"/> <path d="M8 16H24" stroke="#373A37" stroke-width="1.5" stroke-linecap="round"/> </svg> ');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            }
+
+            > .c-item-01-D {
+                margin: 4px 0 16px 0;
+            }
+
+            > .c-item-01-E {
+            }
+        }
+
+        > .c-container-03 {
+            display: none;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 32px;
+            height: 32px;
+            background: #63A87B;
+            border-top-left-radius: 8px;
+
+            &:after {
+                content: "";
+                position: absolute;
+                width: 18px;
+                height: 12px;
+                display: block;
+                top: 10.5px;
+                left: 8.5px;
+                background: svg-background-image('<svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M17.25 0.75L6.75 11.2495L1.5 6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </svg> ');
+                background-repeat: no-repeat;
+            }
+        }
+
+        &.v2 {
+            width: 100%;
+            padding: 16px 0 20px 0;
+            border: 1px solid #E4E6E8;
+            border-radius: 6px;
+            transition: all .2s;
+
+            &.on {
+                border: 1.5px solid #63A87B;
+
+                > .c-container-03 {
+                    display: flex;
+                }
+            }
+        }
+    }
+    // Related Typography
+    .comp-checkout-03 {
+
+        > .c-container-02 {
+
+            > .c-item-01-A {
+
+                > .c-unit-01 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #373A37;
+                }
+
+                > .c-unit-02 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #373A37;
+                }
+            }
+
+            > .c-item-01-B {
+
+                > .c-unit-01 {
+                    font-family: Palanquin;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #A1413D;
+                }
+
+                > .c-unit-02 {
+                    > .c-unit-02-A {
+                        font-family: Palanquin;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-decoration-line: line-through;
+                        color: #7D8285;
+                    }
+
+                    > .c-unit-02-B {
+                        font-family: Palanquin;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #373A37;
+                    }
+                }
+            }
+
+            > .c-item-01-C {
+
+
+                > .c-unit-01 {
+                }
+
+                > .c-unit-02 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 17px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #373A37;
+                }
+
+                > .c-unit-03 {
+                }
+            }
+
+            > .c-item-01-D {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 150%;
+                color: #7D8285;
+            }
+
+            > .c-item-01-E {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 16px;
+                color: #373A37;
+            }
+        }
+    }
+}
+
+/* XS1 */
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+}
+
+/* XS2 */
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common SM1 and SM2 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* SM1 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+}
+
+/* SM2 */
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* Common MD and LG */
+@media all and (min-width: #{$mq-md + "px"}) {
+
+
+    // Related UI
+    .comp-checkout-03 {
+        display: flex;
+        width: 358px;
+        background: #FFFFFF;
+
+        > .c-container-01 {
+            padding-top: 4px;
+            margin-right: 5px;
+        }
+
+        > .c-container-02 {
+
+            > .c-item-01-A {
+
+                > .c-unit-01 {
+                }
+
+                > .c-unit-02 {
+                    margin-top: 2px;
+                }
+            }
+
+
+            > .c-item-01-B {
+                display: flex;
+                align-items: center;
+
+                > .c-unit-01 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 19px;
+                    width: 46px;
+                    height: 48px;
+                    background-color: rgba(140, 56, 46, 0.1);
+                    border-radius: 2px;
+                    border: 1px solid #A1413D;
+                }
+
+                > .c-unit-02 {
+                    > .c-unit-02-A {
+                        margin-bottom: 2px;
+                    }
+
+                    > .c-unit-02-B {
+                    }
+                }
+            }
+
+            > .c-item-01-C {
+                width: 124px;
+                height: 44px;
+                padding: 6px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background: #FFFFFF;
+                border: 1px solid #E4E6E8;
+                box-sizing: border-box;
+                border-radius: 4px;
+                margin-top: 16px;
+
+                > .c-unit-01 {
+                    width: 32px;
+                    height: 32px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-image: svg-background-image('<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M8 16H24" stroke="#373A37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </svg> ');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+
+                > .c-unit-02 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 32px;
+                    height: 32px;
+                }
+
+                > .c-unit-03 {
+                    width: 32px;
+                    height: 32px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-image: svg-background-image('<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M16 8V24" stroke="#373A37" stroke-width="1.5" stroke-linecap="round"/> <path d="M8 16H24" stroke="#373A37" stroke-width="1.5" stroke-linecap="round"/> </svg> ');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            }
+
+            > .c-item-01-D {
+                margin: 4px 0 16px 0;
+            }
+
+            > .c-item-01-E {
+            }
+        }
+
+        > .c-container-03 {
+            display: none;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 32px;
+            height: 32px;
+            background: #63A87B;
+            border-top-left-radius: 8px;
+            &:after {
+                content: "";
+                position: absolute;
+                width: 18px;
+                height: 12px;
+                display: block;
+                top: 10.5px;
+                left: 8.5px;
+                background: svg-background-image('<svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M17.25 0.75L6.75 11.2495L1.5 6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </svg> ');
+                background-repeat: no-repeat;
+            }
+        }
+
+        &.v2 {
+            width: 100%;
+            padding: 16px 0 20px 0;
+            border: 1px solid #E4E6E8;
+            border-radius: 6px;
+            transition: all .2s;
+
+            &.on {
+                border: 1.5px solid #63A87B;
+
+                > .c-container-03 {
+                    display: flex;
+                }
+            }
+        }
+    }
+    // Related Typography
+    .comp-checkout-03 {
+
+        > .c-container-02 {
+
+            > .c-item-01-A {
+
+                > .c-unit-01 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #373A37;
+                }
+
+                > .c-unit-02 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #373A37;
+                }
+            }
+
+            > .c-item-01-B {
+
+                > .c-unit-01 {
+                    font-family: Palanquin;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #A1413D;
+                }
+
+                > .c-unit-02 {
+                    > .c-unit-02-A {
+                        font-family: Palanquin;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-decoration-line: line-through;
+                        color: #7D8285;
+                    }
+
+                    > .c-unit-02-B {
+                        font-family: Palanquin;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #373A37;
+                    }
+                }
+            }
+
+            > .c-item-01-C {
+
+
+                > .c-unit-01 {
+                }
+
+                > .c-unit-02 {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 17px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #373A37;
+                }
+
+                > .c-unit-03 {
+                }
+            }
+
+            > .c-item-01-D {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 150%;
+                color: #7D8285;
+            }
+
+            > .c-item-01-E {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 16px;
+                color: #373A37;
+            }
+        }
+    }
+}
+/* MD */
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+}
+
+/* LG */
+@media all and (min-width: #{$mq-lg + "px"}) {
+}

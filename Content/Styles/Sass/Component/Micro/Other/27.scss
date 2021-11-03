@@ -1,0 +1,876 @@
+@import "../../../Base/Global.scss";
+@import "../../../Base/Global.scss";
+
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+
+    // Related UI
+    .comp-micro-27 {
+        border: 1px solid #E4E6E8;
+        border-radius: 6px;
+
+        > .c-container-01 {
+            border-bottom: 1px solid #E4E6E8;
+
+            > .c-item-01 {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 56px;
+                padding: 0 24px 0 16px;
+
+                > .c-item-01-A {
+                    display: flex;
+                    align-items: center;
+
+                    > .c-unit-01 {
+                        display: none;
+                    }
+                }
+
+                > .c-item-01-B {
+                    display: flex;
+                    align-items: center;
+
+                    .c-unit-01 {
+                        margin-right: 16px;
+                    }
+                }
+
+                &.on {
+                    .c-item-01-A {
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .expandingContent {
+
+                .c-item-02 {
+                    padding: 8px;
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    > .c-item-02-A {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 148px;
+                        height: 40px;
+                        margin-right: 15px;
+                        mix-blend-mode: normal;
+                        border: 1px solid #E4E6E8;
+                        border-radius: 4px;
+                        margin-bottom: 16px;
+
+
+                        &.on {
+                            background: rgba(228, 230, 232, 0.2);
+                            border-color: #97A0A9;
+                        }
+                    }
+
+                    > :nth-child(2n) {
+                        margin-right: 0;
+                    }
+
+                    > :last-child {
+                        margin-bottom: 0;
+                    }
+                }
+
+                .c-item-03 {
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding: 8px;
+
+                    > .c-item-03-A {
+                        width: 152px;
+                        height: 132px;
+                        overflow: hidden;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        transition: all 0.2s;
+                        margin-bottom: 16px;
+
+                        picture {
+                            opacity: .5;
+                            transition: all 0.2s;
+                        }
+
+                        > .c-unit-01 {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            transition: all 0.2s;
+                        }
+
+                        &.on {
+                            height: 141px;
+                            opacity: 1;
+
+                            picture {
+                                opacity: 1;
+                            }
+                        }
+
+                        > :nth-last-child(-n+3) {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+
+                .c-item-04 {
+                    padding: 8px;
+
+                    > .c-item-04-A {
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        > .c-unit-01 {
+                        }
+
+                        > .c-unit-02 {
+                            display: none;
+                        }
+
+                        > .c-unit-03 {
+                            margin: 24px 0 8px 0;
+                            width: 100%;
+                        }
+
+                        > .c-unit-04 {
+                            margin-bottom: 24px;
+                            width: 100%;
+                        }
+                    }
+
+                    > .c-item-04-B {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        > .c-unit-01, .c-unit-02 {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 156px;
+                            height: 40px;
+                            border-radius: 6px;
+                        }
+
+                        > .c-unit-01 {
+                            border: 1px solid #E4E6E8;
+                        }
+
+                        > .c-unit-02 {
+                            background: #373A37;
+                        }
+                    }
+                }
+
+                .c-item-05 {
+                    padding: 8px;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+
+                    > .c-item-05-A {
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        justify-content: center;
+
+                        > .c-unit-01 {
+                            display: flex;
+                        }
+
+                        > .c-unit-03 {
+                            margin: 24px 0 8px 0;
+                            width: 100%;
+                        }
+
+                        > .c-unit-04 {
+                            margin-bottom: 24px;
+                            width: 100%;
+                        }
+                    }
+
+                    > .c-item-05-B {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+
+                        > .c-unit-01, .c-unit-02 {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 156px;
+                            height: 40px;
+                            border-radius: 6px;
+                        }
+
+                        > .c-unit-01 {
+                            border: 1px solid #E4E6E8;
+                        }
+
+                        > .c-unit-02 {
+                            background: #373A37;
+                        }
+                    }
+                }
+
+                &:last-child {
+                    .c-item-01 {
+                        border-bottom: none;
+                    }
+                }
+            }
+        }
+
+
+        > :last-child {
+            border-bottom: none;
+
+            .c-item-01 {
+                border-bottom: none;
+            }
+        }
+    }
+    // Related Typography
+    .comp-micro-27 {
+
+        > .c-container-01 {
+
+            > .c-item-01 {
+
+                > .c-item-01-A {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 150%;
+                    color: #373A37;
+                }
+
+                > .c-item-01-B {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #7D8285;
+                }
+            }
+
+            .expandingContent {
+
+                .c-item-02 {
+
+                    > .c-item-02-A {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #373A37;
+
+                        &.on {
+                            font-weight: 600;
+                        }
+                    }
+                }
+
+
+                .c-item-03 {
+
+                    > .c-item-03-A {
+
+                        > .c-unit-01 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 32px;
+                            text-align: center;
+                            color: #7D8285;
+                        }
+
+                        &.on {
+
+                            > .c-unit-01 {
+                                font-weight: 600;
+                                color: #373A37;
+                            }
+                        }
+                    }
+                }
+
+                .c-item-04 {
+
+                    > .c-item-04-A {
+
+                        > .c-unit-03 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0.01em;
+                            color: #373A37;
+                        }
+
+                        > .c-unit-04 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 12px;
+                            line-height: 20px;
+                            color: #373A37;
+
+                            a {
+                                color: #A1413D;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+
+                    > .c-item-04-B {
+
+
+                        > .c-unit-01 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 32px;
+                            text-align: center;
+                            color: #373A37;
+                        }
+
+                        > .c-unit-02 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 24px;
+                            text-align: center;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+
+                .c-item-05 {
+
+                    > .c-item-05-A {
+
+                        > .c-unit-03 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0.01em;
+                            color: #373A37;
+                        }
+
+                        > .c-unit-04 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 12px;
+                            line-height: 20px;
+                            color: #373A37;
+
+                            a {
+                                color: #A1413D;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+
+                    > .c-item-05-B {
+
+
+                        > .c-unit-01 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 32px;
+                            text-align: center;
+                            color: #373A37;
+                        }
+
+                        > .c-unit-02 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 24px;
+                            text-align: center;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* XS1 */
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+}
+
+/* XS2 */
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common SM1 and SM2 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* SM1 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+}
+
+/* SM2 */
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* Common MD and LG */
+@media all and (min-width: #{$mq-md + "px"}) {
+
+
+    // Related UI
+    .comp-micro-27 {
+
+
+        > .c-container-01 {
+            background: linear-gradient(90.63deg, #F4F7F6 2.72%, rgba(244, 247, 246, 0) 100.92%);
+            border-radius: 6px;
+            margin-bottom:16px;
+
+            > .c-item-01 {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 64px;
+                padding: 0 24px 0 16px;
+
+                > .c-item-01-A {
+                    display: flex;
+                    align-items: center;
+
+                    > .c-unit-01 {
+                        margin-right: 8px;
+                    }
+                }
+
+                > .c-item-01-B {
+                    display: flex;
+                    align-items: center;
+
+                    .c-unit-01 {
+                        margin-right: 16px;
+                    }
+                }
+
+                &.on {
+                    .c-item-01-A {
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .expandingContent {
+
+                .c-item-02 {
+                    padding: 8px;
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    > .c-item-02-A {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 148px;
+                        height: 40px;
+                        margin-right: 15px;
+                        mix-blend-mode: normal;
+                        border: 1px solid #E4E6E8;
+                        border-radius: 4px;
+                        margin-bottom: 16px;
+
+
+                        &.on {
+                            background: rgba(228, 230, 232, 0.2);
+                            border-color: #97A0A9;
+                        }
+                    }
+
+                    > :nth-child(2n) {
+                        margin-right: 0;
+                    }
+
+                    > :last-child {
+                        margin-bottom: 0;
+                    }
+                }
+
+                .c-item-03 {
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding: 8px;
+
+                    > .c-item-03-A {
+                        width: 152px;
+                        height: 132px;
+                        overflow: hidden;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        transition: all 0.2s;
+                        margin-bottom: 16px;
+
+                        picture {
+                            opacity: .5;
+                            transition: all 0.2s;
+                        }
+
+                        > .c-unit-01 {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            transition: all 0.2s;
+                        }
+
+                        &.on {
+                            height: 141px;
+                            opacity: 1;
+
+                            picture {
+                                opacity: 1;
+                            }
+                        }
+
+                        > :nth-last-child(-n+3) {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+
+                .c-item-04 {
+                    padding: 8px;
+
+                    > .c-item-04-A {
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        > .c-unit-01 {
+                        }
+
+                        > .c-unit-02 {
+                            display: none;
+                        }
+
+                        > .c-unit-03 {
+                            margin: 24px 0 8px 0;
+                            width: 100%;
+                        }
+
+                        > .c-unit-04 {
+                            margin-bottom: 24px;
+                            width: 100%;
+                        }
+                    }
+
+                    > .c-item-04-B {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        > .c-unit-01, .c-unit-02 {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 156px;
+                            height: 40px;
+                            border-radius: 6px;
+                        }
+
+                        > .c-unit-01 {
+                            border: 1px solid #E4E6E8;
+                        }
+
+                        > .c-unit-02 {
+                            background: #373A37;
+                        }
+                    }
+                }
+
+                .c-item-05 {
+                    padding: 8px;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+
+                    > .c-item-05-A {
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        justify-content: center;
+
+                        > .c-unit-01 {
+                            display: flex;
+                        }
+
+                        > .c-unit-03 {
+                            margin: 24px 0 8px 0;
+                            width: 100%;
+                        }
+
+                        > .c-unit-04 {
+                            margin-bottom: 24px;
+                            width: 100%;
+                        }
+                    }
+
+                    > .c-item-05-B {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+
+                        > .c-unit-01, .c-unit-02 {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 156px;
+                            height: 40px;
+                            border-radius: 6px;
+                        }
+
+                        > .c-unit-01 {
+                            border: 1px solid #E4E6E8;
+                        }
+
+                        > .c-unit-02 {
+                            background: #373A37;
+                        }
+                    }
+                }
+
+                &:last-child {
+                    .c-item-01 {
+                        border-bottom: none;
+                    }
+                }
+            }
+        }
+
+        > :last-child {
+            .c-item-01 {
+                border-bottom: none;
+            }
+        }
+    }
+    // Related Typography
+    .comp-micro-27 {
+
+        > .c-container-01 {
+
+            > .c-item-01 {
+
+                > .c-item-01-A {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 150%;
+                    color: #373A37;
+                }
+
+                > .c-item-01-B {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #7D8285;
+                }
+            }
+
+            .expandingContent {
+
+                .c-item-02 {
+
+                    > .c-item-02-A {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #373A37;
+
+                        &.on {
+                            font-weight: 600;
+                        }
+                    }
+                }
+
+
+                .c-item-03 {
+
+                    > .c-item-03-A {
+
+                        > .c-unit-01 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 32px;
+                            text-align: center;
+                            color: #7D8285;
+                        }
+
+                        &.on {
+
+                            > .c-unit-01 {
+                                font-weight: 600;
+                                color: #373A37;
+                            }
+                        }
+                    }
+                }
+
+                .c-item-04 {
+
+                    > .c-item-04-A {
+
+                        > .c-unit-03 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0.01em;
+                            color: #373A37;
+                        }
+
+                        > .c-unit-04 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 12px;
+                            line-height: 20px;
+                            color: #373A37;
+
+                            a {
+                                color: #A1413D;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+
+                    > .c-item-04-B {
+
+
+                        > .c-unit-01 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 32px;
+                            text-align: center;
+                            color: #373A37;
+                        }
+
+                        > .c-unit-02 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 24px;
+                            text-align: center;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+
+                .c-item-05 {
+
+                    > .c-item-05-A {
+
+                        > .c-unit-03 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0.01em;
+                            color: #373A37;
+                        }
+
+                        > .c-unit-04 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 12px;
+                            line-height: 20px;
+                            color: #373A37;
+
+                            a {
+                                color: #A1413D;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+
+                    > .c-item-05-B {
+
+
+                        > .c-unit-01 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 32px;
+                            text-align: center;
+                            color: #373A37;
+                        }
+
+                        > .c-unit-02 {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 24px;
+                            text-align: center;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* MD */
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+}
+
+/* LG */
+@media all and (min-width: #{$mq-lg + "px"}) {
+}

@@ -1,0 +1,41 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-division-03 {
+    height: 40px;
+    max-width: 1440px;
+    margin: 0 auto; }
+    .comp-division-03 .c-wrapper {
+      display: flex;
+      align-items: center; }
+      .comp-division-03 .c-wrapper > .c-container-01 {
+        font-family: Palanquin;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 40px;
+        color: #373A37; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-division-03 {
+    height: 40px;
+    max-width: 1440px;
+    margin: 0 auto; }
+    .comp-division-03 .c-wrapper {
+      display: flex;
+      align-items: center; }
+      .comp-division-03 .c-wrapper > .c-container-01 {
+        font-family: Palanquin;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 40px;
+        color: #373A37; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=03.css.map */

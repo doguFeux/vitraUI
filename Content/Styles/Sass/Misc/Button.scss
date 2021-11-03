@@ -1,0 +1,226 @@
+@import "../Base/Colour.scss";
+@import "../Base/Global.scss";
+
+.primary-btn {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 48px;
+    padding: 0 24px;
+    background: linear-gradient(0deg, #A2413D, #A2413D);
+    border-radius: 6px;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    &.hover {
+        &:hover {
+            background: #373A37;
+        }
+    }
+
+    &:disabled {
+        background: #CBD5E0;
+    }
+
+    &.icon {
+        padding: 0 40px 0 16px;
+
+        &:after {
+            content: "";
+            position: absolute;
+            right: 16px;
+            top: 16px;
+            width: 16px;
+            height: 16px;
+            background-image: svg-background-image('<svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.14331 6.66675L8.14331 10.6667L12.1433 6.66675" stroke="white" stroke-width="1.5" stroke-linecap="round"/> </svg>');
+            background-repeat: no-repeat;
+        }
+
+        &.right {
+            &:after {
+                background-image: svg-background-image('<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M6 4L10 8L6 12" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </svg> ');
+            }
+        }
+    }
+
+    &.sm {
+        height: 32px;
+        font-size: 14px;
+    }
+}
+
+    .secondary-btn {
+        display: flex;
+        align-items: center;
+        height: 48px;
+        padding: 0 24px;
+        background: #373A37;
+        border-radius: 6px;
+        font-family: Open Sans;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+
+        &.hover {
+            &:hover {
+                background: linear-gradient(0deg, #A2413D, #A2413D);
+            }
+        }
+
+        &:disabled {
+            background: #CBD5E0;
+        }
+
+        &.icon {
+            justify-content: flex-start;
+            padding: 0 40px 0 16px;
+
+            &:after {
+                content: "";
+                position: absolute;
+                right: 16px;
+                top: 16px;
+                width: 16px;
+                height: 16px;
+                background-image: svg-background-image('<svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M13.6433 4.50049L6.64331 11.5002L3.14331 8.00049" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </svg> ');
+                background-repeat: no-repeat;
+            }
+        }
+
+        &.sm {
+            height: 32px;
+            font-size: 14px;
+        }
+    }
+
+    .ghost-btn {
+        display: flex;
+        align-items: center;
+        height: 48px;
+        padding: 0 24px;
+        border-radius: 6px;
+        font-family: Open Sans;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #373A37;
+        border: 1px solid #373A37;
+        border-radius: 6px;
+
+        &.hover {
+            &:hover {
+                background: #373A37;
+                color: #FFFFFF;
+            }
+        }
+
+        &:disabled {
+            color: #CBD5E0;
+            border-color: #CBD5E0;
+        }
+
+        &.icon {
+            justify-content: flex-start;
+            padding: 0 16px 0 40px;
+
+            &:after {
+                content: "";
+                position: absolute;
+                left: 16px;
+                top: 16px;
+                width: 16px;
+                height: 16px;
+                background-image: svg-background-image('<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M9.33331 4L5.33331 8L9.33331 12" stroke="#373A37" stroke-width="1.5" stroke-linecap="round"/> </svg> ');
+                background-repeat: no-repeat;
+            }
+        }
+
+        &.sm {
+            height: 32px;
+            font-size: 14px;
+        }
+    }
+
+    .lnk-btn-01 {
+        display: flex;
+        align-items: center;
+        height: 48px;
+        padding: 0 24px;
+        font-family: Open Sans;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration-line: underline;
+        color: #2A2E38;
+
+        &.hover {
+            &:hover {
+                background: rgba(229, 234, 239, 0.5);
+                border-radius: 6px;
+                text-decoration-line: none;
+            }
+        }
+
+        &.disabled {
+            color: #CBD5E0;
+        }
+
+        &.icon {
+            justify-content: flex-start;
+            padding: 0 16px 0 48px;
+            text-decoration-line: none;
+
+            &:after {
+                content: "";
+                position: absolute;
+                left: 16px;
+                top: 12px;
+                width: 24px;
+                height: 24px;
+                background-image: svg-background-image('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M18.0005 16.5L18.0005 20.25L6.00052 20.25L6.00052 16.5" stroke="#2A2E38" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> <path d="M6.00049 9.75L18.0005 9.75L18.0005 3.375L6.00049 3.375L6.00049 9.75Z" stroke="#2A2E38" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> <path d="M18.0005 7.5L21.3755 7.5L21.3755 15C21.3755 15.8284 20.648 16.5 19.7505 16.5L4.25049 16.5C3.35303 16.5 2.62549 15.8284 2.62549 15L2.62549 7.5L6.00049 7.5" stroke="#2A2E38" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> <path d="M6.375 12.1875C5.85723 12.1875 5.4375 12.6072 5.4375 13.125C5.4375 13.6428 5.85723 14.0625 6.375 14.0625C6.89277 14.0625 7.3125 13.6428 7.3125 13.125C7.3125 12.6072 6.89277 12.1875 6.375 12.1875Z" fill="black"/> </svg> ');
+                background-repeat: no-repeat;
+            }
+        }
+
+        &.sm {
+            height: 32px;
+            font-size: 14px;
+        }
+    }
+
+    @mixin common_xs1_xs2 {
+    }
+
+    @media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+        @include common_xs1_xs2();
+    }
+
+    @media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+        @include common_xs1_xs2();
+    }
+
+    @mixin common_sm1_sm2 {
+    }
+
+    @media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+        @include common_sm1_sm2();
+    }
+
+    @media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+        @include common_sm1_sm2();
+    }
+
+    @mixin common_md_lg {
+    }
+
+    @media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+        @include common_md_lg();
+    }
+
+    @media all and (min-width: #{$mq-lg + "px"}) {
+        @include common_md_lg();
+    }

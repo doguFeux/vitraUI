@@ -1,0 +1,180 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-micro-30 > .accordion-item > .accordion-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    border-bottom: 1px solid #E4E6E8; }
+    .comp-micro-30 > .accordion-item > .accordion-button:after {
+      content: "";
+      width: 15px;
+      height: 16px;
+      position: absolute;
+      right: 0;
+      transition: transform .2s ease-in-out;
+      background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cpath%20d%3D%22M12%206L8%2010L4%206%22%20stroke%3D%22%23373A37%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%20%3C%2Fsvg%3E%20"); }
+    .comp-micro-30 > .accordion-item > .accordion-button:not(.collapsed):after {
+      transform: rotate(-90deg);
+      transition: transform .2s ease-in-out; }
+    .comp-micro-30 > .accordion-item > .accordion-button > .c-unit-01 {
+      width: 16px;
+      height: 16px;
+      margin-right: auto;
+      margin-left: 8px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #373A37; }
+    .comp-micro-30 > .accordion-item > .accordion-button > .c-unit-02 {
+      margin-right: auto;
+      margin-left: 16px; }
+  .comp-micro-30 > .accordion-item > .accordion-collapse {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    -moz-transition: height 0.4s ease-in-out, opacity 0.3s;
+    -o-transition: height 0.4s ease-in-out, opacity 0.3s;
+    -webkit-transition: height 0.4s ease-in-out, opacity 0.3s;
+    transition: height 0.4s ease-in-out, opacity 0.3s; }
+    .comp-micro-30 > .accordion-item > .accordion-collapse.on {
+      opacity: 1;
+      -moz-transition: height 0.4s ease-in-out, opacity 1s;
+      -o-transition: height 0.4s ease-in-out, opacity 1s;
+      -webkit-transition: height 0.4s ease-in-out, opacity 1s;
+      transition: height 0.4s ease-in-out, opacity 1s; }
+    .comp-micro-30 > .accordion-item > .accordion-collapse .accordion-body > .c-item-01 {
+      display: flex;
+      flex-direction: column; }
+      .comp-micro-30 > .accordion-item > .accordion-collapse .accordion-body > .c-item-01 > li {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #E4E6E8;
+        height: 62px; }
+        .comp-micro-30 > .accordion-item > .accordion-collapse .accordion-body > .c-item-01 > li > a {
+          height: 100%;
+          display: flex;
+          align-items: center;
+          font-family: Palanquin;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          color: #373A37; }
+          .comp-micro-30 > .accordion-item > .accordion-collapse .accordion-body > .c-item-01 > li > a svg {
+            margin-right: 12px; }
+    .comp-micro-30 > .accordion-item > .accordion-collapse .accordion-body > .c-item-02 > a {
+      display: flex;
+      width: 100%;
+      height: 222px;
+      padding: 32px 0 24px 24px;
+      margin: 0 0 24px 0;
+      background: #97A0A9; }
+      .comp-micro-30 > .accordion-item > .accordion-collapse .accordion-body > .c-item-02 > a > picture {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        display: flex;
+        justify-content: center; }
+      .comp-micro-30 > .accordion-item > .accordion-collapse .accordion-body > .c-item-02 > a > .c-unit-01 {
+        max-width: 237px;
+        font-family: Palanquin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF; }
+    .comp-micro-30 > .accordion-item > .accordion-collapse .accordion-body > .c-column-01 {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .comp-micro-30 > .accordion-item > .accordion-collapse .accordion-body > .c-column-01 > .c-container-01 {
+        border-radius: 8px;
+        overflow: hidden; }
+      .comp-micro-30 > .accordion-item > .accordion-collapse .accordion-body > .c-column-01 > .c-container-02 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 327px; }
+        .comp-micro-30 > .accordion-item > .accordion-collapse .accordion-body > .c-column-01 > .c-container-02 > .c-item-01 {
+          font-family: Palanquin;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 48px;
+          text-align: center;
+          color: #FFFFFF; }
+        .comp-micro-30 > .accordion-item > .accordion-collapse .accordion-body > .c-column-01 > .c-container-02 > .c-item-02 {
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          text-align: center;
+          color: #FFFFFF;
+          margin: 8px 0 20px 0; }
+        .comp-micro-30 > .accordion-item > .accordion-collapse .accordion-body > .c-column-01 > .c-container-02 > .c-item-03 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 226px;
+          height: 48px;
+          background: linear-gradient(0deg, #A2413D, #A2413D);
+          border-radius: 6px;
+          font-family: Open Sans;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          color: #FFFFFF; }
+    .comp-micro-30 > .accordion-item > .accordion-collapse .accordion-body > .c-column-02 > :last-child {
+      margin-bottom: 0; }
+    .comp-micro-30 > .accordion-item > .accordion-collapse .accordion-body > .c-column-03 {
+      font-family: Palanquin;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      text-align: center;
+      color: #373A37; }
+
+  .comp-micro-30 > .accordion-item > .accordion-button {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #373A37; }
+    .comp-micro-30 > .accordion-item > .accordion-button > .c-unit-01 {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 20px;
+      color: #FFFFFF; }
+    .comp-micro-30 > .accordion-item > .accordion-button > .c-unit-02 {
+      margin-right: auto;
+      margin-left: 8px;
+      font-family: Palanquin;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #373A37; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-micro-30 {
+    display: none; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=30.css.map */

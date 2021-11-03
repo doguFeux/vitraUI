@@ -1,0 +1,43 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-section-01 .c-wrapper {
+    margin: 0;
+    width: 100%;
+    overflow-x: auto; }
+    .comp-section-01 .c-wrapper > .c-container-01 {
+      display: flex; }
+      .comp-section-01 .c-wrapper > .c-container-01 > :first-child {
+        margin-left: 20px; }
+
+  .comp-section-01 .c-wrapper > .c-container-02 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #373A37;
+    text-align: center; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-section-01 .c-wrapper > .c-container-01 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+
+  .comp-section-01 .c-wrapper > .c-container-02 {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #373A37; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=01.css.map */

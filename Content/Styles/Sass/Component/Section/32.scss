@@ -1,0 +1,267 @@
+﻿@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .comp-section-32 {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 80px 0 116px 0;
+        border-top: 1px solid #E4E6E8;
+
+
+        .c-wrapper {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+
+            > .c-column-01 {
+             display:none;
+
+
+                > .c-container-01 {
+                    display: flex;
+                    flex-direction: column;
+                    align-content: flex-start;
+                    width: 100%;
+
+                    > .c-item-01 {
+                        font-family: Palanquin;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 40px;
+                        line-height: 56px;
+                        color: #373A37;
+                        margin-bottom: 40px;
+                    }
+
+                    > .c-item-02 {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+                }
+            }
+
+            > .c-column-02 {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                > .c-container-01 {
+                    display: flex;
+                    flex-direction: column;
+                    align-content: flex-start;
+
+                    > .c-item-01 {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+
+                    > .c-item-02 {
+                        margin: 20px 0;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+
+                    > .c-item-03 {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+
+
+                    > .c-item-04 {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 32px;
+                        padding-top: 48px;
+                        border-top: 1px solid #373A37;
+                        font-family: Palanquin;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #A1413D;
+
+                        svg {
+                            margin-right: 12px;
+                            transform: rotate(90deg)
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* XS1 */
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+}
+
+/* XS2 */
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common SM1 and SM2 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* SM1 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+}
+
+/* SM2 */
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* Common MD and LG */
+@media all and (min-width: #{$mq-md + "px"}) {
+
+    .comp-section-32 {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 80px 0 116px 0;
+        border-top: 1px solid #E4E6E8;
+
+        &:after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 1px;
+            background: #E4E6E8;
+        }
+
+        .c-wrapper {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+
+            > .c-column-01 {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+
+                > .c-container-01 {
+                    display: flex;
+                    flex-direction: column;
+                    align-content: flex-start;
+                    width: 525px;
+
+                    > .c-item-01 {
+                        font-family: Palanquin;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 40px;
+                        line-height: 56px;
+                        color: #373A37;
+                        margin-bottom: 40px;
+                    }
+
+                    > .c-item-02 {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+                }
+            }
+
+            > .c-column-02 {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                > .c-container-01 {
+                    display: flex;
+                    flex-direction: column;
+                    align-content: flex-start;
+                    width: 525px;
+
+                    > .c-item-01 {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+
+                    > .c-item-02 {
+                        margin: 20px 0;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+
+                    > .c-item-03 {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: #373A37;
+                    }
+
+
+                    > .c-item-04 {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 32px;
+                        padding-top: 48px;
+                        border-top: 1px solid #373A37;
+                        font-family: Palanquin;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #A1413D;
+
+                        svg {
+                            margin-right: 12px;
+                            transform: rotate(90deg)
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Related Typography
+
+}
+/* MD */
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+}
+
+/* LG */
+@media all and (min-width: #{$mq-lg + "px"}) {
+}

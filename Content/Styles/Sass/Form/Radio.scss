@@ -1,0 +1,71 @@
+@import "../Base/Colour.scss";
+@import "../Base/Global.scss";
+@import "FormGlobal.scss";
+
+
+
+
+
+.rdb-A {
+    display: flex;
+    @include chk-default('inline-flex');
+    @include chk-hover-label-before(1px solid #373A37, '', '', '', '');
+    @include chk-disabled-label-before('none', '', '', #373A37, '');
+    @include chk-error-label-before(1px solid #373A37, '', '', #373A37,'');
+
+    &.rdb-large {
+        @include chk-label-before(24px, 24px,1.5px solid #373A37, 50%, 0 0 0 0);
+        @include chk-checked-label-before(8.5px solid #373A37, '', '', #fff);
+    }
+
+    &.rdb-medium {
+        @include chk-label-before(20px, 20px,1px solid #373A37, 50%, 0 0 0 0);
+        @include chk-checked-label-before(1px solid #373A37, 14px, '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M5.74888 10.0625L2.625 6.96435L3.61902 5.97852L5.74888 8.09084L10.3785 3.5L11.375 4.48211L5.74888 10.0625Z" fill="#0072B6"/> </svg> ', #fff);
+    }
+
+    &.rdb-slim {
+        @include chk-label-before(16px, 16px,1px solid #373A37, 50%, 0 0 0 0);
+        @include chk-checked-label-before(1px solid #373A37, 12px, '<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.92762 8.625L2.25 5.96944L3.10202 5.12445L4.92762 6.935L8.89584 3L9.75 3.84181L4.92762 8.625Z" fill="#0072B6"/> </svg> ', #fff);
+    }
+
+
+    &.rdb-large-02 {
+        @include chk-label-before(24px, 24px,1.5px solid #E4E6E8, 50%, 0 0 0 36px);
+        @include chk-checked-label-before(8.5px solid #A1413D, 14px, '', #fff);
+    }
+}
+
+
+
+@mixin common_xs1_xs2 {
+}
+
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+    @include common_xs1_xs2();
+}
+
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    @include common_xs1_xs2();
+}
+
+@mixin common_sm1_sm2 {
+}
+
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+    @include common_sm1_sm2();
+}
+
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+    @include common_sm1_sm2();
+}
+
+@mixin common_md_lg {
+}
+
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+    @include common_md_lg();
+}
+
+@media all and (min-width: #{$mq-lg + "px"}) {
+    @include common_md_lg();
+}

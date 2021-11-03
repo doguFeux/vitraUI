@@ -1,0 +1,120 @@
+@import "../Base/Colour.scss";
+@import "../Base/Global.scss";
+@import "FormGlobal.scss";
+
+
+
+
+
+.chk-A {
+    @include chk-default('inline-flex');
+    @include chk-hover-label-before(1px solid #373A37, '', '', '', '');
+    @include chk-disabled-label-before('none', '', '', #373A37, '');
+    @include chk-error-label-before(1px solid #A1413D, '', '', #fff,'');
+
+    &.chk-large {
+        @include chk-label-before(24px, 24px,1.5px solid #373A37, 4px, 0 0 0 34px);
+        @include chk-checked-label-before(1px solid #373A37, 20px, '<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M13.5 4.50049L6.5 11.5002L3 8.00049" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </svg> ', #fff);
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #373A37;
+    }
+
+    &.chk-medium {
+        @include chk-label-before(20px, 20px,1px solid #373A37, 4px, 0 0 0 0);
+        @include chk-checked-label-before(1px solid #373A37, 14px, '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M5.74888 10.0625L2.625 6.96435L3.61902 5.97852L5.74888 8.09084L10.3785 3.5L11.375 4.48211L5.74888 10.0625Z" fill="#0072B6"/> </svg> ', #fff);
+    }
+
+    &.chk-slim {
+        @include chk-label-before(16px, 16px,1px solid #7D8285, 2px, 0 0 0 24px);
+        @include chk-checked-label-before(1px solid #373A37, 12px, '<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M10.125 3.37598L4.875 8.62574L2.25 6.00098" stroke="#373A37" stroke-linecap="round" stroke-linejoin="round"/> </svg> ', #fff);
+    }
+}
+
+
+.chk-B {
+    display: flex;
+
+    & > span {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+
+
+        &::before {
+            content: '';
+            display: block;
+            width: 42px;
+            height: 24px;
+            border-radius: 30px;
+            background-color: rgba(125, 130, 133, 0.5);
+            transition: background-color 0.2s, border 0.2s;
+            cursor: pointer;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: calc(50% - 9px);
+            left: 4px;
+            display: block;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background-color: #fff;
+            @include dynamicTransform(translateX(0));
+            @include dynamicTransition(transform 0.3s);
+            cursor: pointer;
+        }
+
+        & > span {
+            width: calc(100% - 50px);
+        }
+    }
+
+    [type=checkbox]:checked ~ span::before {
+        background-color: #373A37;
+    }
+
+    [type=checkbox]:checked ~ span::after {
+        @include dynamicTransform(translateX(16px));
+        background-color: #fff;
+    }
+}
+
+
+@mixin common_xs1_xs2 {
+}
+
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+    @include common_xs1_xs2();
+}
+
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    @include common_xs1_xs2();
+}
+
+@mixin common_sm1_sm2 {
+}
+
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+    @include common_sm1_sm2();
+}
+
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+    @include common_sm1_sm2();
+}
+
+@mixin common_md_lg {
+}
+
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+    @include common_md_lg();
+}
+
+@media all and (min-width: #{$mq-lg + "px"}) {
+    @include common_md_lg();
+}

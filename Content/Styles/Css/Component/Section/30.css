@@ -1,0 +1,131 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-section-30 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 80px; }
+    .comp-section-30 .c-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .comp-section-30 .c-wrapper > .c-container-01 {
+        font-family: Palanquin;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #373A37; }
+      .comp-section-30 .c-wrapper > .c-container-02 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 32px 0; }
+        .comp-section-30 .c-wrapper > .c-container-02 > .c-item-01 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 40px;
+          padding: 0 16px;
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: center;
+          color: #7D8285;
+          border-radius: 6px; }
+          .comp-section-30 .c-wrapper > .c-container-02 > .c-item-01.on {
+            background: #F4F7F6;
+            font-weight: 600;
+            color: #373A37; }
+      .comp-section-30 .c-wrapper > .c-container-04 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 327px;
+        height: 50px;
+        margin-top: 40px;
+        background: #FFFFFF;
+        border: 1px solid #E4E6E8;
+        border-radius: 4px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #7D8285;
+        transform: matrix(1, 0, 0.01, 1, 0, 0); } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-section-30 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 80px; }
+    .comp-section-30 .c-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .comp-section-30 .c-wrapper > .c-container-01 {
+        font-family: Palanquin;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #373A37; }
+      .comp-section-30 .c-wrapper > .c-container-02 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 32px 0; }
+        .comp-section-30 .c-wrapper > .c-container-02 > .c-item-01 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 40px;
+          padding: 0 16px;
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: center;
+          color: #7D8285;
+          border-radius: 6px; }
+          .comp-section-30 .c-wrapper > .c-container-02 > .c-item-01.on {
+            background: #F4F7F6;
+            font-weight: 600;
+            color: #373A37; }
+      .comp-section-30 .c-wrapper > .c-container-03 {
+        width: 857px; }
+      .comp-section-30 .c-wrapper > .c-container-04 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 327px;
+        height: 50px;
+        margin-top: 40px;
+        background: #FFFFFF;
+        border: 1px solid #E4E6E8;
+        border-radius: 4px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #7D8285;
+        transform: matrix(1, 0, 0.01, 1, 0, 0); } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=30.css.map */

@@ -1,0 +1,609 @@
+@import "../Base/Colour.scss";
+@import "../Base/Global.scss";
+
+#hamburger-menu-wrapper,
+#menu-primary,
+#account-container,
+#menu-socialmedia {
+    display: none;
+}
+
+#menu-primary {
+    ul, .submenu-ad, .level-2-header {
+        display: none;
+    }
+}
+
+#hamburger-menu-wrapper {
+    position: fixed;
+    z-index: 300;
+    overflow: hidden;
+}
+
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    #page-wrapper.menu-on {
+        #hamburger-menu-wrapper {
+        }
+
+        &.menu-off {
+            #hamburger-menu-wrapper {
+            }
+        }
+    }
+
+    #hamburger-menu-wrapper {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        background: rgba(228, 230, 232, .3);
+        transform: translateX(-100%);
+
+        #menu-content-wrapper {
+            height: 100%;
+        }
+
+        #menu-animation-wrapper {
+            display: flex;
+            justify-content: space-between;
+            width: 300%;
+            height: 100%;
+        }
+
+        #menu-screen-1,
+        #menu-screen-2,
+        #menu-screen-3 {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: start;
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+
+        #menu-screen-1 {
+            justify-content: space-between;
+        }
+
+        #site-logo-menu {
+            display: flex;
+            order: 0;
+            width: 65px;
+            height: 32px;
+            overflow: hidden;
+            margin: 32px 0 0 16px;
+
+            .logo-dark {
+                // Modified because the svg is originally 56 px height and fits in container by width but not height.
+                top: calc(50% - 28px);
+            }
+
+            .logo-light, .logo-icon {
+                display: none;
+            }
+        }
+
+        #close-button-menu {
+            display: flex;
+            order: 1;
+            width: 24px;
+            height: 24px;
+            margin: 36px 24px 0 0;
+        }
+
+        #menu-primary {
+            display: flex;
+            order: 2;
+            width: 100%;
+
+            #submenu-animation-wrapper {
+                width: 100%;
+            }
+        }
+
+        .ul-level-1, .ul-level-2, .ul-level-3 {
+            display: block;
+            width: 100%;
+
+            > li {
+                background-image: svg-background-image('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1893 18.3107L12.1287 17.25L16.6287 12.75H6V11.25H16.6287L12.1287 6.74999L13.1893 5.68933L19.5 12L13.1893 18.3107Z" fill="#221F44"/> </svg> ');
+                background-position: right center;
+                background-repeat: no-repeat;
+
+                &.hasSubmenu {
+                    background-image: svg-background-image('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M9 7.06066L10.0607 6L16.3713 12.3107L10.0607 18.6213L9 17.5607L14.25 12.3107L9 7.06066Z" fill="#221F44"/> </svg> ');
+                }
+
+                > a {
+                    display: flex;
+                    align-items: center;
+                    min-height: 48px;
+                    padding-right: 32px;
+                    font-family: Sofia Pro;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #221F44;
+                }
+            }
+        }
+
+        .ul-level-1 {
+            padding: 0 24px;
+            margin-top: 40px;
+        }
+
+        .ul-level-2 {
+            padding: 0 24px 0 64px;
+        }
+
+        .ul-level-3 {
+            padding: 0 24px 0 88px;
+        }
+
+        .ul-level-2, .ul-level-3 {
+            display: none;
+
+            &.on {
+                display: block;
+            }
+        }
+
+        .main-menu-btn {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 56px;
+            padding: 8px 0 8px 24px;
+            background-color: #F7F7FC;
+            font-family: Sofia Pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #221F44;
+
+            &:before {
+                content: '';
+                display: flex;
+                width: 24px;
+                height: 24px;
+                background-image: svg-background-image('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11.8714 11.7803L14.3411 9.31066L13.2804 8.25L9.75007 11.7803L13.2804 15.3107L14.3411 14.25L11.8714 11.7803Z" fill="#221F44"/> </svg> ');
+            }
+        }
+
+        .level-2-header, .level-3-header {
+            display: none;
+            align-items: center;
+            width: 100%;
+            height: 48px;
+            padding: 0 0 8px 48px;
+            margin-top: -8px;
+            background-color: #F7F7FC;
+            font-family: Sofia Pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #221F44;
+
+            &:before {
+                content: '';
+                display: flex;
+                width: 24px;
+                height: 24px;
+                background-image: svg-background-image('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11.8714 11.7803L14.3411 9.31066L13.2804 8.25L9.75007 11.7803L13.2804 15.3107L14.3411 14.25L11.8714 11.7803Z" fill="#221F44"/> </svg> ');
+            }
+        }
+
+        .level-3-header.on {
+            display: flex;
+        }
+
+        .level-2-screentitle, .level-3-screentitle {
+            display: none;
+            height: 20px;
+            margin: 24px 0 0 64px;
+            font-family: Sofia Pro;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #E94034;
+
+            &.on {
+                display: flex;
+            }
+        }
+
+        .level-3-screentitle {
+            margin-left: 88px;
+        }
+    }
+}
+
+/* XS1 */
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+}
+
+/* XS2 */
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common SM1 and SM2 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* SM1 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+}
+
+/* SM2 */
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* Common MD and LG */
+@media all and (min-width: #{$mq-md + "px"}) {
+    #hamburger-menu-wrapper {
+        display: none;
+    }
+
+    #hamburger-menu-wrapper {
+        top: 0;
+        bottom: 0;
+        right: 0;
+        display: block;
+        width: 448px;
+        background-color: #fff;
+        transform: translateX(100%);
+
+        &:before {
+            // Keeps a white space for menu screen header.
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            display: flex;
+            height: 96px;
+            background-color: #fff;
+            transition: background-color 0.7s;
+        }
+
+        &[data-screen='level2-on'],
+        &[data-screen='level3-on'] {
+            &:before {
+                // Keeps a gray space for menu screen header.
+                background-color: #F7F7FC;
+            }
+        }
+
+        #menu-content-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        #menu-animation-wrapper {
+            display: flex;
+            order: 2;
+            flex-shrink: 0;
+            justify-content: space-between;
+            width: 300%;
+            height: calc(100% - 96px);
+            margin-top: 32px;
+        }
+
+        #menu-screen-1,
+        #menu-screen-2,
+        #menu-screen-3 {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: start;
+            width: 100%;
+            height: 100%;
+            padding-bottom: 108px;
+            overflow-x: hidden;
+            overflow-y: auto;
+            //
+            // Menu screen scrollbar styling
+            &::-webkit-scrollbar {
+                width: 7px;
+            }
+
+            &::-webkit-scrollbar-track {
+                background: #f5f5f5;
+            }
+
+            &::-webkit-scrollbar-thumb {
+                /* Handle */
+                background: #ccc;
+            }
+
+            &::-webkit-scrollbar-thumb:hover {
+                /* Handle on hover */
+                background: #aaa;
+            }
+        }
+
+        #menu-screen-1 {
+            justify-content: space-between;
+            background-color: #F7F7FC;
+        }
+
+        #site-logo-menu {
+            display: flex;
+            order: 0;
+            width: 32px;
+            height: 32px;
+            margin: 32px 0 0 24px;
+
+            .logo-icon {
+                display: block;
+            }
+
+            .logo-dark, .logo-light {
+                display: none;
+            }
+        }
+
+        #close-button-menu {
+            display: flex;
+            order: 1;
+            width: 24px;
+            height: 24px;
+            margin: 36px 24px 0 0;
+        }
+
+        #menu-primary {
+            display: flex;
+            width: 100%;
+
+            #submenu-animation-wrapper {
+                width: 100%;
+            }
+        }
+
+        .ul-level-1, .ul-level-2, .ul-level-3 {
+            display: block;
+            width: 100%;
+
+            > li {
+                background-image: svg-background-image('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1893 18.3107L12.1287 17.25L16.6287 12.75H6V11.25H16.6287L12.1287 6.74999L13.1893 5.68933L19.5 12L13.1893 18.3107Z" fill="#221F44" /> </svg> ');
+                background-position: right center;
+                background-repeat: no-repeat;
+
+                &.hasSubmenu {
+                    background-image: svg-background-image('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M9 7.06066L10.0607 6L16.3713 12.3107L10.0607 18.6213L9 17.5607L14.25 12.3107L9 7.06066Z" fill="#221F44"/> </svg> ');
+                }
+
+                &.signout {
+                    background-image: svg-background-image('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1893 18.3107L12.1287 17.25L16.6287 12.75H6V11.25H16.6287L12.1287 6.74999L13.1893 5.68933L19.5 12L13.1893 18.3107Z" fill="#221F44" opacity="0.3"/> </svg> ');
+                }
+
+                &.menu-separator {
+                    margin-bottom: 49px;
+
+                    &:after {
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        right: 0;
+                        bottom: -24px;
+                        left: 0;
+                        border-bottom: 1px solid #ECEAFA;
+                    }
+                }
+
+                &.menu-double-separator {
+                    margin-top: 16px;
+
+                    &:before, &:after {
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        right: 0;
+                        left: 0;
+                        border-bottom: 1px solid #ECEAFA;
+                    }
+
+                    &:before {
+                        top: -8px;
+                    }
+
+                    &:after {
+                        bottom: -8px;
+                    }
+                }
+
+                > a {
+                    display: flex;
+                    align-items: center;
+                    min-height: 48px;
+                    padding-right: 32px;
+                    font-family: Sofia Pro;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #221F44;
+                    transition: color 0.3s;
+                }
+
+                &:not(.lang-container):hover {
+                    background-image: svg-background-image('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1893 18.3107L12.1287 17.25L16.6287 12.75H6V11.25H16.6287L12.1287 6.74999L13.1893 5.68933L19.5 12L13.1893 18.3107Z" fill="#E94034"/> </svg> ');
+
+                    &.hasSubmenu {
+                        background-image: svg-background-image('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M9 7.06066L10.0607 6L16.3713 12.3107L10.0607 18.6213L9 17.5607L14.25 12.3107L9 7.06066Z" fill="#E94034"/> </svg> ');
+                    }
+
+                    > a {
+                        color: #E94034;
+                        opacity: 1 !important;
+                    }
+                }
+            }
+        }
+
+        .ul-level-1 {
+            background-color: #fff;
+
+            > li {
+                // !!! do not write paddings in one line which conflicts with spacing values !!!
+                padding-right: 24px;
+                padding-left: 24px;
+                background-position: calc(100% - 24px) center;
+
+                &.bottom-menu-item {
+                    background-position: calc(100% - 24px) calc(100% - 8px);
+                    background-color: #F7F7FC;
+
+                    > a {
+                        min-height: 40px;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 18px;
+                    }
+
+                    &.signout {
+                        > a {
+                            opacity: 0.5;
+                        }
+                    }
+                }
+
+                &.lang-container {
+                    display: flex;
+                    padding-top: 24px;
+                    background-image: none;
+
+                    > a {
+                        display: flex;
+                        justify-content: center;
+                        width: 80px;
+                        height: 40px;
+                        padding: 0;
+                        margin-right: 1px;
+                        background-color: #fff;
+
+                        &:hover {
+                            color: #E94034;
+                        }
+
+                        &.lang-selected:before {
+                            content: '';
+                            position: absolute;
+                            top: calc(50% - 8px);
+                            left: 8px;
+                            display: block;
+                            width: 16px;
+                            height: 16px;
+                            background-image: svg-background-image('<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8Z" fill="#221F44"/> <path d="M11.1699 5L11.9132 5.66896L6.7262 11.4323L4 8.70613L4.70711 7.99902L6.68801 9.97993L11.1699 5Z" fill="white"/> </svg> ');
+                        }
+                    }
+                }
+            }
+        }
+
+        .ul-level-2 {
+            padding: 0 24px 0 64px;
+        }
+
+        .ul-level-3 {
+            padding: 0 24px 0 88px;
+        }
+
+        .ul-level-2, .ul-level-3 {
+            display: none;
+
+            &.on {
+                display: block;
+            }
+        }
+
+        .main-menu-btn {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 56px;
+            padding: 8px 0 8px 24px;
+            background-color: #F7F7FC;
+            font-family: Sofia Pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #221F44;
+
+            &:before {
+                content: '';
+                display: flex;
+                width: 24px;
+                height: 24px;
+                background-image: svg-background-image('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11.8714 11.7803L14.3411 9.31066L13.2804 8.25L9.75007 11.7803L13.2804 15.3107L14.3411 14.25L11.8714 11.7803Z" fill="#221F44"/> </svg> ');
+            }
+        }
+
+        .level-2-header, .level-3-header {
+            display: none;
+            align-items: center;
+            width: 100%;
+            height: 48px;
+            padding: 0 0 8px 48px;
+            margin-top: -8px;
+            background-color: #F7F7FC;
+            font-family: Sofia Pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #221F44;
+
+            &:before {
+                content: '';
+                display: flex;
+                width: 24px;
+                height: 24px;
+                background-image: svg-background-image('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11.8714 11.7803L14.3411 9.31066L13.2804 8.25L9.75007 11.7803L13.2804 15.3107L14.3411 14.25L11.8714 11.7803Z" fill="#221F44"/> </svg> ');
+            }
+        }
+
+        .level-3-header.on {
+            display: flex;
+        }
+
+        .level-2-screentitle, .level-3-screentitle {
+            display: none;
+            margin: 24px 0 24px 64px;
+            font-family: Sofia Pro;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #E94034;
+
+            &.on {
+                display: flex;
+            }
+        }
+
+        .level-3-screentitle {
+            margin-left: 88px;
+        }
+    }
+}
+/* MD */
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+}
+/* LG */
+@media all and (min-width: #{$mq-lg + "px"}) {
+}

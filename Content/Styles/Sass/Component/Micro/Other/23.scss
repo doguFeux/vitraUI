@@ -1,0 +1,193 @@
+@import "../../../Base/Global.scss";
+@import "../../../Base/Global.scss";
+
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    // Related UI
+    .comp-micro-23 {
+        width: 100%;
+        height: 96px;
+        padding-left: 24px;
+        margin: 0 0 12px 0;
+        display: flex;
+        align-items: center;
+        border: 1px solid #E4E6E8;
+        border-radius: 8px;
+
+        &.v2 {
+            height: 56px;
+
+            > .c-container-03 {
+                bottom: 18px;
+            }
+        }
+
+        &.v3 {
+            height: 104px;
+            padding: 0;
+            border: none;
+            border-bottom: 1px solid #E4E6E8;
+            border-radius: 0;
+
+            > .c-container-03 {
+                right: 0;
+            }
+        }
+
+        &.on {
+            border-color: #A1413D;
+
+            > .c-container-02 {
+                color: #A1413D;
+            }
+        }
+
+        > .c-container-01 {
+            display: flex;
+            width: 72px;
+            height: 72px;
+            margin-right: 24px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #F2F3F4;
+            border-radius: 107px;
+        }
+
+        > .c-container-02 {
+        }
+
+        > .c-container-03 {
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            right: 32px;
+            bottom: 40px;
+            background-image: svg-background-image('<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M6 4L10 8L6 12" stroke="#373A37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </svg> ');
+            background-repeat: no-repeat;
+        }
+    }
+    // Related Typography
+    .comp-micro-23 {
+
+        > .c-container-01 {
+        }
+
+        > .c-container-02 {
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color: #373A37;
+        }
+
+        > .c-container-03 {
+        }
+    }
+}
+
+/* XS1 */
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+}
+
+/* XS2 */
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common SM1 and SM2 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* SM1 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+}
+
+/* SM2 */
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* Common MD and LG */
+@media all and (min-width: #{$mq-md + "px"}) {
+
+
+    // Related UI
+    .comp-micro-23 {
+        width: 416px;
+        height: 96px;
+        padding-left: 24px;
+        margin: 0 24px 12px 0;
+        display: flex;
+        align-items: center;
+        border: 1px solid #E4E6E8;
+        border-radius: 8px;
+
+        &.v2 {
+            height: 56px;
+
+            > .c-container-03 {
+                bottom: 18px;
+            }
+        }
+
+        &.on {
+            border-color: #A1413D;
+
+            > .c-container-02 {
+                color: #A1413D;
+            }
+        }
+
+        > .c-container-01 {
+            display: flex;
+            width: 72px;
+            height: 72px;
+            margin-right: 24px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #F2F3F4;
+            border-radius: 107px;
+        }
+
+        > .c-container-02 {
+        }
+
+        > .c-container-03 {
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            right: 32px;
+            bottom: 40px;
+            background-image: svg-background-image('<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M6 4L10 8L6 12" stroke="#373A37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </svg> ');
+            background-repeat: no-repeat;
+        }
+    }
+    // Related Typography
+    .comp-micro-23 {
+
+        > .c-container-01 {
+        }
+
+        > .c-container-02 {
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color: #373A37;
+        }
+
+        > .c-container-03 {
+        }
+    }
+}
+/* MD */
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+}
+
+/* LG */
+@media all and (min-width: #{$mq-lg + "px"}) {
+}

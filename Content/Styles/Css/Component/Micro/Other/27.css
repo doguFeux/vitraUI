@@ -1,0 +1,508 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-micro-27 {
+    border: 1px solid #E4E6E8;
+    border-radius: 6px; }
+    .comp-micro-27 > .c-container-01 {
+      border-bottom: 1px solid #E4E6E8; }
+      .comp-micro-27 > .c-container-01 > .c-item-01 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 56px;
+        padding: 0 24px 0 16px; }
+        .comp-micro-27 > .c-container-01 > .c-item-01 > .c-item-01-A {
+          display: flex;
+          align-items: center; }
+          .comp-micro-27 > .c-container-01 > .c-item-01 > .c-item-01-A > .c-unit-01 {
+            display: none; }
+        .comp-micro-27 > .c-container-01 > .c-item-01 > .c-item-01-B {
+          display: flex;
+          align-items: center; }
+          .comp-micro-27 > .c-container-01 > .c-item-01 > .c-item-01-B .c-unit-01 {
+            margin-right: 16px; }
+        .comp-micro-27 > .c-container-01 > .c-item-01.on .c-item-01-A {
+          font-weight: 600; }
+      .comp-micro-27 > .c-container-01 .expandingContent .c-item-02 {
+        padding: 8px;
+        display: flex;
+        flex-wrap: wrap; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-02 > .c-item-02-A {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 148px;
+          height: 40px;
+          margin-right: 15px;
+          mix-blend-mode: normal;
+          border: 1px solid #E4E6E8;
+          border-radius: 4px;
+          margin-bottom: 16px; }
+          .comp-micro-27 > .c-container-01 .expandingContent .c-item-02 > .c-item-02-A.on {
+            background: rgba(228, 230, 232, 0.2);
+            border-color: #97A0A9; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-02 > :nth-child(2n) {
+          margin-right: 0; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-02 > :last-child {
+          margin-bottom: 0; }
+      .comp-micro-27 > .c-container-01 .expandingContent .c-item-03 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 8px; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-03 > .c-item-03-A {
+          width: 152px;
+          height: 132px;
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          transition: all 0.2s;
+          margin-bottom: 16px; }
+          .comp-micro-27 > .c-container-01 .expandingContent .c-item-03 > .c-item-03-A picture {
+            opacity: .5;
+            transition: all 0.2s; }
+          .comp-micro-27 > .c-container-01 .expandingContent .c-item-03 > .c-item-03-A > .c-unit-01 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s; }
+          .comp-micro-27 > .c-container-01 .expandingContent .c-item-03 > .c-item-03-A.on {
+            height: 141px;
+            opacity: 1; }
+            .comp-micro-27 > .c-container-01 .expandingContent .c-item-03 > .c-item-03-A.on picture {
+              opacity: 1; }
+          .comp-micro-27 > .c-container-01 .expandingContent .c-item-03 > .c-item-03-A > :nth-last-child(-n+3) {
+            margin-bottom: 0; }
+      .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 {
+        padding: 8px; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-A {
+          display: flex;
+          flex-wrap: wrap; }
+          .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-A > .c-unit-02 {
+            display: none; }
+          .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-A > .c-unit-03 {
+            margin: 24px 0 8px 0;
+            width: 100%; }
+          .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-A > .c-unit-04 {
+            margin-bottom: 24px;
+            width: 100%; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-B {
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+          .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-B > .c-unit-01, .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-B .c-unit-02 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 156px;
+            height: 40px;
+            border-radius: 6px; }
+          .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-B > .c-unit-01 {
+            border: 1px solid #E4E6E8; }
+          .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-B > .c-unit-02 {
+            background: #373A37; }
+      .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 {
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-A {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center; }
+          .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-A > .c-unit-01 {
+            display: flex; }
+          .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-A > .c-unit-03 {
+            margin: 24px 0 8px 0;
+            width: 100%; }
+          .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-A > .c-unit-04 {
+            margin-bottom: 24px;
+            width: 100%; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-B {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%; }
+          .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-B > .c-unit-01, .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-B .c-unit-02 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 156px;
+            height: 40px;
+            border-radius: 6px; }
+          .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-B > .c-unit-01 {
+            border: 1px solid #E4E6E8; }
+          .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-B > .c-unit-02 {
+            background: #373A37; }
+      .comp-micro-27 > .c-container-01 .expandingContent:last-child .c-item-01 {
+        border-bottom: none; }
+    .comp-micro-27 > :last-child {
+      border-bottom: none; }
+      .comp-micro-27 > :last-child .c-item-01 {
+        border-bottom: none; }
+
+  .comp-micro-27 > .c-container-01 > .c-item-01 > .c-item-01-A {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: #373A37; }
+  .comp-micro-27 > .c-container-01 > .c-item-01 > .c-item-01-B {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7D8285; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-02 > .c-item-02-A {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #373A37; }
+    .comp-micro-27 > .c-container-01 .expandingContent .c-item-02 > .c-item-02-A.on {
+      font-weight: 600; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-03 > .c-item-03-A > .c-unit-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    color: #7D8285; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-03 > .c-item-03-A.on > .c-unit-01 {
+    font-weight: 600;
+    color: #373A37; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-A > .c-unit-03 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #373A37; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-A > .c-unit-04 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #373A37; }
+    .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-A > .c-unit-04 a {
+      color: #A1413D;
+      font-weight: 600; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-B > .c-unit-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #373A37; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-B > .c-unit-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-A > .c-unit-03 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #373A37; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-A > .c-unit-04 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #373A37; }
+    .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-A > .c-unit-04 a {
+      color: #A1413D;
+      font-weight: 600; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-B > .c-unit-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #373A37; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-B > .c-unit-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-micro-27 > .c-container-01 {
+    background: linear-gradient(90.63deg, #F4F7F6 2.72%, rgba(244, 247, 246, 0) 100.92%);
+    border-radius: 6px;
+    margin-bottom: 16px; }
+    .comp-micro-27 > .c-container-01 > .c-item-01 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      padding: 0 24px 0 16px; }
+      .comp-micro-27 > .c-container-01 > .c-item-01 > .c-item-01-A {
+        display: flex;
+        align-items: center; }
+        .comp-micro-27 > .c-container-01 > .c-item-01 > .c-item-01-A > .c-unit-01 {
+          margin-right: 8px; }
+      .comp-micro-27 > .c-container-01 > .c-item-01 > .c-item-01-B {
+        display: flex;
+        align-items: center; }
+        .comp-micro-27 > .c-container-01 > .c-item-01 > .c-item-01-B .c-unit-01 {
+          margin-right: 16px; }
+      .comp-micro-27 > .c-container-01 > .c-item-01.on .c-item-01-A {
+        font-weight: 600; }
+    .comp-micro-27 > .c-container-01 .expandingContent .c-item-02 {
+      padding: 8px;
+      display: flex;
+      flex-wrap: wrap; }
+      .comp-micro-27 > .c-container-01 .expandingContent .c-item-02 > .c-item-02-A {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 148px;
+        height: 40px;
+        margin-right: 15px;
+        mix-blend-mode: normal;
+        border: 1px solid #E4E6E8;
+        border-radius: 4px;
+        margin-bottom: 16px; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-02 > .c-item-02-A.on {
+          background: rgba(228, 230, 232, 0.2);
+          border-color: #97A0A9; }
+      .comp-micro-27 > .c-container-01 .expandingContent .c-item-02 > :nth-child(2n) {
+        margin-right: 0; }
+      .comp-micro-27 > .c-container-01 .expandingContent .c-item-02 > :last-child {
+        margin-bottom: 0; }
+    .comp-micro-27 > .c-container-01 .expandingContent .c-item-03 {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 8px; }
+      .comp-micro-27 > .c-container-01 .expandingContent .c-item-03 > .c-item-03-A {
+        width: 152px;
+        height: 132px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s;
+        margin-bottom: 16px; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-03 > .c-item-03-A picture {
+          opacity: .5;
+          transition: all 0.2s; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-03 > .c-item-03-A > .c-unit-01 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: all 0.2s; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-03 > .c-item-03-A.on {
+          height: 141px;
+          opacity: 1; }
+          .comp-micro-27 > .c-container-01 .expandingContent .c-item-03 > .c-item-03-A.on picture {
+            opacity: 1; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-03 > .c-item-03-A > :nth-last-child(-n+3) {
+          margin-bottom: 0; }
+    .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 {
+      padding: 8px; }
+      .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-A {
+        display: flex;
+        flex-wrap: wrap; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-A > .c-unit-02 {
+          display: none; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-A > .c-unit-03 {
+          margin: 24px 0 8px 0;
+          width: 100%; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-A > .c-unit-04 {
+          margin-bottom: 24px;
+          width: 100%; }
+      .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-B {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-B > .c-unit-01, .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-B .c-unit-02 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 156px;
+          height: 40px;
+          border-radius: 6px; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-B > .c-unit-01 {
+          border: 1px solid #E4E6E8; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-B > .c-unit-02 {
+          background: #373A37; }
+    .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 {
+      padding: 8px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center; }
+      .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-A {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-A > .c-unit-01 {
+          display: flex; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-A > .c-unit-03 {
+          margin: 24px 0 8px 0;
+          width: 100%; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-A > .c-unit-04 {
+          margin-bottom: 24px;
+          width: 100%; }
+      .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-B {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-B > .c-unit-01, .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-B .c-unit-02 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 156px;
+          height: 40px;
+          border-radius: 6px; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-B > .c-unit-01 {
+          border: 1px solid #E4E6E8; }
+        .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-B > .c-unit-02 {
+          background: #373A37; }
+    .comp-micro-27 > .c-container-01 .expandingContent:last-child .c-item-01 {
+      border-bottom: none; }
+  .comp-micro-27 > :last-child .c-item-01 {
+    border-bottom: none; }
+
+  .comp-micro-27 > .c-container-01 > .c-item-01 > .c-item-01-A {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: #373A37; }
+  .comp-micro-27 > .c-container-01 > .c-item-01 > .c-item-01-B {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7D8285; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-02 > .c-item-02-A {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #373A37; }
+    .comp-micro-27 > .c-container-01 .expandingContent .c-item-02 > .c-item-02-A.on {
+      font-weight: 600; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-03 > .c-item-03-A > .c-unit-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    color: #7D8285; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-03 > .c-item-03-A.on > .c-unit-01 {
+    font-weight: 600;
+    color: #373A37; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-A > .c-unit-03 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #373A37; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-A > .c-unit-04 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #373A37; }
+    .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-A > .c-unit-04 a {
+      color: #A1413D;
+      font-weight: 600; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-B > .c-unit-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #373A37; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-04 > .c-item-04-B > .c-unit-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-A > .c-unit-03 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #373A37; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-A > .c-unit-04 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #373A37; }
+    .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-A > .c-unit-04 a {
+      color: #A1413D;
+      font-weight: 600; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-B > .c-unit-01 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #373A37; }
+  .comp-micro-27 > .c-container-01 .expandingContent .c-item-05 > .c-item-05-B > .c-unit-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=27.css.map */

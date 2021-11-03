@@ -1,0 +1,99 @@
+@import "Global.scss";
+
+$width-array: 100,280,479, 580, 780;
+
+@each $w in $width-array {
+    $val: if($w == 0, 0, $w + px);
+
+    .w-#{$val} {
+        width: #{$val} !important;
+    }
+
+    .w-100 {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 0px) {
+    @each $w in $width-array {
+        $val: if($w == 0, 0, $w + px);
+
+        .w-xs1-#{$val} {
+            width: #{$val} !important;
+        }
+
+        .w-xs1-100 {
+            width: 100%;
+        }
+    }
+}
+
+@media all and (min-width: #{$mq-xs2 + "px"}) {
+    @each $w in $width-array {
+        $val: if($w == 0, 0, $w + px);
+
+        .w-xs2-#{$val} {
+            width: #{$val} !important;
+        }
+
+        .w-xs2-100 {
+            width: 100%;
+        }
+    }
+}
+
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+    @each $w in $width-array {
+        $val: if($w == 0, 0, $w + px);
+
+        .w-sm1-#{$val} {
+            width: #{$val} !important;
+        }
+
+        .w-sm1-100 {
+            width: 100%;
+        }
+    }
+}
+
+@media all and (min-width: #{$mq-sm2 + "px"}) {
+    @each $w in $width-array {
+        $val: if($w == 0, 0, $w + px);
+
+        .w-sm2-#{$val} {
+            width: #{$val} !important;
+        }
+
+        .w-sm2-100 {
+            width: 100%;
+        }
+    }
+}
+
+@media all and (min-width: #{$mq-md + "px"}) {
+    @each $w in $width-array {
+        $val: if($w == 0, 0, $w + px);
+
+        .w-md-#{$val} {
+            width: #{$val} !important;
+        }
+
+        .w-md-100 {
+            width: 100%;
+        }
+    }
+}
+
+@media all and (min-width: #{$mq-lg + "px"}) {
+    @each $w in $width-array {
+        $val: if($w == 0, 0, $w + px);
+
+        .w-lg-#{$val} {
+            width: #{$val} !important;
+        }
+
+        .w-lg-100 {
+            width: 100%;
+        }
+    }
+}

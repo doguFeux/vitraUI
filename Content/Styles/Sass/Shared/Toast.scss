@@ -1,0 +1,252 @@
+@import "../Base/Colour.scss";
+@import "../Base/Global.scss";
+//
+//
+//
+//
+//
+// SETTINGS:
+// ------------------------------
+//
+// Positionings MD-LG
+//
+$pos-md-lg-top-left: ("t": 120px, "l": 0);
+$pos-md-lg-top-centre: ("t": 120px, "l": 50%);
+$pos-md-lg-top-right: ("t": 120px, "r": 0);
+$pos-md-lg-middle-left: ("t": 50%, "l": 0);
+$pos-md-lg-middle-centre: ("t": 50%, "l": 50%);
+$pos-md-lg-middle-right: ("t": 50%, "r": 0);
+$pos-md-lg-bottom-left: ("b": 120px, "l": 0);
+$pos-md-lg-bottom-centre: ("b": 120px, "l": 50%);
+$pos-md-lg-bottom-right: ("b": 120px, "r": 0);
+//
+// Positionings SM
+//
+$pos-sm-top-left: ("t": 120px, "l": 0);
+$pos-sm-top-centre: ("t": 120px, "l": 50%);
+$pos-sm-top-right: ("t": 120px, "r": 0);
+$pos-sm-middle-left: ("t": 50%, "l": 0);
+$pos-sm-middle-centre: ("t": 50%, "l": 50%);
+$pos-sm-middle-right: ("t": 50%, "r": 0);
+$pos-sm-bottom-left: ("b": 120px, "l": 0);
+$pos-sm-bottom-centre: ("b": 120px, "l": 50%);
+$pos-sm-bottom-right: ("b": 120px, "r": 0);
+//
+// Positionings XS
+//
+$pos-xs-top-left: ("t": 120px, "l": 0);
+$pos-xs-top-centre: ("t": 120px, "l": 50%);
+$pos-xs-top-right: ("t": 120px, "r": 0);
+$pos-xs-middle-left: ("t": 50%, "l": 0);
+$pos-xs-middle-centre: ("t": 50%, "l": 50%);
+$pos-xs-middle-right: ("t": 50%, "r": 0);
+$pos-xs-bottom-left: ("b": 120px, "l": 0);
+$pos-xs-bottom-centre: ("b": 120px, "l": 50%);
+$pos-xs-bottom-right: ("b": 120px, "r": 0);
+//
+//
+//
+//
+//
+// Default css Values:
+//
+#toast-wrapper {
+    position: fixed;
+    border: 1px solid red;
+}
+//
+//
+//
+//
+//
+/* Common XS1 and XS2 */
+//
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    #toast-wrapper {
+        &.toast-xs-tl {
+            top: map-get($pos-xs-top-left, "t");
+            left: map-get($pos-xs-top-left, "l");
+        }
+
+        &.toast-xs-tc {
+            top: map-get($pos-xs-top-centre, "t");
+            left: map-get($pos-xs-top-centre, "l");
+        }
+
+        &.toast-xs-tr {
+            top: map-get($pos-xs-top-right, "t");
+            right: map-get($pos-xs-top-right, "r");
+        }
+
+        &.toast-xs-ml {
+            top: map-get($pos-xs-middle-left, "t");
+            right: map-get($pos-xs-middle-left, "l");
+        }
+
+        &.toast-xs-mc {
+            top: map-get($pos-xs-middle-centre, "t");
+            right: map-get($pos-xs-middle-centre, "l");
+        }
+
+        &.toast-xs-mr {
+            top: map-get($pos-xs-middle-right, "t");
+            right: map-get($pos-xs-middle-right, "r");
+        }
+
+        &.toast-xs-bl {
+            top: map-get($pos-xs-bottom-left, "t");
+            right: map-get($pos-xs-bottom-left, "l");
+        }
+
+        &.toast-xs-bc {
+            top: map-get($pos-xs-bottom-centre, "t");
+            right: map-get($pos-xs-bottom-centre, "l");
+        }
+
+        &.toast-xs-br {
+            top: map-get($pos-xs-bottom-right, "t");
+            right: map-get($pos-xs-bottom-right, "r");
+        }
+    }
+
+}
+//
+//
+/* XS1 sss*/
+//
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+}
+//
+//
+/* XS2 */
+//
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+//
+//
+/* Common SM1 and SM2 */
+//
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+    #toast-wrapper {
+        &.toast-sm-tl {
+            top: map-get($pos-sm-top-left, "t");
+            left: map-get($pos-sm-top-left, "l");
+        }
+
+        &.toast-sm-tc {
+            top: map-get($pos-sm-top-centre, "t");
+            left: map-get($pos-sm-top-centre, "l");
+        }
+
+        &.toast-sm-tr {
+            top: map-get($pos-sm-top-right, "t");
+            right: map-get($pos-sm-top-right, "r");
+        }
+
+        &.toast-sm-ml {
+            top: map-get($pos-sm-middle-left, "t");
+            right: map-get($pos-sm-middle-left, "l");
+        }
+
+        &.toast-sm-mc {
+            top: map-get($pos-sm-middle-centre, "t");
+            right: map-get($pos-sm-middle-centre, "l");
+        }
+
+        &.toast-sm-mr {
+            top: map-get($pos-sm-middle-right, "t");
+            right: map-get($pos-sm-middle-right, "r");
+        }
+
+        &.toast-sm-bl {
+            top: map-get($pos-sm-bottom-left, "t");
+            right: map-get($pos-sm-bottom-left, "l");
+        }
+
+        &.toast-sm-bc {
+            top: map-get($pos-sm-bottom-centre, "t");
+            right: map-get($pos-sm-bottom-centre, "l");
+        }
+
+        &.toast-sm-br {
+            top: map-get($pos-sm-bottom-right, "t");
+            right: map-get($pos-sm-bottom-right, "r");
+        }
+    }
+}
+//
+//
+/* SM1 */
+//
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+}
+//
+//
+/* SM2 */
+//
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+//
+//
+/* Common MD and LG */
+//
+@media all and (min-width: #{$mq-md + "px"}) {
+    #toast-wrapper {
+        &.toast-md-lg-tl {
+            top: map-get($pos-md-lg-top-left, "t");
+            left: map-get($pos-md-lg-top-left, "l");
+        }
+
+        &.toast-md-lg-tc {
+            top: map-get($pos-md-lg-top-centre, "t");
+            left: map-get($pos-md-lg-top-centre, "l");
+        }
+
+        &.toast-md-lg-tr {
+            top: map-get($pos-md-lg-top-right, "t");
+            right: map-get($pos-md-lg-top-right, "r");
+        }
+
+        &.toast-md-lg-ml {
+            top: map-get($pos-md-lg-middle-left, "t");
+            right: map-get($pos-md-lg-middle-left, "l");
+        }
+
+        &.toast-md-lg-mc {
+            top: map-get($pos-md-lg-middle-centre, "t");
+            right: map-get($pos-md-lg-middle-centre, "l");
+        }
+
+        &.toast-md-lg-mr {
+            top: map-get($pos-md-lg-middle-right, "t");
+            right: map-get($pos-md-lg-middle-right, "r");
+        }
+
+        &.toast-md-lg-bl {
+            top: map-get($pos-md-lg-bottom-left, "t");
+            right: map-get($pos-md-lg-bottom-left, "l");
+        }
+
+        &.toast-md-lg-bc {
+            top: map-get($pos-md-lg-bottom-centre, "t");
+            right: map-get($pos-md-lg-bottom-centre, "l");
+        }
+
+        &.toast-md-lg-br {
+            top: map-get($pos-md-lg-bottom-right, "t");
+            right: map-get($pos-md-lg-bottom-right, "r");
+        }
+    }
+}
+//
+//
+/* MD */
+//
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+}
+//
+//
+/* LG */
+//
+@media all and (min-width: #{$mq-lg + "px"}) {
+}

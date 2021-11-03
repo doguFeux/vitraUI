@@ -1,0 +1,97 @@
+@import "../../../Base/Global.scss";
+@import "../../../Base/Global.scss";
+
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+
+    // Related UI
+    .comp-division-05 {
+        height: 40px;
+        display: flex;
+        align-items: center;
+
+        > .c-container-01 {
+            padding: 0px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #7D8285;
+            flex-shrink: 0;
+
+
+            &.on {
+                font-weight: 600;
+                color: #373A37;
+                background: #F2F2F2;
+                border-radius: 2px;
+            }
+        }
+    }
+}
+
+/* XS1 */
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+}
+
+/* XS2 */
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common SM1 and SM2 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* SM1 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+}
+
+/* SM2 */
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* Common MD and LG */
+@media all and (min-width: #{$mq-md + "px"}) {
+
+
+    // Related UI
+    .comp-division-05 {
+        height: 40px;
+        display: flex;
+        align-items: center;
+
+        > .c-container-01 {
+            padding: 0 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #7D8285;
+
+
+            &.on {
+                font-weight: 600;
+                color: #373A37;
+                background: #F2F2F2;
+                border-radius: 2px;
+            }
+        }
+    }
+}
+/* MD */
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+}
+
+/* LG */
+@media all and (min-width: #{$mq-lg + "px"}) {
+}

@@ -1,0 +1,158 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-division-01 {
+    width: 100%;
+    border-bottom: 0.5px solid #E4E6E8; }
+    .comp-division-01 > .c-item-02 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 24px 0; }
+      .comp-division-01 > .c-item-02 > .c-item-02-A {
+        display: flex;
+        align-items: center;
+        margin-right: 55px;
+        height: 100%; }
+        .comp-division-01 > .c-item-02 > .c-item-02-A:after {
+          content: "";
+          position: absolute;
+          right: -80px;
+          width: 1px;
+          top: 0;
+          bottom: 0;
+          background: #E4E6E8; }
+      .comp-division-01 > .c-item-02 > .c-item-02-B {
+        display: flex;
+        align-items: center; }
+        .comp-division-01 > .c-item-02 > .c-item-02-B > span {
+          margin: 0 8px; }
+      .comp-division-01 > .c-item-02 > .c-item-02-C {
+        display: none; }
+        .comp-division-01 > .c-item-02 > .c-item-02-C label {
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 24px;
+          color: #373A37; }
+        .comp-division-01 > .c-item-02 > .c-item-02-C.on {
+          display: block;
+          position: absolute;
+          border: 1px solid #E4E6E8;
+          box-shadow: 0px -10px 40px rgba(0, 0, 0, 0.1);
+          border-radius: 8px;
+          width: 264px;
+          height: 328px;
+          padding: 32px;
+          position: absolute;
+          right: 0;
+          top: 32px;
+          z-index: 4;
+          background-color: #fff; }
+
+  .comp-division-01 > .c-item-01 > .c-item-01-A {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2A2E38; }
+  .comp-division-01 > .c-item-01 > .c-item-01-B {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #373A37; }
+  .comp-division-01 > .c-item-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #373A37; }
+    .comp-division-01 > .c-item-02 > .c-item-02-A svg {
+      margin-right: 14px; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-division-01 {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #E4E6E8;
+    width: 100%; }
+    .comp-division-01 > .c-item-02 {
+      display: flex;
+      align-items: center; }
+      .comp-division-01 > .c-item-02 > .c-item-02-A {
+        display: flex;
+        align-items: center;
+        margin-right: 55px; }
+      .comp-division-01 > .c-item-02 > .c-item-02-B {
+        display: flex;
+        align-items: center; }
+        .comp-division-01 > .c-item-02 > .c-item-02-B > span {
+          margin: 0 8px; }
+        .comp-division-01 > .c-item-02 > .c-item-02-B.on > svg path {
+          stroke: #A1413D; }
+      .comp-division-01 > .c-item-02 > .c-item-02-C {
+        display: none; }
+        .comp-division-01 > .c-item-02 > .c-item-02-C label {
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 24px;
+          color: #373A37; }
+        .comp-division-01 > .c-item-02 > .c-item-02-C.on {
+          display: block;
+          position: absolute;
+          border: 1px solid #E4E6E8;
+          box-shadow: 0px -10px 40px rgba(0, 0, 0, 0.1);
+          border-radius: 8px;
+          width: 264px;
+          height: 328px;
+          padding: 32px;
+          position: absolute;
+          right: 0;
+          top: 32px;
+          z-index: 4;
+          background-color: #fff; }
+
+  .comp-division-01 > .c-item-01 > .c-item-01-A {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #2A2E38; }
+  .comp-division-01 > .c-item-01 > .c-item-01-B {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #373A37; }
+  .comp-division-01 > .c-item-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #373A37; }
+    .comp-division-01 > .c-item-02 > .c-item-02-A svg {
+      margin-right: 14px; }
+    .comp-division-01 > .c-item-02 > .c-item-02-B.on {
+      color: #A1413D; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=01.css.map */

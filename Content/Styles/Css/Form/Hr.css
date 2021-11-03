@@ -1,0 +1,15 @@
+.hr-A {
+  width: 100%;
+  height: 0.5px;
+  background: #E4E6E8;
+  flex-grow: 1;
+  display: flex; }
+
+.hr-B {
+  width: 100%;
+  height: 1px;
+  background: #E4E6E8;
+  flex-grow: 1;
+  display: flex; }
+
+/*# sourceMappingURL=Hr.css.map */

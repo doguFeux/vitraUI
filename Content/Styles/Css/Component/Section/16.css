@@ -1,0 +1,35 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-section-16 .c-wrapper {
+    padding-bottom: 60px;
+    border-bottom: 1px solid #E4E6E8; }
+    .comp-section-16 .c-wrapper:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 200px;
+      height: 1px;
+      background-color: #373A37; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-section-16 .c-wrapper {
+    padding-bottom: 60px;
+    border-bottom: 1px solid #E4E6E8; }
+    .comp-section-16 .c-wrapper:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 200px;
+      height: 1px;
+      background-color: #373A37; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=16.css.map */

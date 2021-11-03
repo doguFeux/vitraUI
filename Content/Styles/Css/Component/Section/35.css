@@ -1,0 +1,79 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-section-35 {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url("/Content/Visuals/Temp/desinglarge01.png");
+    background-repeat: no-repeat; }
+    .comp-section-35 .c-wrapper > .c-column-01 > .c-container-01 {
+      font-family: Palanquin;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 40px;
+      color: #373A37; }
+    .comp-section-35 .c-wrapper > .c-column-01 > .c-container-02 {
+      width: 527px;
+      margin: 24px 0 150px 0;
+      font-family: Palanquin;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 32px;
+      color: #373A37; }
+    .comp-section-35 .c-wrapper > .c-column-01 > .c-container-03 {
+      display: flex;
+      align-items: center;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      color: #373A37; }
+      .comp-section-35 .c-wrapper > .c-column-01 > .c-container-03 svg {
+        margin-right: 5px; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-section-35 {
+    height: 100vh;
+    background-image: url("/Content/Visuals/Temp/desinglarge01.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .2s; }
+    .comp-section-35 .c-wrapper > .c-column-01 > .c-container-01 {
+      font-family: Palanquin;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 40px;
+      color: #373A37; }
+    .comp-section-35 .c-wrapper > .c-column-01 > .c-container-02 {
+      width: 527px;
+      margin: 24px 0 150px 0;
+      font-family: Palanquin;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 32px;
+      color: #373A37; }
+    .comp-section-35 .c-wrapper > .c-column-01 > .c-container-03 {
+      display: flex;
+      align-items: center;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      color: #373A37; }
+      .comp-section-35 .c-wrapper > .c-column-01 > .c-container-03 svg {
+        margin-right: 5px; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=35.css.map */

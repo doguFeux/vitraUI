@@ -1,0 +1,112 @@
+/* Primary font-face */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: normal;
+  src: url("/Content/Files/Fonts/OpenSans/OpenSans-Bold.woff2");
+  font-weight: 700; }
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: normal;
+  src: url("/Content/Files/Fonts/OpenSans/OpenSans-SemiBold.woff2");
+  font-weight: 600; }
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: normal;
+  src: url("/Content/Files/Fonts/OpenSans/OpenSans-Regular.woff2"); }
+/* Secondary font-face */
+@font-face {
+  font-family: 'Palanquin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: normal;
+  src: url("/Content/Files/Fonts/Palanquin/Palanquin-Bold.woff2");
+  font-weight: 700; }
+@font-face {
+  font-family: 'Palanquin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: normal;
+  src: url("/Content/Files/Fonts/Palanquin/Palanquin-SemiBold.woff2");
+  font-weight: 600; }
+@font-face {
+  font-family: 'Palanquin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: normal;
+  src: url("/Content/Files/Fonts/Palanquin/Palanquin-Medium.woff2");
+  font-weight: 500; }
+@font-face {
+  font-family: 'Palanquin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: normal;
+  src: url("/Content/Files/Fonts/Palanquin/Palanquin-Regular.woff2"); }
+/* Tertiary font-face */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: normal;
+  src: url("/Content/Files/Fonts/Inter/Inter-Bold.woff2");
+  font-weight: 700; }
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: normal;
+  src: url("/Content/Files/Fonts/Inter/Inter-SemiBold.woff2");
+  font-weight: 600; }
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: normal;
+  src: url("/Content/Files/Fonts/Inter/Inter-Medium.woff2");
+  font-weight: 500; }
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: normal;
+  src: url("/Content/Files/Fonts/Inter/Inter-Regular.woff2"); }
+/* Base font syles */
+body {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: normal; }
+
+a {
+  text-decoration: none; }
+
+/*# sourceMappingURL=Font.css.map */

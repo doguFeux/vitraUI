@@ -1,0 +1,806 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+@section head{
+}
+<main>
+
+    <section class="comp-breadcrumb-01">
+        <div class="c-wrapper">
+            <a href="#">Anasayfa</a>
+            <a href="#">Lavabolar</a>
+            <a href="#">Tüm Lavabolar</a>
+        </div>
+    </section>
+
+    <section class="comp-section-11">
+        <div class="c-wrapper">
+            <div class="c-container-01">
+                <div class="c-item-01">
+                    <div class="c-item-01-A">
+                        <div class="c-unit-01">Ürün Karşılaştırma</div>
+                        <div id="compareItemCount" class="c-unit-02">3</div>
+                    </div>
+                    <div class="c-item-01-B">
+                        Maksimum 3 ürün karşılaştırabilirsiniz.
+                    </div>
+                </div>
+                <div class="c-item-02">
+                    Ürün Fiyatı
+                </div>
+                <div class="c-item-02">
+                    Renk Seçenekleri
+                </div>
+                <div class="c-item-02">
+                    Özellikler
+                </div>
+                <div class="c-item-02">
+                    Kargo
+                </div>
+                <div class="c-item-02">
+                    Ürün Kodu
+                </div>
+                <div class="c-item-02 hidden-right-border">
+                    Genel Bakış
+                </div>
+                <div class="c-item-02">
+                    Tanım
+                </div>
+                <div class="c-item-02">
+                    Koleksiyon
+                </div>
+                <div class="c-item-02">
+                    Tasarımcı
+                </div>
+                <div class="c-item-02 hidden-right-border">
+                    Teknik Özellikler
+                </div>
+                <div class="c-item-02">
+                    Çıkış Ucu Uzunluğu
+                </div>
+                <div class="c-item-02">
+                    Çıkış Ucu Yüksekliği
+                </div>
+                <div class="c-item-02">
+                    Musluk Uzunluğu
+                </div>
+                <div class="c-item-02">
+                    Çıkış Ucu Yüksekliği
+                </div>
+                <div class="c-item-02 hidden-bottom-border">
+                    Musluk Yüksekliği
+                </div>
+            </div>
+            <div id="compareOne" class="c-container-02">
+                <div class="c-item-01">
+                    <div class="c-item-01-A">
+
+                        <picture>
+                            <source media="(max-width: 465px)" srcset="/Content/Visuals/Temp/pr-comp-01.png" />
+                            <source media="(min-width: 466)" srcset="/Content/Visuals/Temp/pr-comp-01.png" />
+                            <img src="/Content/Visuals/Temp/pr-comp-01.png" alt="" />
+                        </picture>
+                    </div>
+                    <div class="c-item-01-B">
+                        Origin Lavabo Bataryası
+                    </div>
+                    <a href="#" onclick="Felece.Product.Actions.closeCompareItem({ ev: event, sender: this })" data-parent-id="compareOne" class="c-item-01-C">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.9971 8L8.00001 16" stroke="#7D8285" stroke-width="1.5" stroke-linecap="round" />
+                            <path d="M8.00293 8L16 16" stroke="#7D8285" stroke-width="1.5" stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="c-item-02">
+                    <div class="c-unit-01">
+                        4,950 TL
+                    </div>
+                </div>
+                <div class="c-item-03">
+                    <div class="c-item-03-A">
+                        <a href="#" class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></a>
+                        <a href="#" class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></a>
+                        <a href="#" class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></a>
+
+                    </div>
+                    <div class="c-item-03-B">
+                        +2 Renk
+                    </div>
+
+                </div>
+
+                <div class="c-item-04">
+                    <a href="#" class="c-item-04-A">60 cm.</a>
+                    <a href="#" class="c-item-04-A">VitrA Clean Teknolojisi</a>
+                    <a href="#" class="c-item-04-A">+5</a>
+                </div>
+                <div class="c-item-05">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 12V23" stroke="#3D3A36" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M2 17.0642V6.93578C2 6.7842 2.04089 6.63535 2.1185 6.50442C2.1961 6.3735 2.30763 6.26521 2.44169 6.19063L11.5721 1.11079C11.7027 1.03817 11.8501 1 12 1C12.1499 1 12.2973 1.03817 12.4279 1.11079L21.5583 6.19063C21.6924 6.26521 21.8039 6.3735 21.8815 6.50442C21.9591 6.63535 22 6.7842 22 6.93578V17.0642C22 17.2158 21.9591 17.3647 21.8815 17.4956C21.8039 17.6265 21.6924 17.7348 21.5583 17.8094L12.4279 22.8892C12.2973 22.9618 12.1499 23 12 23C11.8501 23 11.7027 22.9618 11.5721 22.8892L2.44169 17.8094C2.30763 17.7348 2.1961 17.6265 2.1185 17.4956C2.04089 17.3647 2 17.2158 2 17.0642V17.0642Z" stroke="#3D3A36" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M2 7.00107L11.8836 12L22 7" stroke="#3D3A36" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M7 14V9.1924L17 4" stroke="#3D3A36" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    En geç 18 Şubat Perşembe günü kargoya teslim edilir.
+                </div>
+                <div class="c-item-06">
+                    5668B003-0012
+                </div>
+                <div class="c-item-07">
+                </div>
+                <div class="c-item-08">
+                    Origin Lavabo Bataryası - Yüksek
+                </div>
+                <div class="c-item-09">
+                    Origin
+                </div>
+                <div class="c-item-08">
+                    VitrA Tasarım Ekibi
+                </div>
+                <div class="c-item-07">
+                </div>
+                <div class="c-item-08">
+                    125 mm
+                </div>
+                <div class="c-item-08">
+                    116 mm
+                </div>
+                <div class="c-item-08">
+                    196 mm
+                </div>
+                <div class="c-item-08">
+                    196 mm
+                </div>
+                <div class="c-item-08">
+                    196 mm
+                </div>
+                <div class="c-item-10">
+                    <a href="#" class="c-item-10-A">Sepete Ekle</a>
+                </div>
+            </div>
+            <div id="compareTwo" class="c-container-02">
+                <div class="c-item-01">
+                    <div class="c-item-01-A">
+
+                        <picture>
+                            <source media="(max-width: 465px)" srcset="/Content/Visuals/Temp/pr-comp-02.png" />
+                            <source media="(min-width: 466)" srcset="/Content/Visuals/Temp/pr-comp-02.png" />
+                            <img src="/Content/Visuals/Temp/pr-comp-02.png" alt="" />
+                        </picture>
+                    </div>
+                    <div class="c-item-01-B">
+                        Asma Klozetler için Taharetli Açık Gri Platform
+                    </div>
+
+                    <a href="#" onclick="Felece.Product.Actions.closeCompareItem({ ev: event, sender: this })" data-parent-id="compareTwo" class="c-item-01-C">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.9971 8L8.00001 16" stroke="#7D8285" stroke-width="1.5" stroke-linecap="round" />
+                            <path d="M8.00293 8L16 16" stroke="#7D8285" stroke-width="1.5" stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="c-item-02">
+                    <div class="c-item-02-A">%20</div>
+                    <div class="c-item-02-B">
+                        <div class="c-unit-01">5,950 TL</div>
+                        <div class="c-unit-02">4,950 TL</div>
+                    </div>
+                    <div class="c-item-02-C">
+                        <div class="c-unit-01">Sepette %10 İndirim</div>
+                        <div class="c-unit-02">4,290 TL</div>
+                    </div>
+                </div>
+                <div class="c-item-03">
+                    <div class="c-item-03-A">
+                        <a href="#" class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></a>
+                        <a href="#" class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></a>
+                        <a href="#" class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></a>
+
+                    </div>
+                    <div class="c-item-03-B">
+                        +2 Renk
+                    </div>
+
+                </div>
+
+                <div class="c-item-04">
+                    <a href="#" class="c-item-04-A">60 cm.</a>
+                    <a href="#" class="c-item-04-A">VitrA Clean Teknolojisi</a>
+                    <a href="#" class="c-item-04-A">+5</a>
+                </div>
+                <div class="c-item-05">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 12V23" stroke="#3D3A36" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M2 17.0642V6.93578C2 6.7842 2.04089 6.63535 2.1185 6.50442C2.1961 6.3735 2.30763 6.26521 2.44169 6.19063L11.5721 1.11079C11.7027 1.03817 11.8501 1 12 1C12.1499 1 12.2973 1.03817 12.4279 1.11079L21.5583 6.19063C21.6924 6.26521 21.8039 6.3735 21.8815 6.50442C21.9591 6.63535 22 6.7842 22 6.93578V17.0642C22 17.2158 21.9591 17.3647 21.8815 17.4956C21.8039 17.6265 21.6924 17.7348 21.5583 17.8094L12.4279 22.8892C12.2973 22.9618 12.1499 23 12 23C11.8501 23 11.7027 22.9618 11.5721 22.8892L2.44169 17.8094C2.30763 17.7348 2.1961 17.6265 2.1185 17.4956C2.04089 17.3647 2 17.2158 2 17.0642V17.0642Z" stroke="#3D3A36" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M2 7.00107L11.8836 12L22 7" stroke="#3D3A36" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M7 14V9.1924L17 4" stroke="#3D3A36" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    En geç 18 Şubat Perşembe günü kargoya teslim edilir.
+                </div>
+                <div class="c-item-06">
+                    5668B003-0012
+                </div>
+                <div class="c-item-07">
+                </div>
+                <div class="c-item-08">
+                    Origin Lavabo Bataryası - Yüksek
+                </div>
+                <div class="c-item-09">
+                    Origin
+                </div>
+                <div class="c-item-08">
+                    VitrA Tasarım Ekibi
+                </div>
+                <div class="c-item-07">
+                </div>
+                <div class="c-item-08">
+                    125 mm
+                </div>
+                <div class="c-item-08">
+                    116 mm
+                </div>
+                <div class="c-item-08">
+                    196 mm
+                </div>
+                <div class="c-item-08">
+                    196 mm
+                </div>
+                <div class="c-item-08">
+                    196 mm
+                </div>
+                <div class="c-item-10">
+                    <a href="#" class="c-item-10-A">Sepete Ekle</a>
+                </div>
+            </div>
+            <div id="compareThree" class="c-container-02">
+                <div class="c-item-01 hidden-right-border">
+                    <div class="c-item-01-A">
+
+                        <picture>
+                            <source media="(max-width: 465px)" srcset="/Content/Visuals/Temp/pr-comp-03.png" />
+                            <source media="(min-width: 466)" srcset="/Content/Visuals/Temp/pr-comp-03.png" />
+                            <img src="/Content/Visuals/Temp/pr-comp-03.png" alt="" />
+                        </picture>
+                    </div>
+                    <div class="c-item-01-B">
+                        Minimax S Eviye Bataryası
+                    </div>
+                    <a href="#" onclick="Felece.Product.Actions.closeCompareItem({ ev: event, sender: this })" data-parent-id="compareThree" class="c-item-01-C">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.9971 8L8.00001 16" stroke="#7D8285" stroke-width="1.5" stroke-linecap="round" />
+                            <path d="M8.00293 8L16 16" stroke="#7D8285" stroke-width="1.5" stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="c-item-02 hidden-right-border">
+                    <div class="c-unit-01">
+                        4,950 TL
+                    </div>
+                </div>
+                <div class="c-item-03 hidden-right-border">
+                    <div class="c-item-03-A">
+                        <a href="#" class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></a>
+                        <a href="#" class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></a>
+                        <a href="#" class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></a>
+
+                    </div>
+                    <div class="c-item-03-B">
+                        +2 Renk
+                    </div>
+
+                </div>
+
+                <div class="c-item-04 hidden-right-border">
+                    <a href="#" class="c-item-04-A">60 cm.</a>
+                    <a href="#" class="c-item-04-A">VitrA Clean Teknolojisi</a>
+                    <a href="#" class="c-item-04-A">+5</a>
+                </div>
+                <div class="c-item-05 hidden-right-border">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 12V23" stroke="#3D3A36" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M2 17.0642V6.93578C2 6.7842 2.04089 6.63535 2.1185 6.50442C2.1961 6.3735 2.30763 6.26521 2.44169 6.19063L11.5721 1.11079C11.7027 1.03817 11.8501 1 12 1C12.1499 1 12.2973 1.03817 12.4279 1.11079L21.5583 6.19063C21.6924 6.26521 21.8039 6.3735 21.8815 6.50442C21.9591 6.63535 22 6.7842 22 6.93578V17.0642C22 17.2158 21.9591 17.3647 21.8815 17.4956C21.8039 17.6265 21.6924 17.7348 21.5583 17.8094L12.4279 22.8892C12.2973 22.9618 12.1499 23 12 23C11.8501 23 11.7027 22.9618 11.5721 22.8892L2.44169 17.8094C2.30763 17.7348 2.1961 17.6265 2.1185 17.4956C2.04089 17.3647 2 17.2158 2 17.0642V17.0642Z" stroke="#3D3A36" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M2 7.00107L11.8836 12L22 7" stroke="#3D3A36" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M7 14V9.1924L17 4" stroke="#3D3A36" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    En geç 18 Şubat Perşembe günü kargoya teslim edilir.
+                </div>
+                <div class="c-item-06 hidden-right-border">
+                    5668B003-0012
+                </div>
+                <div class="c-item-07 hidden-right-border">
+                </div>
+                <div class="c-item-08 hidden-right-border">
+                    Origin Lavabo Bataryası - Yüksek
+                </div>
+                <div class="c-item-09 hidden-right-border">
+                    Origin
+                </div>
+                <div class="c-item-08 hidden-right-border">
+                    VitrA Tasarım Ekibi
+                </div>
+                <div class="c-item-07 hidden-right-border">
+                </div>
+                <div class="c-item-08 hidden-right-border">
+                    125 mm
+                </div>
+                <div class="c-item-08 hidden-right-border">
+                    116 mm
+                </div>
+                <div class="c-item-08 hidden-right-border">
+                    196 mm
+                </div>
+                <div class="c-item-08 hidden-right-border">
+                    196 mm
+                </div>
+                <div class="c-item-08 hidden-right-border">
+                    196 mm
+                </div>
+                <div class="c-item-10">
+                    <a href="#" class="c-item-10-A">Sepete Ekle</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="comp-showcase-04">
+        <div class="c-wrapper">
+            <div class="c-container-01">
+                Lavabo
+                Karşılaştırma
+            </div>
+        </div>
+    </div>
+
+    <div class="comp-section-36">
+        <div class="c-wrapper">
+            <div class="c-column-01">
+                <div class="comp-product-03">
+                    <div class="c-container-01">
+                        <div class="c-item-01">
+                            <picture>
+                                <source media="(max-width: 465px)" srcset="/Content/Visuals/Temp/comprassion01-large.png" />
+                                <source media="(min-width: 466)" srcset="/Content/Visuals/Temp/comprassion01-large.png" />
+                                <img src="/Content/Visuals/Temp/comprassion01-large.png" alt="" />
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="c-container-02">
+                        Origin Lavabo Bataryası
+                    </div>
+                    <div class="c-container-03">
+                        3,950 TL
+                    </div>
+                    <a href="#" class="c-container-04">
+                        Sepete Ekle
+                    </a>
+                    <a href="#" onclick="Felece.Product.Actions.closeCompareItem({ ev: event, sender: this })" data-parent-id="compareOne" class="c-container-05">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.9971 8L8.00001 16" stroke="#7D8285" stroke-width="1.5" stroke-linecap="round"></path>
+                            <path d="M8.00293 8L16 16" stroke="#7D8285" stroke-width="1.5" stroke-linecap="round"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="comp-product-03">
+                    <div class="c-container-01">
+                        <div class="c-item-01">
+                            <picture>
+                                <source media="(max-width: 465px)" srcset="/Content/Visuals/Temp/comprassion01-large.png" />
+                                <source media="(min-width: 466)" srcset="/Content/Visuals/Temp/comprassion01-large.png" />
+                                <img src="/Content/Visuals/Temp/comprassion01-large.png" alt="" />
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="c-container-02">
+                        Origin Lavabo Bataryası
+                    </div>
+                    <div class="c-container-03">
+                        3,950 TL
+                    </div>
+                    <a href="#" class="c-container-04">
+                        Sepete Ekle
+                    </a>
+                    <a href="#" onclick="Felece.Product.Actions.closeCompareItem({ ev: event, sender: this })" data-parent-id="compareOne" class="c-container-05">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.9971 8L8.00001 16" stroke="#7D8285" stroke-width="1.5" stroke-linecap="round"></path>
+                            <path d="M8.00293 8L16 16" stroke="#7D8285" stroke-width="1.5" stroke-linecap="round"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="comp-product-03">
+                    <div class="c-container-01">
+                        <div class="c-item-01">
+                            <picture>
+                                <source media="(max-width: 465px)" srcset="/Content/Visuals/Temp/comprassion01-large.png" />
+                                <source media="(min-width: 466)" srcset="/Content/Visuals/Temp/comprassion01-large.png" />
+                                <img src="/Content/Visuals/Temp/comprassion01-large.png" alt="" />
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="c-container-02">
+                        Origin Lavabo Bataryası
+                    </div>
+                    <div class="c-container-03">
+                        3,950 TL
+                    </div>
+                    <a href="#" class="c-container-04">
+                        Sepete Ekle
+                    </a>
+                    <a href="#" onclick="Felece.Product.Actions.closeCompareItem({ ev: event, sender: this })" data-parent-id="compareOne" class="c-container-05">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.9971 8L8.00001 16" stroke="#7D8285" stroke-width="1.5" stroke-linecap="round"></path>
+                            <path d="M8.00293 8L16 16" stroke="#7D8285" stroke-width="1.5" stroke-linecap="round"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="c-column-02">
+                <div class="comp-micro-32" id="accordionExample">
+                    <div class="accordion-item">
+                        <a href="#" onclick="Felece.UX.Actions.toggleAccordion({ ev: event, sender: this })" class="accordion-button" data-bs-parent="accordionExample" data-bs-target="collapseTwo">
+                            <h6 class="c-item-01-A">Renk</h6>
+                        </a>
+                        <div id="collapseTwo" class="accordion-collapse">
+                            <div class="accordion-body">
+                                <div class="c-container-01">
+                                    <div class="c-item-01">
+                                        <div class="c-item-01-A">
+                                            <div class="c-unit-01">
+                                                <a href="#" class="c-unit-01-A" style="background-image:url('/Content/Visuals/Temp/c1.png')"></a>
+                                                <a href="#" class="c-unit-01-A" style="background-image:url('/Content/Visuals/Temp/c2.png')"></a>
+                                                <a href="#" class="c-unit-01-A" style="background-image:url('/Content/Visuals/Temp/c3.png')"></a>
+                                            </div>
+                                            <div class="c-unit-02">Kahverengi</div>
+                                        </div>
+                                        <div class="c-item-01-A">
+                                            <div class="c-unit-01">
+                                                <a href="#" class="c-unit-01-A" style="background-image:url('/Content/Visuals/Temp/c1.png')"></a>
+                                                <a href="#" class="c-unit-01-A" style="background-image:url('/Content/Visuals/Temp/c2.png')"></a>
+                                                <a href="#" class="c-unit-01-A" style="background-image:url('/Content/Visuals/Temp/c3.png')"></a>
+                                            </div>
+                                            <div class="c-unit-02">Kahverengi</div>
+                                        </div>
+                                        <div class="c-item-01-A">
+                                            <div class="c-unit-01">
+                                                <a href="#" class="c-unit-01-A" style="background-image:url('/Content/Visuals/Temp/c1.png')"></a>
+                                                <a href="#" class="c-unit-01-A" style="background-image:url('/Content/Visuals/Temp/c2.png')"></a>
+                                                <a href="#" class="c-unit-01-A" style="background-image:url('/Content/Visuals/Temp/c3.png')"></a>
+                                            </div>
+                                            <div class="c-unit-02">Kahverengi</div>
+                                        </div>
+                                    </div>
+                                    <div class="c-item-02">
+                                        <div class="c-item-02-A">%90 Seramik Malzeme</div>
+                                        <div class="c-item-02-A">%100 Seramik</div>
+                                        <div class="c-item-02-A">%40 Seramik</div>
+                                    </div>
+                                    <div class="c-item-02">
+                                        <div class="c-item-02-A">Tek Kumandalı</div>
+                                        <div class="c-item-02-A">Joystick</div>
+                                        <div class="c-item-02-A">Tezgah Üstü</div>
+                                    </div>
+                                    <div class="c-item-02">
+                                        <div class="c-item-02-A">Orta-Üst Segment</div>
+                                        <div class="c-item-02-A">Orta-Üst Segment</div>
+                                        <div class="c-item-02-A">Orta-Üst Segment</div>
+                                    </div>
+                                    <div class="c-item-02">
+                                        <div class="c-item-02-A"> 5668B003-0012</div>
+                                        <div class="c-item-02-A"> 5668B003-0012</div>
+                                        <div class="c-item-02-A"> 5668B003-0012</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <a href="#" onclick="Felece.UX.Actions.toggleAccordion({ ev: event, sender: this })" class="accordion-button" data-bs-parent="accordionExample" data-bs-target="collapseThree">
+                            <h6 class="c-item-01-A">Form / Şekil</h6>
+                        </a>
+                        <div id="collapseThree" class="accordion-collapse">
+                            <div class="accordion-body">
+                                <div class="c-item-02">
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <a href="#" onclick="Felece.UX.Actions.toggleAccordion({ ev: event, sender: this })" class="accordion-button" data-bs-parent="accordionExample" data-bs-target="collapseFour">
+                            <h6 class="c-item-01-A">Montaj Tipi</h6>
+
+                        </a>
+                        <div id="collapseFour" class="accordion-collapse">
+                            <div class="accordion-body">
+                                <div class="c-item-02">
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <a href="#" onclick="Felece.UX.Actions.toggleAccordion({ ev: event, sender: this })" class="accordion-button" data-bs-parent="accordionExample" data-bs-target="collapseFive">
+                            <h6 class="c-item-01-A">Özellik</h6>
+                        </a>
+                        <div id="collapseFive" class="accordion-collapse">
+                            <div class="accordion-body">
+                                <div class="c-item-02">
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <a href="#" onclick="Felece.UX.Actions.toggleAccordion({ ev: event, sender: this })" class="accordion-button" data-bs-parent="accordionExample" data-bs-target="collapseSix">
+                            <h6 class="c-item-01-A">Genişlik</h6>
+                        </a>
+                        <div id="collapseSix" class="accordion-collapse">
+                            <div class="accordion-body">
+                                <div class="c-item-02">
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <a href="#" onclick="Felece.UX.Actions.toggleAccordion({ ev: event, sender: this })" class="accordion-button" data-bs-parent="accordionExample" data-bs-target="collapseSeven">
+                            <h6 class="c-item-01-A">Armatür Kullanım Uygunluğu</h6>
+                        </a>
+                        <div id="collapseSeven" class="accordion-collapse">
+                            <div class="accordion-body">
+                                <div class="c-item-02">
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <a href="#" onclick="Felece.UX.Actions.toggleAccordion({ ev: event, sender: this })" class="accordion-button" data-bs-parent="accordionExample" data-bs-target="collapseEight">
+                            <h6 class="c-item-01-A">Koleksiyon</h6>
+                        </a>
+                        <div id="collapseEight" class="accordion-collapse">
+                            <div class="accordion-body">
+                                <div class="c-item-02">
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <a href="#" onclick="Felece.UX.Actions.toggleAccordion({ ev: event, sender: this })" class="accordion-button" data-bs-parent="accordionExample" data-bs-target="collapseNine">
+                            <h6 class="c-item-01-A">Stil</h6>
+                        </a>
+                        <div id="collapseNine" class="accordion-collapse">
+                            <div class="accordion-body">
+                                <div class="c-item-02">
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <a href="#" onclick="Felece.UX.Actions.toggleAccordion({ ev: event, sender: this })" class="accordion-button" data-bs-parent="accordionExample" data-bs-target="collapseTen">
+                            <h6 class="c-item-01-A">Sertifika</h6>
+                        </a>
+                        <div id="collapseTen" class="accordion-collapse">
+                            <div class="accordion-body">
+                                <div class="c-item-02">
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <a href="#" onclick="Felece.UX.Actions.toggleAccordion({ ev: event, sender: this })" class="accordion-button" data-bs-parent="accordionExample" data-bs-target="collapseEleven">
+                            <h6 class="c-item-01-A">Fiyat Aralığı</h6>
+                        </a>
+                        <div id="collapseEleven" class="accordion-collapse">
+                            <div class="accordion-body">
+                                <div class="c-item-02">
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <a href="#" onclick="Felece.UX.Actions.toggleAccordion({ ev: event, sender: this })" class="accordion-button" data-bs-parent="accordionExample" data-bs-target="collapseTwelve">
+                            <h6 class="c-item-01-A">Ürün Kodu </h6>
+                        </a>
+                        <div id="collapseTwelve" class="accordion-collapse">
+                            <div class="accordion-body">
+                                <div class="c-item-02">
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c1.png')"></span>Kahverengi
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c2.png')"></span>Bakır
+                                    </a>
+                                    <a href="#" class="c-item-02-A">
+                                        <span class="c-unit-01" style="background-image:url('/Content/Visuals/Temp/c3.png')"></span>Gri
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+@section afterContentWrapper{
+
+}
+
+
+
+@section beforeBodyEnd{
+    <script src="~/Content/Scripts/Base/Felece.Common.jQuery.js"></script>
+    <script src="~/Content/Scripts/Misc/Felece.Product.Base.js"></script>
+}
+

@@ -1,0 +1,80 @@
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .comp-category-01 {
+    width: 88px;
+    height: 116px;
+    padding-bottom: 12px;
+    display: block; }
+    .comp-category-01 > .c-container-01 {
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+      overflow: hidden;
+      background: #F2F3F4;
+      border-radius: 80.3934px; }
+    .comp-category-01 > .c-container-02 {
+      width: 88px;
+      height: 24px; }
+    .comp-category-01.on > .c-container-01:before {
+      content: '';
+      position: absolute;
+      top: -5px;
+      bottom: 0;
+      right: 0;
+      left: -5px;
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      border: 1.5px solid #A1413D; }
+
+  .comp-category-01 > .c-container-02 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #3D3A36; } }
+/* XS1 */
+/* XS2 */
+/* Common SM1 and SM2 */
+/* SM1 */
+/* SM2 */
+/* Common MD and LG */
+@media all and (min-width: 1296px) {
+  .comp-category-01 {
+    width: 100px;
+    height: 152px; }
+    .comp-category-01 > .c-container-01 {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 16px; }
+    .comp-category-01 > .c-container-02 {
+      width: 100px;
+      height: 40px; }
+    .comp-category-01.on > .c-container-01:before {
+      content: '';
+      position: absolute;
+      top: -5px;
+      bottom: 0;
+      right: 0;
+      left: -5px;
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      border: 1.5px solid #A1413D; }
+
+  .comp-category-01 > .c-container-02 {
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #373A37; } }
+/* MD */
+/* LG */
+
+/*# sourceMappingURL=01.css.map */
